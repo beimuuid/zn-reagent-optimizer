@@ -1,0 +1,562 @@
+[
+    {
+        "reagent": "BrZnCCCC",
+        "catalyst_commonality_summary": "Palladium-NHC complexes (e.g., Pd-PEPPSI) and Cobalt salts (CoBr2/CoCl2) with polar cosolvents or specific ligands.",
+        "activity_analysis": "For primary alkylzinc reagents like n-butylzinc bromide, the activity in cross-coupling reactions is significantly enhanced by catalysts that can suppress beta-hydride elimination and facilitate transmetalation. Pd-PEPPSI catalysts with bulky NHC ligands (like IPr or IPent) are particularly effective in sp3-sp3 Negishi couplings, often requiring additives like LiBr or LiCl to form reactive zincate species. Cobalt catalysts offer an alternative for acylation and alkylation, where the use of polar cosolvents (like NMP or DMPU) or specific phosphine ligands is crucial to stabilize the alkyl-metal intermediates and prevent isomerization.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.201000359",
+            "10.1016/j.jorganchem.2013.07.037",
+            "10.1002/ijch.201000032"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCC=C",
+        "catalyst_commonality_summary": "Copper(I) salts (CuCN, CuI) often used in combination with lithium salts (LiCl) or Lewis acids.",
+        "activity_analysis": "This primary alkylzinc reagent containing a distal alkene is active in copper-catalyzed substitution and addition reactions. The terminal alkene functionality is generally tolerated and does not interfere with the zinc center. Catalysts like CuCN.2LiCl facilitate transmetalation to form organocopper species that can undergo SN2' substitutions or conjugate additions. The presence of the double bond allows for subsequent functionalization, such as radical cyclizations mediated by palladium or nickel catalysts.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.19960021006",
+            "10.1002/anie.200601855"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCCC=C",
+        "catalyst_commonality_summary": "Palladium catalysts (e.g., PdCl2(dppf)) capable of initiating radical pathways.",
+        "activity_analysis": "Similar to the pentenyl analog, this hexenylzinc reagent is stable but can be activated for radical cyclization processes. Palladium catalysts, particularly those with dppf ligands, can initiate a radical chain mechanism where the alkylzinc undergoes a 5-exo-trig cyclization to form a cyclopentylmethylzinc intermediate. This transformation highlights the dual role of the metal catalyst in both activating the C-Zn bond (or precursor C-I bond) and trapping the cyclized radical species.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.19960021006"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCCCCCCCCCC",
+        "catalyst_commonality_summary": "Cobalt(II) salts (CoBr2) and Palladium-NHC complexes.",
+        "activity_analysis": "Long-chain primary alkylzinc reagents exhibit reactivity patterns similar to shorter chains but may require optimized conditions to overcome solubility or aggregation issues. Cobalt-catalyzed acylation and carbonylation are effective for these substrates, often requiring polar cosolvents like NMP to facilitate the reaction. In Negishi couplings, bulky NHC-Pd catalysts ensure efficient coupling with aryl halides while suppressing beta-hydride elimination.",
+        "mechanism_data_doi_list": [
+            "10.1016/0040-4039(95)01802-O",
+            "10.1002/anie.201900510"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]C1C=CCCC1",
+        "catalyst_commonality_summary": "Copper(I) salts (CuCN, CuI) and Palladium catalysts with specific ligands (e.g., SPhos).",
+        "activity_analysis": "Cyclic allylic zinc reagents are highly reactive and prone to 1,3-metallotropic shifts. Copper catalysts are effective for regioselective SN2' substitutions with electrophiles. Palladium catalysts with bulky ligands like SPhos can facilitate cross-coupling with aryl halides, often with high diastereoselectivity due to the cyclic constraint. The reactivity is also influenced by the ring size and the stability of the specific allylic isomer.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.202000870",
+            "10.1002/anie.201504354"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]C1C=CCCCCCC1",
+        "catalyst_commonality_summary": "Copper(I) salts and Palladium catalysts.",
+        "activity_analysis": "Similar to the cyclohexenyl analog, this cyclooctenylzinc reagent participates in allylic substitutions and cross-couplings. The larger ring size may introduce transannular interactions or conformational flexibility that affects regioselectivity. Catalysts that can stabilize the specific allylic geometry or direct the nucleophilic attack (like CuCN in SN2' reactions) are crucial for controlling the outcome.",
+        "mechanism_data_doi_list": [
+            "10.1002/cjoc.201180466"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]C1CCCC1",
+        "catalyst_commonality_summary": "Palladium-NHC complexes (Pd-PEPPSI) and Cobalt catalysts.",
+        "activity_analysis": "Secondary cycloalkylzinc reagents are sterically more hindered than primary alkylzincs. Their activity in Negishi coupling is significantly enhanced by using Pd-PEPPSI catalysts with bulky ligands (like IPent) which facilitate reductive elimination. Cobalt catalysts with diamine ligands can also promote cross-coupling with high diastereoselectivity, often involving radical intermediates.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201806480",
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]C1CCCCC1",
+        "catalyst_commonality_summary": "Palladium-NHC complexes (Pd-PEPPSI) and Cobalt catalysts.",
+        "activity_analysis": "Cyclohexylzinc reagents are classic secondary alkyl nucleophiles. They require robust catalysts like Pd-PEPPSI-IPent to undergo efficient cross-coupling with aryl halides, overcoming steric hindrance and preventing isomerization. In cobalt-catalyzed reactions, the use of specific ligands can direct the stereochemical outcome, often favoring the thermodynamically stable isomer.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201806480",
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]C1CCCCCC1",
+        "catalyst_commonality_summary": "Palladium-NHC complexes and Cobalt catalysts.",
+        "activity_analysis": "As with other cycloalkylzincs, the cycloheptyl variant requires active catalysts to facilitate C-C bond formation. The ring size may influence the rate of reaction due to conformational effects, but generally, Pd-NHC and Co catalysts effective for cyclohexyl reagents will also activate this substrate for cross-coupling.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.202100980"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]C1CCCCCCC1",
+        "catalyst_commonality_summary": "Palladium-NHC complexes and Cobalt catalysts.",
+        "activity_analysis": "Cyclooctylzinc reagents are sterically demanding secondary alkyl nucleophiles. Their coupling efficiency in Negishi reactions relies on catalysts with large bite angles or bulky ligands (like Pd-PEPPSI) to accommodate the steric bulk during the transmetalation and reductive elimination steps.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.202100980"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]CC1=CC=CC2=CC=CC=C12",
+        "catalyst_commonality_summary": "Palladium catalysts (e.g., Pd(OAc)2/SPhos) and Copper catalysts.",
+        "activity_analysis": "This 1-naphthylmethylzinc reagent is a benzylic nucleophile. It is highly reactive in Negishi cross-couplings, particularly with Pd catalysts utilizing electron-rich phosphine ligands like SPhos. The benzylic nature allows for facile transmetalation, but also makes the reagent prone to homocoupling, which can be suppressed by appropriate catalyst choice and reaction conditions.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201806261"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]CC=Cc1ccccc1",
+        "catalyst_commonality_summary": "Copper(I) salts (CuCN, CuTC) and Palladium catalysts.",
+        "activity_analysis": "Cinnamylzinc bromide is an allylic/benzylic reagent. It shows high reactivity in SN2' substitutions catalyzed by copper salts, often with high regioselectivity. In palladium-catalyzed couplings, it can undergo allylic alkylation, where the regioselectivity (linear vs. branched) is controlled by the ligand environment (e.g., monodentate vs. bidentate phosphines).",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200500653",
+            "10.1002/cjoc.201180466"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]Cc1ccc(Br)cc1",
+        "catalyst_commonality_summary": "Palladium catalysts (e.g., Pd(OAc)2/SPhos) and Cobalt catalysts.",
+        "activity_analysis": "This functionalized benzylzinc reagent contains an aryl bromide moiety. The key to its utility is the chemoselectivity of the catalyst. Organozinc reagents are mild enough that the C-Zn bond reacts preferentially over the C-Br bond in cross-couplings, especially with Pd catalysts. However, care must be taken to avoid polymerization or oligomerization if the catalyst is too active towards the aryl bromide.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200601450"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]Cc1ccc(Cl)cc1",
+        "catalyst_commonality_summary": "Palladium catalysts (e.g., Pd(OAc)2/SPhos) and Cobalt catalysts.",
+        "activity_analysis": "Similar to the bromo-analog, this chlorobenzylzinc reagent is stable and chemoselective. The aryl chloride is generally inert under standard Negishi coupling conditions used for the benzyl-zinc moiety, allowing for the selective formation of products that retain the chloro-substituent for further functionalization.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201806261"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]Cc1cccc(Br)c1",
+        "catalyst_commonality_summary": "Palladium catalysts (e.g., Pd(OAc)2/SPhos).",
+        "activity_analysis": "This meta-bromobenzylzinc reagent behaves similarly to its para-isomer. The meta-position of the bromide does not significantly affect the reactivity of the benzylic zinc center. Pd-catalyzed coupling will occur selectively at the benzylic position, preserving the aryl bromide.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200601450"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]Cc1ccccc1",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd(PPh3)4, Pd-PEPPSI), Copper salts (CuCN), and Cobalt catalysts.",
+        "activity_analysis": "Benzylzinc bromide is a versatile nucleophile. It undergoes efficient Negishi coupling with aryl halides using Pd catalysts. In the presence of copper salts, it can perform conjugate additions or SN2' substitutions. Cobalt catalysts facilitate its acylation with acid chlorides. The benzylic nature ensures high reactivity but requires control to prevent homocoupling.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.200801107",
+            "10.1002/asia.201000068",
+            "10.1016/0040-4039(95)01802-O"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]c1ccccc1",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd(PPh3)4, Pd-PEPPSI), Nickel catalysts (Ni(acac)2, NiCl2), Cobalt catalysts (CoBr2).",
+        "activity_analysis": "Phenylzinc bromide is a prototypical arylzinc reagent. It is highly active in Negishi couplings with aryl/alkenyl halides using Pd or Ni catalysts. It also undergoes efficient acylation with acid chlorides catalyzed by Co or Cu. The reactivity can be tuned by additives like LiCl or MgCl2, which break up aggregates and enhance transmetalation.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201309841",
+            "10.1002/chem.201602202",
+            "10.1002/adsc.201400369"
+        ]
+    },
+    {
+        "reagent": "C(=C/c1ccccc1)\\[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd(PPh3)4) and Copper salts.",
+        "activity_analysis": "Styrylzinc bromide is an alkenylzinc reagent that retains its double bond geometry during cross-coupling. It is highly effective in Pd-catalyzed Negishi couplings to form stilbene derivatives. Copper catalysts can also promote its addition to electrophiles. The conjugation with the phenyl ring stabilizes the intermediate but also enhances its nucleophilicity.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.200606016"
+        ]
+    },
+    {
+        "reagent": "C=CCCC[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts (PdCl2(dppf)) and Copper salts.",
+        "activity_analysis": "This 4-pentenylzinc reagent contains a terminal alkene that can participate in intramolecular radical cyclizations catalyzed by Pd or Ni, leading to cyclopentylmethylzinc intermediates. In the absence of cyclization conditions, it acts as a standard primary alkylzinc reagent in cross-couplings.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.19960021006"
+        ]
+    },
+    {
+        "reagent": "C=CC[Zn]Br",
+        "catalyst_commonality_summary": "Copper salts (CuCN, CuI) and Palladium catalysts.",
+        "activity_analysis": "Allylzinc bromide is a highly reactive nucleophile. It readily undergoes 1,2-addition to carbonyls (often without catalyst) and conjugate addition to enones (with Cu catalyst). In cross-couplings, it can react at either the alpha or gamma position, with regioselectivity controlled by the metal (Zn vs Cu/Pd) and steric factors.",
+        "mechanism_data_doi_list": [
+            "10.1002/aoc.1508",
+            "10.1016/j.jorganchem.2009.03.006"
+        ]
+    },
+    {
+        "reagent": "C=CC[Zn]CC",
+        "catalyst_commonality_summary": "Copper salts (CuCN, CuI) and Nickel catalysts.",
+        "activity_analysis": "This is a mixed organozinc reagent containing both allyl and ethyl groups. In catalytic reactions, the allyl group is generally transferred preferentially due to its higher nucleophilicity compared to the ethyl group. This selectivity allows the ethyl group to act as a non-transferable 'dummy' ligand, improving atom economy.",
+        "mechanism_data_doi_list": [
+            "10.1002/aoc.3192"
+        ]
+    },
+    {
+        "reagent": "C=CC[Zn]Cl",
+        "catalyst_commonality_summary": "Copper salts and Palladium catalysts.",
+        "activity_analysis": "Allylzinc chloride behaves similarly to the bromide analog, exhibiting high reactivity in additions to carbonyls and cross-couplings. The chloride counterion may offer slightly different solubility or aggregation properties, often modulated by additives like LiCl.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.201000068"
+        ]
+    },
+    {
+        "reagent": "C=C[CH2][Zn]I",
+        "catalyst_commonality_summary": "Copper salts and Palladium catalysts.",
+        "activity_analysis": "Allylzinc iodide is another variation of the allylic zinc reagent. The iodide counterion is generally a better leaving group in the formation step and may lead to more reactive zinc species in solution. Its activity in cross-coupling and addition reactions mirrors that of the bromide and chloride analogs.",
+        "mechanism_data_doi_list": [
+            "10.1016/0040-4039(95)01551-5"
+        ]
+    },
+    {
+        "reagent": "C=C[Zn]C=C",
+        "catalyst_commonality_summary": "Palladium catalysts and Copper salts.",
+        "activity_analysis": "Divinylzinc is a diorganozinc reagent capable of transferring two vinyl groups. It is highly reactive in Negishi couplings and additions to aldehydes (often with chiral ligands for asymmetric induction). The sp2-hybridized carbon-zinc bond is stronger than alkyl-zinc but more reactive than aryl-zinc.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.tet.2005.07.022"
+        ]
+    },
+    {
+        "reagent": "CC(C)=CCC/C(C)=C/C[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd/CPhos) and Copper salts.",
+        "activity_analysis": "Geranylzinc bromide is a substituted allylic zinc reagent. Its reactivity is characterized by the potential for alpha vs. gamma regioselectivity. Bulky ligands on Pd (like CPhos) can direct the coupling to the alpha-position (linear), while other conditions might favor the gamma-product. The stereochemistry of the double bond is generally preserved.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201308585"
+        ]
+    },
+    {
+        "reagent": "CC(C)=CCC/C(C)=C\\C[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd/CPhos) and Copper salts.",
+        "activity_analysis": "Nerylzinc bromide, the Z-isomer of geranylzinc, also participates in cross-couplings and additions. Like geranylzinc, its regioselectivity is catalyst-dependent. The Z-geometry can influence the steric outcome of the reaction, particularly in sterically demanding couplings.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201308585"
+        ]
+    },
+    {
+        "reagent": "CC(C)=CC[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd/CPhos) and Copper salts.",
+        "activity_analysis": "Prenylzinc bromide is a sterically hindered allylic reagent. It often exhibits high gamma-selectivity in uncatalyzed additions due to the steric bulk at the alpha-position. However, with specific catalysts like Pd/CPhos, high alpha-selectivity (linear) can be achieved in cross-couplings.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201308585",
+            "10.1002/anie.201603923"
+        ]
+    },
+    {
+        "reagent": "CCCCCCCC[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd-PEPPSI), Nickel catalysts, and Cobalt catalysts.",
+        "activity_analysis": "Octylzinc bromide is a standard primary alkylzinc reagent. It is widely used in Negishi couplings with aryl/alkyl halides. Catalysts like Pd-PEPPSI or Ni/pincer complexes are effective. It also undergoes cobalt-catalyzed acylation and carbonylation. The long alkyl chain imparts lipophilicity but does not significantly alter electronic reactivity compared to butylzinc.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200601450",
+            "10.1016/0040-4039(95)01802-O"
+        ]
+    },
+    {
+        "reagent": "CCCCCCCC[Zn]CCCCCCCC",
+        "catalyst_commonality_summary": "Titanium catalysts (Ti(OiPr)4), Copper catalysts, and Soai autocatalysts.",
+        "activity_analysis": "Dioctylzinc is a dialkylzinc reagent. It is less reactive than the corresponding Grignard but highly effective in enantioselective additions to aldehydes when activated by chiral ligands (e.g., amino alcohols, Ti complexes). It can also transfer both alkyl groups in certain copper or cobalt-catalyzed reactions.",
+        "mechanism_data_doi_list": [
+            "10.1016/0040-4039(95)01668-8"
+        ]
+    },
+    {
+        "reagent": "CCCCCCC[Zn]CCCCCCC",
+        "catalyst_commonality_summary": "Titanium catalysts and Chiral ligands.",
+        "activity_analysis": "Diheptylzinc behaves similarly to other long-chain dialkylzincs. Its primary application is in asymmetric addition to carbonyls, where the long chains may influence the steric environment of the transition state, sometimes leading to different enantioselectivities compared to diethylzinc.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201102913"
+        ]
+    },
+    {
+        "reagent": "CCCCCC[Zn]Cl",
+        "catalyst_commonality_summary": "Palladium and Nickel catalysts.",
+        "activity_analysis": "Hexylzinc chloride is a primary alkylzinc reagent suitable for Negishi cross-couplings. Its reactivity is comparable to the bromide analog, and it is compatible with a wide range of functional groups on the coupling partner.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369"
+        ]
+    },
+    {
+        "reagent": "CCCCC[Zn]CCCCC",
+        "catalyst_commonality_summary": "Titanium catalysts and Chiral ligands.",
+        "activity_analysis": "Dipentylzinc is a dialkylzinc reagent used in asymmetric synthesis. It serves as a nucleophile for additions to aldehydes and ketones, with reactivity and selectivity modulated by chiral ligands.",
+        "mechanism_data_doi_list": [
+            "10.1016/0022-328X(92)88002-Z"
+        ]
+    },
+    {
+        "reagent": "CCCC[Zn]CCCC",
+        "catalyst_commonality_summary": "Titanium catalysts, Copper catalysts, and Chiral ligands.",
+        "activity_analysis": "Dibutylzinc is a common dialkylzinc reagent. It is more reactive than dimethylzinc but less than diethylzinc in some contexts. It is widely used in asymmetric additions to aldehydes and in conjugate additions to enones, often requiring specific ligands to achieve high enantioselectivity.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.200305418",
+            "10.1002/asia.200600100"
+        ]
+    },
+    {
+        "reagent": "CCCC[Zn]Cl",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd-PEPPSI), Nickel catalysts, and Cobalt catalysts.",
+        "activity_analysis": "Butylzinc chloride is a robust primary alkylzinc reagent. It is a standard nucleophile for Negishi couplings, compatible with various electrophiles including aryl, heteroaryl, and alkyl halides. It also participates in acylation reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.201000359",
+            "10.1016/j.jorganchem.2009.03.006"
+        ]
+    },
+    {
+        "reagent": "Cl[Zn]Cc1ccc(C)cc1",
+        "catalyst_commonality_summary": "Palladium catalysts and Cobalt catalysts.",
+        "activity_analysis": "4-Methylbenzylzinc chloride is a benzylic zinc reagent. The electron-donating methyl group slightly enhances the nucleophilicity of the benzylic position. It is active in Negishi couplings and can be used in cobalt-catalyzed acylations.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201303809"
+        ]
+    },
+    {
+        "reagent": "Cl[Zn]Cc1cccc(Cl)c1",
+        "catalyst_commonality_summary": "Palladium catalysts.",
+        "activity_analysis": "3-Chlorobenzylzinc chloride contains an electron-withdrawing chloro group. This may slightly reduce the nucleophilicity compared to the unsubstituted benzyl reagent but also makes the reagent more stable. It is effective in cross-couplings where the benzylic zinc reacts preferentially over the aryl chloride.",
+        "mechanism_data_doi_list": [
+            "10.1016/0223-5234(96)88279-1"
+        ]
+    },
+    {
+        "reagent": "Cl[Zn]Cc1ccccc1",
+        "catalyst_commonality_summary": "Palladium catalysts, Nickel catalysts, and Cobalt catalysts.",
+        "activity_analysis": "Benzylzinc chloride is a fundamental benzylic reagent. It shows high reactivity in cross-couplings and additions. The benzylic C-Zn bond is activated, allowing for reactions under mild conditions, but it can also be prone to homocoupling if not properly controlled.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.201000068",
+            "10.1016/j.tet.2003.08.040"
+        ]
+    },
+    {
+        "reagent": "Cl[Zn]c1ccc(Br)cc1",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd(OAc)2/SPhos) and Cobalt catalysts.",
+        "activity_analysis": "4-Bromophenylzinc chloride is a functionalized arylzinc reagent. The C-Zn bond is more reactive than the C-Br bond in Pd-catalyzed couplings, allowing for chemoselective reactions at the zinc center while preserving the bromide for subsequent transformations.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201806261"
+        ]
+    },
+    {
+        "reagent": "Cl[Zn]c1ccc(Cl)cc1",
+        "catalyst_commonality_summary": "Palladium catalysts and Cobalt catalysts.",
+        "activity_analysis": "4-Chlorophenylzinc chloride is stable and chemoselective. The aryl chloride moiety is generally inert under the conditions used for the zinc coupling, making this reagent useful for introducing chlorophenyl groups.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201806261",
+            "10.1016/0040-4020(96)00246-3"
+        ]
+    },
+    {
+        "reagent": "Cl[Zn]c1ccccc1",
+        "catalyst_commonality_summary": "Palladium catalysts, Nickel catalysts, and Cobalt catalysts.",
+        "activity_analysis": "Phenylzinc chloride is a versatile arylzinc reagent. It is widely used in Negishi couplings, acylations, and conjugate additions. Its reactivity can be tuned by ligands and additives (e.g., LiCl), and it serves as a benchmark for aryl transfer reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201309841",
+            "10.1002/chem.201602202"
+        ]
+    },
+    {
+        "reagent": "Cl[Zn]c1cccs1",
+        "catalyst_commonality_summary": "Palladium catalysts (Pd-PEPPSI) and Nickel catalysts.",
+        "activity_analysis": "2-Thienylzinc chloride is a heteroarylzinc reagent. It is electron-rich and highly reactive in cross-couplings. It can be coupled with aryl halides and other electrophiles, often requiring specific ligands to prevent catalyst poisoning by the sulfur atom.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201801887"
+        ]
+    },
+    {
+        "reagent": "Et2Zn",
+        "catalyst_commonality_summary": "Titanium catalysts (Ti(OiPr)4), Copper catalysts (Cu(OTf)2), and Chiral ligands (BINOL, TADDOL).",
+        "activity_analysis": "Diethylzinc is the most common dialkylzinc reagent. It is extensively used for enantioselective 1,2-addition to aldehydes and 1,4-addition to enones. Its reactivity is significantly enhanced by Lewis acids (Ti, Cu) and chiral ligands, which also control the stereochemistry of the addition.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.200303178",
+            "10.1002/anie.199100491",
+            "10.1002/anie.199726201"
+        ]
+    },
+    {
+        "reagent": "Me2Zn",
+        "catalyst_commonality_summary": "Titanium catalysts, Copper catalysts, and Nickel catalysts.",
+        "activity_analysis": "Dimethylzinc is less reactive than diethylzinc but offers higher stability and often better enantioselectivity in asymmetric additions due to its smaller size. It is used in similar transformations (1,2- and 1,4-additions) and is also a methylating agent in Negishi couplings.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200390088",
+            "10.1002/chem.201102913"
+        ]
+    },
+    {
+        "reagent": "MeZnBr",
+        "catalyst_commonality_summary": "Palladium catalysts and Cobalt catalysts.",
+        "activity_analysis": "Methylzinc bromide is a source of the methyl group for cross-coupling reactions. It is less basic than MeLi or MeMgBr, allowing for better functional group tolerance. It is effective in Negishi couplings with aryl/alkenyl halides.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.ejmech.2011.10.039"
+        ]
+    },
+    {
+        "reagent": "Ph2Zn",
+        "catalyst_commonality_summary": "Titanium catalysts, Copper catalysts, and Nickel catalysts.",
+        "activity_analysis": "Diphenylzinc is a diarylzinc reagent used for phenyl transfer. It is more reactive than phenylzinc halides in some contexts and is often used in asymmetric additions to aldehydes (with Ti) or in conjugate additions (with Cu/Ni). It can transfer both phenyl groups in certain reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200600741",
+            "10.1002/chem.200901779"
+        ]
+    },
+    {
+        "reagent": "c1cc(sc1)[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "3-Thienylzinc bromide is a heteroarylzinc reagent. Similar to the 2-isomer, it participates in cross-coupling reactions. The position of the zinc (C3) makes it slightly less nucleophilic than the C2 isomer, but it is still highly effective with appropriate catalysts.",
+        "mechanism_data_doi_list": [
+            "10.1002/bkcs.10217"
+        ]
+    },
+    {
+        "reagent": "c1cc(sc1)[Zn]I",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "3-Thienylzinc iodide behaves similarly to the bromide. The iodide counterion may offer kinetic advantages in formation or transmetalation steps depending on the specific reaction conditions.",
+        "mechanism_data_doi_list": [
+            "10.1002/bkcs.10217"
+        ]
+    },
+    {
+        "reagent": "c1ccc(C[Zn]Br)c(Br)c1",
+        "catalyst_commonality_summary": "Palladium catalysts and Copper catalysts.",
+        "activity_analysis": "2-Bromobenzylzinc bromide contains an ortho-bromo substituent. This steric bulk can influence the rate of coupling, but the reagent remains active. The chemoselectivity allows reaction at the benzylic zinc center while preserving the aryl bromide for later functionalization.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.jfluchem.2014.08.021"
+        ]
+    },
+    {
+        "reagent": "c1ccc(C[Zn]Br)cc1",
+        "catalyst_commonality_summary": "Palladium catalysts, Nickel catalysts, and Cobalt catalysts.",
+        "activity_analysis": "Benzylzinc bromide is a standard benzylic nucleophile. It is highly reactive in Negishi couplings and can be generated in situ. It is sensitive to homocoupling, which can be suppressed by using specific catalysts or conditions (e.g., Co catalysis in acetonitrile).",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.201000698"
+        ]
+    },
+    {
+        "reagent": "c1ccc(C[Zn]Cl)cc1",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "Benzylzinc chloride is functionally similar to the bromide. It is a competent nucleophile for cross-coupling and addition reactions. The chloride counterion is often used when the reagent is prepared from benzyl chloride or via transmetalation with ZnCl2.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.201000068"
+        ]
+    },
+    {
+        "reagent": "c1ccc([Zn]Cl)cc1",
+        "catalyst_commonality_summary": "Palladium catalysts, Nickel catalysts, and Cobalt catalysts.",
+        "activity_analysis": "Phenylzinc chloride is a robust arylzinc reagent. It is widely used in Negishi couplings with aryl halides and in acylation reactions. It tolerates a variety of functional groups and can be prepared with LiCl to enhance solubility and reactivity.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201801887"
+        ]
+    },
+    {
+        "reagent": "c1ccc([Zn]c2ccccc2)cc1",
+        "catalyst_commonality_summary": "Titanium catalysts, Copper catalysts, and Nickel catalysts.",
+        "activity_analysis": "Diphenylzinc is a diarylzinc reagent. It is used for phenyl transfer in asymmetric additions and conjugate additions. It is more reactive than phenylzinc halides and can be used to transfer both phenyl groups in atom-economic processes.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200600741"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)C=CC[Zn]CC",
+        "catalyst_commonality_summary": "Copper catalysts and Nickel catalysts.",
+        "activity_analysis": "This is a mixed organozinc reagent with a cinnamyl-like group and an ethyl group. In catalytic reactions, the allylic/benzylic cinnamyl group is typically transferred preferentially over the ethyl group due to its higher stability/nucleophilicity profile in transmetalation.",
+        "mechanism_data_doi_list": [
+            "10.1002/aoc.3192"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)C[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts and Cobalt catalysts.",
+        "activity_analysis": "Benzylzinc bromide is a standard reagent for introducing the benzyl group. It is active in Negishi couplings and other transition-metal catalyzed transformations. Its reactivity is high, requiring control to avoid side reactions.",
+        "mechanism_data_doi_list": [
+            "10.1016/0223-5234(96)88279-1"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts, Nickel catalysts, and Cobalt catalysts.",
+        "activity_analysis": "Phenylzinc bromide is a versatile arylzinc reagent. It participates in Negishi couplings, acylations, and additions. It is compatible with many functional groups and can be prepared in situ.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)[Zn]Cl",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "Phenylzinc chloride is similar to the bromide. It is a stable and effective nucleophile for cross-coupling reactions. The chloride form is often generated via transmetalation from Grignard or lithium reagents with ZnCl2.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201602202"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)[Zn]I",
+        "catalyst_commonality_summary": "Palladium catalysts and Copper catalysts.",
+        "activity_analysis": "Phenylzinc iodide is an arylzinc reagent often prepared from iodobenzene and zinc. It is highly reactive in Negishi couplings and can be used in copper-catalyzed reactions. The iodide counterion may facilitate certain oxidative addition or transmetalation steps.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200601450"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)[Zn]c1ccccc1",
+        "catalyst_commonality_summary": "Titanium catalysts and Copper catalysts.",
+        "activity_analysis": "Diphenylzinc is a symmetric diarylzinc reagent. It is used for enantioselective phenyl transfer to aldehydes and enones. It provides high atom economy in reactions where both aryl groups can be utilized.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200600741"
+        ]
+    },
+    {
+        "reagent": "c1ccc(s1)[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "2-Thienylzinc bromide is a heteroarylzinc reagent. It is electron-rich and highly reactive in cross-coupling reactions. It can be coupled with various electrophiles, including aryl and heteroaryl halides.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.ejmech.2011.10.039"
+        ]
+    },
+    {
+        "reagent": "c1ccc2cc(ccc2c1)[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "2-Naphthylzinc bromide is a bulky arylzinc reagent. It participates in Negishi couplings, introducing the naphthyl group. Its steric bulk may require optimized catalyst systems (e.g., bulky phosphines) for efficient coupling.",
+        "mechanism_data_doi_list": [
+            "10.1016/0040-4039(95)01865-F"
+        ]
+    },
+    {
+        "reagent": "c1ccc2cc(ccc2c1)[Zn]I",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "2-Naphthylzinc iodide behaves similarly to the bromide. It is used for the introduction of the naphthyl moiety in cross-coupling reactions. The iodide form is often prepared from the corresponding iodide and zinc.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.201600959"
+        ]
+    },
+    {
+        "reagent": "c1ccccc1C[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts and Cobalt catalysts.",
+        "activity_analysis": "Benzylzinc bromide is a standard benzylic reagent. It is highly reactive and versatile in cross-coupling and addition reactions. It can be prepared directly from benzyl bromide and zinc.",
+        "mechanism_data_doi_list": [
+            "10.1016/0022-328X(92)88002-Z"
+        ]
+    },
+    {
+        "reagent": "c1ccccc1C[Zn]Cl",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "Benzylzinc chloride is a benzylic nucleophile used in Negishi couplings. It is stable and chemoselective, allowing for the synthesis of diarylmethanes and other benzylated products.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.201000068"
+        ]
+    },
+    {
+        "reagent": "c1ccccc1[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts, Nickel catalysts, and Cobalt catalysts.",
+        "activity_analysis": "Phenylzinc bromide is a fundamental arylzinc reagent. It is widely used in cross-coupling reactions to introduce the phenyl group. It is compatible with a wide range of functional groups and catalysts.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369"
+        ]
+    },
+    {
+        "reagent": "c1cnccc1[Zn]Br",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "3-Pyridylzinc bromide is a heteroarylzinc reagent. It allows for the introduction of the pyridine ring in cross-coupling reactions. The nitrogen atom in the ring can coordinate to catalysts, so specific ligands or conditions may be needed to maintain efficiency.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201501543"
+        ]
+    },
+    {
+        "reagent": "c1cnccc1[Zn]Cl",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "3-Pyridylzinc chloride is similar to the bromide. It is used in Negishi couplings to synthesize pyridine-containing compounds. The chloride form is often obtained via transmetalation.",
+        "mechanism_data_doi_list": [
+            "10.1002/jhet.1807"
+        ]
+    },
+    {
+        "reagent": "c1csc([Zn]I)c1",
+        "catalyst_commonality_summary": "Palladium catalysts and Nickel catalysts.",
+        "activity_analysis": "2-Thienylzinc iodide is a heteroarylzinc reagent. It is highly reactive in cross-couplings, allowing for the introduction of the thiophene ring. It is electron-rich and participates readily in oxidative addition/transmetalation cycles.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201002850"
+        ]
+    }
+]

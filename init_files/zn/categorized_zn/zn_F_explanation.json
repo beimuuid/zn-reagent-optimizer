@@ -1,0 +1,107 @@
+[
+    {
+        "combination": "CoBr2(Bpy) / Zn(OTf)2 / THF",
+        "reagent_commonality_summary": "The zinc reagents are primarily fluorinated aryl and benzyl zinc halides or pivalates. The electron-withdrawing fluorine/trifluoromethyl groups reduce the nucleophilicity of the C-Zn bond compared to non-fluorinated analogs, but enhance stability. The pivalate reagents exist as stable solid clusters.",
+        "activity_analysis": "CoBr2(Bpy) is a highly effective catalyst for the cross-coupling of arylzinc reagents, particularly those with electron-withdrawing groups like the CF3-substituted reagents in the list. The bipyridine ligand stabilizes the low-valent Cobalt species, preventing disproportionation. Zn(OTf)2 acts as a salt additive that increases the ionic strength and Lewis acidity of the medium, potentially facilitating the transmetalation step by breaking up zinc aggregates or forming more reactive zincate species. THF coordinates to the zinc and cobalt centers, stabilizing the organometallic intermediates during the catalytic cycle.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/ijch.201000032",
+            "10.1002/chem.201403015"
+        ]
+    },
+    {
+        "combination": "Fe(acac)3 / AlMe3 / Toluene/THF (1:1)",
+        "reagent_commonality_summary": "The zinc reagents are primarily fluorinated aryl and benzyl zinc halides or pivalates. The electron-withdrawing fluorine/trifluoromethyl groups reduce the nucleophilicity of the C-Zn bond compared to non-fluorinated analogs, but enhance stability. The pivalate reagents exist as stable solid clusters.",
+        "activity_analysis": "Fe(acac)3 serves as a catalyst for cross-coupling or C-H activation reactions involving organozinc reagents. AlMe3 is a strong Lewis acid and transmetalating agent; it can react with the organozinc reagents to form mixed Al/Zn species or aluminates, which often exhibit enhanced nucleophilicity or altered chemoselectivity (e.g., promoting 1,2-addition over 1,4-addition). The Toluene/THF solvent mixture balances the solubility of the non-polar aluminum species with the coordination requirements of the zinc/iron species, optimizing the reaction environment for efficient transmetalation.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063",
+            "10.1002/chem.200901803",
+            "10.1002/anie.201206297"
+        ]
+    },
+    {
+        "combination": "CoCl2 / BF3.OEt2 / THF",
+        "reagent_commonality_summary": "The zinc reagents are primarily fluorinated aryl and benzyl zinc halides or pivalates. The electron-withdrawing fluorine/trifluoromethyl groups reduce the nucleophilicity of the C-Zn bond compared to non-fluorinated analogs, but enhance stability. The pivalate reagents exist as stable solid clusters.",
+        "activity_analysis": "CoCl2 catalyzes the cross-coupling of functionalized arylzinc reagents, such as the pivalates. BF3.OEt2 is a strong Lewis acid additive that activates electrophiles (e.g., imines, epoxides, or carbonyls) by coordinating to their basic sites, making them more susceptible to nucleophilic attack by the organozinc species. While Co catalyzes the C-C bond formation, BF3 lowers the activation energy of the electrophile. THF is essential to solubilize the zinc reagents and stabilize the cobalt catalyst, although strong Lewis acids like BF3 may compete for coordination.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070",
+            "10.1002/ejoc.201300539",
+            "10.1002/ejoc.200700929"
+        ]
+    },
+    {
+        "combination": "CoBr2 / AlCl3 / THF",
+        "reagent_commonality_summary": "The zinc reagents are primarily fluorinated aryl and benzyl zinc halides or pivalates. The electron-withdrawing fluorine/trifluoromethyl groups reduce the nucleophilicity of the C-Zn bond compared to non-fluorinated analogs, but enhance stability. The pivalate reagents exist as stable solid clusters.",
+        "activity_analysis": "CoBr2 is a standard catalyst for Negishi-type couplings of arylzinc halides. AlCl3 is a potent Lewis acid that can promote reactions of sterically hindered or deactivated substrates (like enol phosphates) by coordinating to the leaving group or electrophile, facilitating oxidative addition. In the context of fluorinated organozincs, AlCl3 can also assist in acylation reactions. THF is the preferred solvent to maintain the solubility of the zinc reagents and the integrity of the catalytic cycle.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/ejoc.201600959"
+        ]
+    },
+    {
+        "combination": "Fe(acac)3 / Ti(OiPr)4 / THF",
+        "reagent_commonality_summary": "The zinc reagents are primarily fluorinated aryl and benzyl zinc halides or pivalates. The electron-withdrawing fluorine/trifluoromethyl groups reduce the nucleophilicity of the C-Zn bond compared to non-fluorinated analogs, but enhance stability. The pivalate reagents exist as stable solid clusters.",
+        "activity_analysis": "Fe(acac)3 acts as the primary cross-coupling catalyst. Ti(OiPr)4 serves as a mild Lewis acid additive that can modulate the reactivity of the organozinc reagents, potentially via transmetalation to form organotitanium species or by activating carbonyl electrophiles for 1,2-addition. This combination allows for chemoselective transformations where Iron handles the C-C bond formation and Titanium tunes the nucleophile's properties or activates the substrate. THF provides the necessary solvation for the titanium and zinc species.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063",
+            "10.1002/chem.201204346",
+            "10.1002/chir.21018"
+        ]
+    },
+    {
+        "combination": "CoBr2 / THF",
+        "reagent_commonality_summary": "The collection features electron-deficient aryl and perfluoroalkyl zinc reagents, including halides and pivalates. These species possess reduced nucleophilicity due to electron-withdrawing groups (F, CF3) but exhibit enhanced Lewis acidity and stability, particularly the pivalates which are often air-stable solids.",
+        "activity_analysis": "Cobalt(II) bromide is a competent catalyst for the cross-coupling of arylzinc reagents, particularly in the presence of stabilizing ligands or coordinating solvents. In THF, CoBr2 can facilitate the coupling of these stabilized zinc reagents with electrophiles (e.g., alkynyl halides or organic halides). The electron-deficient nature of the zinc reagents (e.g., 4-CF3-phenyl) makes them suitable for Co-catalyzed pathways, where transmetalation to a low-valent cobalt species is a key step. The solvent THF coordinates to the zinc and cobalt centers, stabilizing the intermediates, although acetonitrile (not in list) is often preferred for rate acceleration. The reaction likely proceeds via a Co(I)/Co(III) or radical mechanism.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/adsc.201801577",
+            "10.1002/ijch.201000032"
+        ]
+    },
+    {
+        "combination": "CoBr2(Bpy) / THF",
+        "reagent_commonality_summary": "The collection features electron-deficient aryl and perfluoroalkyl zinc reagents, including halides and pivalates. These species possess reduced nucleophilicity due to electron-withdrawing groups (F, CF3) but exhibit enhanced Lewis acidity and stability, particularly the pivalates which are often air-stable solids.",
+        "activity_analysis": "The bipyridine (Bpy) ligand coordinates to the cobalt center, stabilizing low-valent cobalt species (Co(I) or Co(0)) and preventing disproportionation. This is particularly beneficial for coupling reactions involving the electron-poor arylzinc reagents in the list, as it facilitates oxidative addition to challenging electrophiles and stabilizes the catalyst against the Lewis acidic zinc species. The Bpy ligand environment can also modulate the chemoselectivity, allowing for reactions with functionalized substrates like ketones or esters without side reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201500245",
+            "10.1002/ijch.201000032"
+        ]
+    },
+    {
+        "combination": "CoCl2 / THF",
+        "reagent_commonality_summary": "The collection features electron-deficient aryl and perfluoroalkyl zinc reagents, including halides and pivalates. These species possess reduced nucleophilicity due to electron-withdrawing groups (F, CF3) but exhibit enhanced Lewis acidity and stability, particularly the pivalates which are often air-stable solids.",
+        "activity_analysis": "CoCl2 serves as an efficient precatalyst for the cross-coupling of organozinc pivalates. The pivalate anion on the zinc reagent can act as an internal ligand for cobalt, stabilizing the active species and facilitating transmetalation. This system is effective for C(sp2)-C(sp2) bond formation. The use of THF ensures solubility of the zinc pivalate clusters. The electron-withdrawing groups on the aryl ring (e.g., CF3) are well-tolerated and may accelerate reductive elimination from the cobalt center.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070",
+            "10.1002/anie.201204388",
+            "10.1002/ijch.201000032"
+        ]
+    },
+    {
+        "combination": "Fe(acac)3 / Toluene",
+        "reagent_commonality_summary": "The collection features electron-deficient aryl and perfluoroalkyl zinc reagents, including halides and pivalates. These species possess reduced nucleophilicity due to electron-withdrawing groups (F, CF3) but exhibit enhanced Lewis acidity and stability, particularly the pivalates which are often air-stable solids.",
+        "activity_analysis": "Iron(III) acetylacetonate in toluene is a known system for cross-coupling and conjugate additions. While the electron-deficient nature of the zinc reagents might reduce the rate of transmetalation to iron compared to alkylzincs or Grignards, the Fe(acac)3 catalyst can still promote coupling, particularly if the reaction involves a radical component or oxidative induced reductive elimination. Toluene as a non-polar solvent favors the formation of specific iron-zinc aggregates or clusters that may be active in C-H activation or addition pathways.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497",
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "combination": "Fe(acac)3 / THF",
+        "reagent_commonality_summary": "The collection features electron-deficient aryl and perfluoroalkyl zinc reagents, including halides and pivalates. These species possess reduced nucleophilicity due to electron-withdrawing groups (F, CF3) but exhibit enhanced Lewis acidity and stability, particularly the pivalates which are often air-stable solids.",
+        "activity_analysis": "In THF, Fe(acac)3 can catalyze the cross-coupling of arylzinc reagents with electrophiles. The coordinating nature of THF helps stabilize the iron species. For the specific fluorinated reagents, the iron catalyst may facilitate coupling via a mechanism that tolerates the lower nucleophilicity, potentially involving Fe(I)/Fe(III) cycles. This system is also relevant for iron-catalyzed C-H functionalization where the organozinc acts as a base or transmetalating agent.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063",
+            "10.1002/chem.202202212"
+        ]
+    },
+    {
+        "combination": "CoBr2 / THF / Zn(OTf)2",
+        "reagent_commonality_summary": "The collection features electron-deficient aryl and perfluoroalkyl zinc reagents, including halides and pivalates. These species possess reduced nucleophilicity due to electron-withdrawing groups (F, CF3) but exhibit enhanced Lewis acidity and stability, particularly the pivalates which are often air-stable solids.",
+        "activity_analysis": "The addition of Zn(OTf)2 to the CoBr2/THF system creates a highly Lewis acidic environment. This can facilitate the activation of electrophiles (such as organic halides or carbonyls) making them more susceptible to reaction with the organozinc reagent. Additionally, Zn(OTf)2 may assist in the transmetalation step by modifying the aggregation state of the organozinc species or by abstracting halides from the cobalt center, generating a more cationic and reactive cobalt species.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201000668",
+            "10.1002/adsc.200800242"
+        ]
+    }
+]

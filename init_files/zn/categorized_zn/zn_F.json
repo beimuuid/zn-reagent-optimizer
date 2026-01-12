@@ -1,0 +1,209 @@
+{
+    "reagents": [
+        "FC(F)(F)c1ccc(cc1)[Zn]Br",
+        "FC(F)(F)c1ccc(cc1)[Zn]I",
+        "FC(F)(F)c1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "FC(F)(F)c1cccc(c1)C[Zn]Cl",
+        "FC(F)(F)c1cccc(c1)[Zn]Br",
+        "FC(F)(F)c1cccc(c1)[Zn]Cl",
+        "FC1=CC=C(C[Zn]Cl)C=C1.Cl[Li]",
+        "F[C](F)(F)C(Cl)(Cl)[Zn]Cl",
+        "F[C](F)(F)C(F)(F)[Zn]I",
+        "F[C](F)(F)C([Zn]I)C(F)(F)F",
+        "F[C](F)(F)[Zn]I",
+        "Fc1ccc(c(F)c1)[Zn]OC(=O)C(C)(C)C",
+        "c1ccc(cc1)[Zn]OC(=O)C(F)(F)F"
+    ],
+    "catalysts": [
+        "Co(OAc)2",
+        "Co(acac)2",
+        "Co(acac)3",
+        "Co2(CO)8",
+        "CoBr2",
+        "CoBr2(Bpy)",
+        "CoBr2(phen)",
+        "CoBr2.dppe",
+        "CoCl(PPh3)3",
+        "CoCl2",
+        "CoCl2.2LiCl",
+        "Cobalt carbonyls",
+        "Cobalt dithiolene complex",
+        "Cr(CO)5",
+        "CrCl2",
+        "CrCl3/Fe",
+        "Fe(CO)5",
+        "Fe(OTf)2",
+        "Fe(acac)2",
+        "Fe(acac)3",
+        "FeBr2",
+        "FeCl2",
+        "Mn(acac)3",
+        "MnCl2",
+        "ferrocene 3"
+    ],
+    "additives": [
+        "Al(OTf)3",
+        "Al(OiPr)3",
+        "Al(iBu)3",
+        "AlCl3",
+        "AlEt3",
+        "AlMe2Cl",
+        "AlMe3",
+        "AlMeCl2",
+        "B(OEt)3",
+        "B(OMe)3",
+        "B(OiPr)3",
+        "BEt3",
+        "BF3.OEt2",
+        "BPh3",
+        "BiCl3",
+        "Et2AlCl",
+        "Et3Al",
+        "Et3B",
+        "Ga(OTf)3",
+        "Hf(OTf)4",
+        "InBr3",
+        "InCl3",
+        "LaCl3",
+        "MAD",
+        "MAO",
+        "Me2Al(OMe)",
+        "Me2AlCl",
+        "Me3Al",
+        "Me3B",
+        "Me3OBF4",
+        "Mg(OiPr)2",
+        "Sc(OTf)3",
+        "Sn(OTf)2",
+        "SnCl2",
+        "SnCl4",
+        "Ti(OBut)4",
+        "Ti(OR)4",
+        "Ti(OiPr)4",
+        "Ti(Ot-Bu)4",
+        "TiCl(O-i-Pr)3",
+        "TiCl4",
+        "TiI4",
+        "Zn(OTf)2",
+        "Zr(Ot-Bu)4",
+        "ZrCl4",
+        "methylaluminoxane",
+        "methylaluminum bis(2,6-di-tert-butyl-4-methylphenoxide)",
+        "trimethyl borate"
+    ],
+    "solvents": [
+        "2-MeTHF",
+        "DME",
+        "DME/Toluene (1:1)",
+        "Dioxane",
+        "Dioxane/H2O (10:1)",
+        "Dioxane/H2O (1:1)",
+        "THF",
+        "THF/Dioxane",
+        "THF/Et2O",
+        "THF/Et2O (10:1)",
+        "THF/Et2O (1:2)",
+        "THF/Heptane",
+        "THF/Hexane",
+        "THF/Hexane (1:1)",
+        "THF/Pentane",
+        "THF/Toluene",
+        "THF/Toluene (1:1)",
+        "THF/Toluene (2:1)",
+        "Toluene/DME (1:1)",
+        "Toluene/DME (99.5:0.5)",
+        "Toluene/THF",
+        "Toluene/THF (1:1)",
+        "Toluene/THF (95:5)",
+        "dimethoxymethane",
+        "dimethoxymethane-dimethyl ether mixture (1:1)",
+        "dimethyl ether",
+        "triglyme"
+    ],
+    "papers": [
+        {
+            "title": "Peptidic Amidomonophosphane Ligand for Copper-Catalyzed Asymmetric Conjugate Addition of Diorganozincs to Cycloalkenones",
+            "doi": "10.1002/adsc.200600562",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200600562.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "Sustainable Synthesis of Acyl Fluoride via 1,3\u2010Chelation\u2010Assisted Transhalogenation and Its Application in the Valorization of Biomass\u2010Derived Alcohol in Aqueous System",
+            "doi": "10.1002/adsc.202500103",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.202500103.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "NickelCatalyzed Cyclization of DifluoroSubstituted 1,6Enynes with Organozinc Reagents through the Stereoselective Activation of CF Bonds: Synthesis of Bicyclo[3.2.0]heptene Derivatives\n",
+            "doi": "10.1002/anie.201004543",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201004543.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "OnePot Synthesis of Amino Acids from Imines through CO2 Incorporation: An Alternative Method for Strecker Synthesis\n",
+            "doi": "10.1002/anie.201006422",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201006422.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "Palladium\u2010Catalysed C\u2013H Bond Zincation of Arenes: Scope, Mechanism and the Role of Heterometallic Intermediates",
+            "doi": "10.1002/anie.202014960",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.202014960.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "LigandPromoted Oxidative CrossCoupling of Aryl Boronic Acids and Aryl Silanes by Palladium Catalysis\n",
+            "doi": "10.1002/anie.201412288",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201412288.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "Highly Enantioselective Zinc/Amino Alcohol-Catalyzed Alkynylation of Aldehydes",
+            "doi": "10.1002/chem.200900070",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200900070.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "N\u2010Heterocyclic Carbene Based Tri\u2010organyl\u2010Zn\u2013Alkyl Cations: Synthesis, Structures, and Use in CO2 Functionalization",
+            "doi": "10.1002/chem.201605907",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201605907.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "Photochemical Carboxylation of Activated C(sp3)\uffe2\uff94\uff80H Bonds with CO2",
+            "doi": "10.1002/cssc.201700205",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cssc.201700205.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "Highly Regioselective Addition of Organozinc Reagents to 2Oxo1,2dihydropyrimidine5carboxylates Activated by BF3OEt2: Synthesis of 2Oxo1,2,3,4tetrahydropyrimidine5carboxylates",
+            "doi": "10.1002/ejoc.201300539",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201300539.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "Copper-Catalysed, Enantioselective Desymmetrisation of meso Cyclic Allylic Bis(diethyl phosphates) with Organozinc Reagents",
+            "doi": "10.1002/ejoc.200400757",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.200400757.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "untitled",
+            "doi": "10.1007/s11172-016-1649-8",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s11172-016-1649-8.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "Renovation of Optically Active Phenanthrolines as Powerful Chiral Ligands for Versatile Asymmetric Metal Catalysis",
+            "doi": "10.1002/tcr.201600078",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.201600078.pdf",
+            "category": "F-"
+        },
+        {
+            "title": "PII: 0957-4166(95)00352-P",
+            "doi": "10.1016/0957-4166(95)00352-P",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0957-4166(95)00352-P.pdf",
+            "category": "F-"
+        }
+    ]
+}

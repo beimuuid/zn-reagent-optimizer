@@ -1,0 +1,126 @@
+# @package agents
+knowledge_refinement:
+  # --- 模型配置 ---
+  model_name: ${llm.model_name}
+  temperature: ${llm.temperature}
+  base_url: ${llm.base_url}  # 从全局 llm 配置继承
+  api_key: ${llm.api_key}    # 从全局 llm 配置继承
+
+  # --- Prompt 模板 ---
+  prompts:
+    refine_mechanism_data: |
+      You are an expert in reaction condition optimization. The previous step has extracted the reaction mechanism and optimization logic. Now, based on the input search query, you need to analyze each piece of mechanism data and filter out the data that is highly relevant to the search query.
+
+      ## Search Query:
+      {query}
+      ## Currently Extracted Reaction Mechanism and Optimization Logic:
+      {mechanism_data}
+      ## Additional Context, including expert-recommended reaction mechanisms and optimization logic:
+      {additional_context}
+      ## Task Requirements:
+      1. Carefully analyze each piece of mechanism data to determine its relevance to the search query. The higher the relevance, the higher the confidence, with a value range of [0,1], where 0 means completely irrelevant and 1 means completely relevant.
+      2. Filter out mechanism data that is highly relevant to the search query based on relevance.
+      3. Comprehensively consider the relevance of the mechanism data to the search query and the recommendations provided by experts to filter out mechanism data that is both highly relevant and reliable.
+      4. Output the filtered mechanism data in the same format as the input, but only include data that is highly relevant and reliable.
+      ## Output Format:
+      Please strictly output a JSON list, where each element represents a piece of mechanism data, in the same format as the input:
+      ```json
+      [
+        {{
+          "reaction_id": "Table 1, Entry 1",  // Unique identifier for the reaction
+          "reaction_process_description": "In this reaction...",
+          "reaction_mechanism_logic": "Condition optimization shows...",
+          "summary": "...",
+          "extracted_data": {{
+              // List specific key field values here as a structured backup
+              "yield": "85%",
+              "catalyst": "..."
+          }}
+        }}
+      ]
+      ```
+      Please output only the JSON, without any additional explanation.
+
+    refine_variables: |
+      You are an expert in reaction condition optimization. The previous step has extracted optimization variables and their spaces, but the following issues may exist:
+      1. Inaccurate type determination for some variables (continuous/discrete).
+      2. The result of variable division is too coarse, and does not cover the entire interval.
+      3. Omission of some important optimization variables.
+      4. Variable names are not standardized or unified.
+
+      Please refine and correct the optimization variables and their spaces based on the following information:
+
+      ## Currently Extracted Optimization Variables and Spaces:
+      {variable_info}
+
+      ## Additional Context, including expert-recommended optimization variables and spaces:
+      {additional_context}
+
+      ## Task Requirements:
+      1. Carefully analyze the type of each variable (continuous/discrete) to ensure accuracy:
+         - Continuous variables: Numerical variables that can take any value within a certain range (e.g., temperature, concentration, time, pressure).
+         - Discrete variables: Categorical variables or variables with a finite number of values (e.g., ligand, base, solvent, catalyst).
+      2. Check if the result of variable division is reasonable and complete:
+         - For continuous variables: Ensure the range [min, max] is reasonable and complete, and the interval is as fine as possible.
+         - For discrete variables: Ensure all possible values are included, and the number of values is not too large.
+      3. Check for any omitted important optimization variables.
+      4. Standardize variable names (use lowercase, remove suffixes like "_name", "_identifier", etc.) to ensure consistency.
+
+      ## Output Format:
+      Output a strictly valid JSON with a format identical to the input:
+      ```json
+      {{
+        "vars": ["ligand", "base", "solvent", "temperature"],
+        "domains": {{
+          "ligand": ["SPhos", "XPhos", "P(Ph)3", ...],
+          "base": ["KOH", "NaOH", "CsF", ...],
+          "solvent": ["MeOH/H2O_V2 9:1", "MeCN", "THF", ...],
+          "temperature": [20, 100]
+        }},
+        "var_types": {{
+          "ligand": "discrete",
+          "base": "discrete",
+          "solvent": "discrete",
+          "temperature": "continuous"
+        }},
+        "units": {{
+          "ligand": "none",
+          "base": "none",
+          "solvent": "none",
+          "temperature": "°C"
+        }}
+      }}
+      ```
+      Please output only the JSON, without any additional explanation.
+
+    refine_variable_divisions: |
+      You will be provided with a set of pre-divided optimization variable spaces, as well as interval partitioning suggestions and prior scoring suggestions summarized and reflected upon from the previous round of knowledge tree iteration. Please revise and supplement the variable divisions based on the explanation and feedback information.
+      ## Pre-divided optimization variable spaces:
+      {variable_divisions_info}
+      ## Interval partitioning and prior scoring suggestions:
+      {explanation_and_feedback_info}
+
+      ## Task Requirements:
+      1. Carefully review the explanations and reflective summary of the intermediate results from the previous round of optimization, and understand their suggestions on variable space division and prior scoring.
+      2. Revise the currently generated variable space divisions based on the suggestions in “partition_suggestions”.
+      3. Revise the currently generated prior scoring based on the suggestions in “scoring_suggestions”.
+
+      ## Important Notes:
+      1. Only revise and supplement the variable divisions based on the explanation and feedback information.
+
+      ## Output Format:
+      Output a strictly valid JSON in the same format as the input:
+      ```json
+      {{
+        "importance": {{
+          // Maintain the importance weights
+        }},
+        "variable_divisions": [
+          {{
+            // Include refined variable_divisions
+          }}
+          ...
+        ],
+      }}
+      ```
+      Please output only the JSON, without any additional explanation.

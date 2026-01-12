@@ -1,0 +1,71 @@
+[
+    {
+        "combination": "CuCN.2LiCl / LiOtBu / Et2O",
+        "reagent_commonality_summary": "The zinc reagents are primarily organozinc iodides (RZnI) including functionalized aryl, heteroaryl, and alkyl species. They exhibit moderate nucleophilicity, high functional group tolerance (compatible with esters, nitriles, halides), and exist in Schlenk equilibrium. Electron-withdrawing groups (e.g., F, CN) stabilize the C-Zn bond but reduce nucleophilicity.",
+        "activity_analysis": "The catalyst CuCN\u00b72LiCl is a soluble source of Cu(I) that facilitates the transmetalation of organozinc iodides to form more reactive mixed organocuprate species (RCu(CN)ZnI). This transmetalation is the rate-determining step for many cross-couplings. LiOtBu acts as an additive that can modify the aggregation state of the zinc/copper species, potentially enhancing solubility and reactivity in Et2O. Et2O serves as a coordinating solvent that stabilizes the organometallic intermediates without being as strongly coordinating as THF/polar aprotic solvents, maintaining a balance for reactivity.",
+        "mechanism_data_doi_list": [
+            "10.1016/0969-8051(94)E0067-S",
+            "10.1016/0040-4039(96)01934-X",
+            "10.1002/chem.201403015"
+        ]
+    },
+    {
+        "combination": "Cu(OTf)2 / Pyridine / Toluene/Et2O (1:1)",
+        "reagent_commonality_summary": "The zinc reagents are primarily organozinc iodides (RZnI) including functionalized aryl, heteroaryl, and alkyl species. They exhibit moderate nucleophilicity, high functional group tolerance (compatible with esters, nitriles, halides), and exist in Schlenk equilibrium. Electron-withdrawing groups (e.g., F, CN) stabilize the C-Zn bond but reduce nucleophilicity.",
+        "activity_analysis": "Cu(OTf)2 acts as a Lewis acidic copper catalyst, efficient for conjugate addition reactions. Pyridine can serve as a ligand to modulate the Lewis acidity of the copper center and prevent precipitation of active species. The mixed solvent system Toluene/Et2O (1:1) provides a non-polar environment (Toluene) that often enhances enantioselectivity or reaction rates in zinc-mediated additions by favoring specific aggregate forms, while Et2O ensures sufficient solubility of the zinc reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.200600562",
+            "10.1002/adsc.200800242",
+            "10.1016/j.cclet.2015.10.009"
+        ]
+    },
+    {
+        "combination": "Cu(OAc)2 / 2,6-lutidine / Toluene/i-Pr2O (1:1)",
+        "reagent_commonality_summary": "The zinc reagents are primarily organozinc iodides (RZnI) including functionalized aryl, heteroaryl, and alkyl species. They exhibit moderate nucleophilicity, high functional group tolerance (compatible with esters, nitriles, halides), and exist in Schlenk equilibrium. Electron-withdrawing groups (e.g., F, CN) stabilize the C-Zn bond but reduce nucleophilicity.",
+        "activity_analysis": "Cu(OAc)2 is effective for oxidative couplings or nucleophilic additions to carbonyls. 2,6-Lutidine acts as a sterically hindered base that can scavenge protons or coordinate weakly to the metal center, preventing catalyst deactivation without blocking substrate access. The solvent mixture Toluene/i-Pr2O provides a lipophilic medium that supports higher reaction temperatures if needed and stabilizes specific organozinc clusters involved in the catalytic cycle.",
+        "mechanism_data_doi_list": [
+            "10.1002/aoc.5108",
+            "10.1002/chem.201806261",
+            "10.1002/chem.201403446"
+        ]
+    },
+    {
+        "combination": "CuTC / P4-t-Bu / MTBE",
+        "reagent_commonality_summary": "The zinc reagents are primarily organozinc iodides (RZnI) including functionalized aryl, heteroaryl, and alkyl species. They exhibit moderate nucleophilicity, high functional group tolerance (compatible with esters, nitriles, halides), and exist in Schlenk equilibrium. Electron-withdrawing groups (e.g., F, CN) stabilize the C-Zn bond but reduce nucleophilicity.",
+        "activity_analysis": "CuTC (Copper(I) Thiophene-2-carboxylate) is a highly active catalyst for allylic substitutions and conjugate additions, often superior to simple Cu salts due to the carboxylate ligand effect. P4-t-Bu is a strong phosphazene base that can activate the zinc reagent or substrate via deprotonation or coordination. MTBE is a robust ethereal solvent that supports the stability of organozinc intermediates while allowing for efficient transmetalation to the copper catalyst.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.cclet.2015.10.009",
+            "10.1002/adsc.200800086"
+        ]
+    },
+    {
+        "combination": "CuTC / DABCO / Et2O",
+        "reagent_commonality_summary": "The provided zinc reagents are primarily functionalized organozinc iodides (RZnI), including alkyl, aryl, heteroaryl, and perfluoroalkyl derivatives. They exhibit moderate nucleophilicity and high functional group tolerance but often require activation or transmetalation for efficient C-C bond formation. They are sensitive to air and moisture but less so than Grignard reagents.",
+        "activity_analysis": "Copper(I) thiophene-2-carboxylate (CuTC) is a highly active catalyst for allylic substitutions and conjugate additions, often outperforming halides due to the 'carboxylate effect' which may facilitate transmetalation or oxidative addition steps. DABCO acts as a Lewis base additive that can coordinate to the zinc or copper centers, stabilizing the organometallic species and potentially influencing regioselectivity. Et2O provides a standard stabilizing medium for the organocopper intermediates formed during the catalytic cycle.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.200800086",
+            "10.1002/anie.200601855",
+            "10.1016/j.cclet.2015.10.009"
+        ]
+    },
+    {
+        "combination": "Cu(OAc)2 / DMAP / MTBE",
+        "reagent_commonality_summary": "The provided zinc reagents are primarily functionalized organozinc iodides (RZnI), including alkyl, aryl, heteroaryl, and perfluoroalkyl derivatives. They exhibit moderate nucleophilicity and high functional group tolerance but often require activation or transmetalation for efficient C-C bond formation. They are sensitive to air and moisture but less so than Grignard reagents.",
+        "activity_analysis": "Cu(OAc)2 is a versatile catalyst precursor that can mediate oxidative couplings or cross-couplings involving heteroatoms. DMAP serves as a strong nucleophilic ligand, enhancing the electron density at the copper center and facilitating oxidative addition or transmetalation steps. MTBE is a coordinating ether solvent that stabilizes the organometallic intermediates while allowing for higher reaction temperatures compared to Et2O. This system is effective for reactions such as the thiolation of organozinc reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201806261",
+            "10.1002/chem.201403446",
+            "10.1016/j.apcata.2013.03.027"
+        ]
+    },
+    {
+        "combination": "CuBr.SMe2 / LiOtBu / Et2O",
+        "reagent_commonality_summary": "The provided zinc reagents are primarily functionalized organozinc iodides (RZnI), including alkyl, aryl, heteroaryl, and perfluoroalkyl derivatives. They exhibit moderate nucleophilicity and high functional group tolerance but often require activation or transmetalation for efficient C-C bond formation. They are sensitive to air and moisture but less so than Grignard reagents.",
+        "activity_analysis": "CuBr\u00b7SMe2 is a stable source of CuBr where the dimethyl sulfide ligand is labile, allowing for easy substrate coordination. LiOtBu acts as a base and activator, facilitating the formation of reactive zincate or cuprate species via salt metathesis or aggregation modification. Et2O is the preferred solvent to stabilize these reactive intermediates. This combination is particularly useful for promoting the addition of organozinc reagents to electrophiles that require activation or for modifying the regioselectivity of the addition.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200500653",
+            "10.1016/j.jfluchem.2014.12.003",
+            "10.1002/s10562-013-0979-5"
+        ]
+    }
+]

@@ -1,0 +1,141 @@
+# @package agents
+structured_data_extraction:
+  # --- 模型配置 ---
+  model_name: gemini-3-flash-preview
+  temperature: ${llm.temperature}
+  base_url: ${llm.base_url}  # 从全局 llm 配置继承
+  api_key: ${llm.api_key}    # 从全局 llm 配置继承
+
+  # --- Prompt 模板 ---
+  prompts:
+    extract_mechanism: |
+      You are an AI expert proficient in reaction mechanisms and experimental design. Your task is to extract all independent reactions from the Markdown content of a document and generate structured natural language descriptions based on the provided materials. Your output will be part of a knowledge base, so please ensure the accuracy and completeness of the descriptions.
+
+      ## 1. Core Inputs
+      **Paper Title**: 
+      {paper_title}
+      **Reaction Process Description Material (Schema)**: 
+      {process_text}
+      **Mechanism and Optimization Logic Material (Schema)**: 
+      {mechanism_text}
+      **Document Content**: 
+      {markdown_content}
+
+      ## 2. Field Hierarchy and Generation Logic (Crucial)
+      Refer to the provided "field definitions" of different types and follow this logic to generate descriptions:
+      * **Basic Material (Reaction Process Description Material)**: 
+          * Utilize fields from the reaction process description material (core reaction components like Reactants, Ligands, Solvents, Products; general properties/characterizations like Reaction Conditions, Reaction Time, Reaction Yield).
+          * **Objective**: Describe "what happened." That is: who reacted with whom, under what basic conditions, what was obtained, what was the yield, and how was the structure confirmed.
+      * **Advanced Material (Mechanism and Optimization Logic Material)**: 
+          * Utilize fields from the mechanism and optimization logic material (optimization variables, screening conditions, fine-tuning parameters).
+          * **Objective**: Describe "why it reacted this way" or "how to control it." That is: by changing which variables (solvent/catalyst/ligand) the optimal result was achieved, or through which screening experiments the intrinsic logic/mechanism of the reaction was revealed.
+
+      ## 3. Task Steps
+      1.  **Identify Reactions**: Traverse the entire text to identify each independent reaction entity (e.g., each Entry in Table 1, the specific transformation in Scheme 2, or a General Procedure).
+      2.  **Extract Fields**: For each reaction, analyze the reaction process, find the related key fields of optimization variables and targets and metrics from the Reaction Process Description Material, and extract the values from the document content.
+      3.  **Generate Descriptions**: 
+          * Write **`reaction_process_description`**: Link the extracted information from the reaction process description material into a coherent natural language paragraph (similar to a General Procedure description in an experimental section).
+          * Write **`reaction_mechanism_logic`**: Integrate the extracted information from the mechanism and optimization logic material (and related mechanism discussions in the text) into a logical analysis, focusing on the condition optimization process or the impact of key variables on the outcome.
+          * Write **`influence_analysis`**: according to the extracted specific key field values, analyse the influence of these key field values on the reaction performance indicators, and generate a natural language description.
+
+      ## 4. Output Format Requirements (JSON List)
+      Please strictly output a JSON list, where each element represents a reaction, in the following format:
+      ```json
+      [
+        {{
+          "reaction_id": "Table 1, Entry 1",  // Unique identifier for the reaction
+          "reaction_process_description": "In this reaction...",
+          "reaction_mechanism_logic": "Condition optimization shows...",
+          "extracted_data": {{
+              // List specific key field values here as a structured backup
+              "yield": "85%",
+              "catalyst": "..."
+          }}
+          "influence_analysis": "The influence of the catalyst on the reaction yield is analyzed..."
+        }}
+      ]
+      ```
+      Please output only the JSON, without any other text.
+
+    extract_variables: |
+      You are a data mining expert. Your task is to extract relevant information from the Markdown content of a document based on the provided reaction process description material to build a **"Reaction Variable Library"**.
+      The goal is to summarize **all explored ranges of reaction variables** that have appeared throughout the document.
+
+      ## 1. Task Inputs
+      **Paper Title**:
+      {paper_title}
+      
+      **Document Content**: 
+      {markdown_content}
+
+      **Reaction Process Description Material (Schema)**: 
+      {process_text}
+        * Utilize fields from the reaction process description material (core reaction components like Reactants, Ligands, Solvents, Products; general properties/characterizations like Reaction Conditions, Reaction Time, Reaction Yield).
+        * **Objective**: Describe "what happened." That is: who reacted with whom, under what basic conditions, what was obtained, what was the yield, and how was the structure confirmed.
+      
+      
+      ## 2. Extraction Strategy
+      **Focus**: Refer to the "field definitions" of the different types of materials provided to construct `optimization_variables` and `targets_and_metrics`.
+      Please perform the following steps:
+
+      1.  **Full-text Scan**: Scan all parts of the document (especially "Optimization of Reaction Conditions" tables, "Substrate Scope" image captions, and "General Procedure").
+      2.  **Identify optimization variables**: 
+          * the Schema with Level2 tag often includes the optimization variables and reaction conditions of the reaction process (e.g., Solvent, Base, Ligand, Temperature, Time, Pressure, etc.).
+          * Please extract these optimization variables from the Schema and extract the values from the document content. For example, if the Schema includes the optimization of "solvent," create an entry named "solvent" and list all the solvents that were tried in the document.
+      3.  **Identify targets and metrics**:
+          * the Schema with Level3 tag often includes the target products and evaluation metrics of the reaction process (e.g., target_reagent, target_product, yield, stability, selectivity, etc.).
+          * Please extract these targets and metrics from the Schema and extract the values from the document content. For example, if the Schema includes the target of "yield," create an entry named "yield" and list all the yields that were obtained in the document.
+      4.  **Deduplication and Cleaning**:
+          * **Variable Categories**: Strictly follow the field definitions in the Schema to construct `optimization_variables` and `targets_and_metrics`.
+          * For each optimization variable and target and metric, extract all unique values that have appeared.
+          * **Ignore Invalid Values**: Do not extract result descriptors like "N.R." (no reaction) or "trace" as variable values; only extract chemical entities or physical parameters.
+          * **Unit Conversion**: if the variable has different units in the same category, convert them to the same unit.
+          
+
+      ## 3. Output Format (JSON Object)
+      Please output a single JSON object containing two keys: `optimization_variables` and `targets_and_metrics`, corresponding to optimization variables and targets and metrics, in the following format:
+      ```json
+      {{
+        "optimization_variables": {{
+            "temperature": ["25 °C", "60 °C", "80 °C"],
+            "time": ["12 h", "24 h"],
+            "atmosphere": ["Argon", "N2"]
+            ...
+        }},
+        "targets_and_metrics": {{
+            "target_reagent_structure": ["RZnCl", "R₂Zn"],
+            "target_product": ["Ru(bpy)3Cl2", "Ir(ppy)3"]
+            "yield": ["85%", "90%", "95%"]
+            "stability": ["100%", "90%", "80%"]
+            ...
+        }}
+      }}
+      ```
+      Please output only the JSON, without any other text.
+
+    classify_papers: |
+      You are a professional literature classification expert. Please strictly follow the requirements to classify the paper, and only output valid JSON format.
+      ## 1. Task Inputs
+      **Paper Title**:
+      {title}
+      **DOI**:
+      {doi}
+      **Document Content**:
+      {markdown_content}
+
+      ## 2. Task Requirements
+      请根据文献内容涉及了催化剂的哪种金属元素（Pd, Ni, Cu, Fe, Co, Rh），将其分类为：
+      - **Pd**: Pd
+      - **Ni**: Ni
+      - **Cu**: Cu
+      - **Fe**: Fe
+      - **Co**: Co
+      - **Rh**: Rh
+      Please output the category in the following format:
+      ```json
+      {{
+        "category": "Pd"
+      }}
+      ```
+      Please output only the JSON, without any other text.
+      

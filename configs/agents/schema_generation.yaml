@@ -1,0 +1,233 @@
+# @package agents
+schema_generation:
+  # --- 模型配置 ---
+  model_name: ${llm.model_name}
+  temperature: ${llm.temperature}
+  base_url: ${llm.base_url}
+  api_key: ${llm.api_key}
+  num_architects: 8 # 生成 schema 的 "架构师" 数量
+  enable_clustering: false # 是否启用最后的字段聚类分析步骤
+
+  # --- Prompt 模板 ---
+  prompts:
+    # Step 1: 问题拆解
+    decomposition: |
+      # Task
+      The user wants to extract information about **"{user_query}"** from a large number of unstructured documents.
+      We have a detailed experiment process for the task(optional):
+      {experiment_process}
+      The user concerns about the following additional information(optional):
+      {additional_info}
+      Your task is not to list keywords directly, but to mimic the thought process of a domain expert and break down the problem into four logical levels. Subsequent steps will use your breakdown to determine specific database fields.
+      # Methodology: The 4-Level Thinking Process
+      Please strictly follow the logical framework below to delve into the problem:
+      **Level 1: Macro Context & Environment**
+      - Think about the background, basic conditions, or broad system constraints in which the task occurs.
+      - *Ask yourself: In this broad domain, what common external factors will affect the outcome?*
+      **Level 2: Meso Mechanism & Subjects**
+      - Think about the core processes, optimization parameters, and their interactions, or intrinsic properties involved in the given information(user query, experiment process and additional information).
+      - *Ask yourself: What are the properties of the core subjects? What are the key optimization parameters that influence the outcome? How do they interact? What are the key intermediate states?*
+      **Level 3: Micro Outcome & Metrics**
+      - Think about the specific conversions, particular metrics, evaluation criteria, or final outputs that the user is most concerned about.
+      - *Ask yourself: How is "success" defined? What specific parameters directly describe the final outcome (static values)?*
+      **Level 4: Optimization & Causality [Crucial]**
+      - Think about which variables (independent variables) the author usually adjusts to optimize performance.
+      - What outcome changes (trends/correlations) do these adjustments usually lead to?
+      - *Ask yourself: We not only need to know "what the result is," but also "what factors led to this result" and "the mechanism behind it."*
+      # Your Output
+      Please provide your four-level breakdown analysis for the user's Query: **"{user_query}"**. Present the key factors to consider for each level clearly in a list format.
+
+    # Step 2: 架构师生成
+    architect: |
+      # Context
+      We are building an information extraction database for the task: "{user_query}".
+      and we have a detailed experiment process for the task(optional):
+      {experiment_process}
+      The user concerns about the following additional information(optional):
+      {additional_info}
+      A domain expert has already performed the following logical breakdown of the task:
+      {step_1_output}
+      # Task
+      Please analyze the given information(user query, experiment process and additional information) and pay attention to the variables changed during the experiment process(e.g., temperature, pressure, catalyst, etc.). These variables are the key variables to be extracted from the literature.
+      Please consider the additional information provided by the user, as it contains some specific requirements for the schema generation.
+      Based on the key variables changed during the experiment process and the four levels of breakdown above (environment, mechanism, outcome, optimization & causality), please brainstorm a specific **list of fields (Attribution Schema)** to be extracted from the literature.
+      # Requirements
+      For each field, please provide:
+      1. **Field Name**: The standard English name for the field (e.g., `reaction_temperature`, `optimization_factor`, `observed_trend`).
+      2. **Chinese Name**: The Chinese name for the field, which should be concise (usually no more than 10 characters), accurately reflect the field's meaning, and use professional terminology.
+      3. **Description**: A detailed description of the field's meaning.
+      4. **Importance**: Which level the field belongs to (Level 1/2/3/4).
+      5. **Extraction Tip**: A tip for the extractor on where in the document (e.g., "experimental section," "results and discussion," "optimization chapter") this information might be found.
+      Please output in JSON format as follows:
+      ```json
+      {{
+        "fields": [
+          {{
+            "field_name": "example_field",
+            "chinese_name": "中文名称",
+            "description": "Field description",
+            "importance": "Level 1",
+            "extraction_tip": "Extraction tip"
+          }}
+          ...
+        ]
+      }}
+      ```
+
+    # Step 3: 归纳与组织
+    aggregator: |
+      # Input
+      You have received lists of field suggestions from {num_architects} architects for the same task.
+      Task: "{user_query}"
+      Architects' Suggestion Lists:
+      {architect_suggestions}
+      # Task
+      Your goal is to integrate these suggestions into a **union set**, not an intersection. Please follow these principles for cleaning and organizing:
+      1. **Preserve Diversity**: Do not arbitrarily delete fields. If it's the same concept with different names (e.g., `temp` and `temperature`), merge and unify the naming; if they are different concepts, keep them all.
+      2. **Structured Classification**: Use the previously defined "Level 1/2/3/4" logic to categorize all fields into these four levels.
+      3. **Mark Rarity**:
+         - Mark as **[Core]**: Core, high-frequency fields mentioned by multiple architects.
+         - Mark as **[Niche]**: Long-tail fields mentioned by only a few architects but with specific depth.
+      # Output
+      Please output the final organized Schema as a key-value JSON object.
+      **Important**: The output format must be a JSON object where:
+      - **key**: The standard English name for the field (keyword).
+      - **value**: An object containing:
+        - `chinese_name`: The Chinese name for the field.
+        - `description`: The meaning of the field.
+        - `extraction_tip`: Important notes for extraction.
+        - `level`: The level it belongs to (Level 1/2/3/4).
+        - `tag`: The tag ([Core] or [Niche]).
+      Please output in JSON format as follows:
+      ```json
+      {{
+        "reaction_temperature": {{
+          "chinese_name": "反应温度",
+          "description": "Reaction temperature, affects reaction rate and selectivity",
+          "extraction_tip": "Look for temperature parameters in the experimental or methods section",
+          "level": "Level 1",
+          "tag": "[Core]"
+        }}
+        ...
+      }}
+      ```
+
+    # Step 3.5: 发散扩展
+    expansion: |
+      # Context
+      We are building an information extraction database for the task: "{user_query}".
+      We have a detailed experiment process for the task(optional):
+      {experiment_process}
+      The user concerns about the following additional information(optional):
+      {additional_info}
+      We have already generated a preliminary list of fields (Schema) through a multi-agent process.
+      # Current Schema
+      {current_schema}
+      # Task
+      Please review the current schema and the user's request. Your goal is to **brainstorm and expand** the schema by identifying missing but valuable fields using **Lateral Thinking**.
+      
+      Think divergently based on the following angles:
+      1. **Task-Related**: Are there any missing parameters that are mentioned in the additional information but not in the current schema?(e.g., if the user concerns about the "stability" of the reaction, is "stability" needed?)
+      2. **Completeness**: Are there any missing parameters that usually accompany the existing fields? (e.g., if "pressure" exists, is "pressure unit" or "pressure_gauge" needed?)
+      3. **Context**: Are there environmental conditions, experimental setups, or pre-treatment steps missing?
+      4. **Outliers & Edge Cases**: Are there any specific properties or specific conditions relevant to this domain that are currently overlooked?
+      5. **Causality**: If there are result metrics, are the corresponding causal factors (independent variables) fully covered?
+
+      # Requirement
+      - Only output **NEW** fields that are not in the current schema.
+      - If you find no new fields are needed, output an empty list.
+      - Follow the specific JSON structure for each field.
+
+      # Output
+      Please output in JSON format as follows:
+      ```json
+      {{
+        "new_fields": 
+        [
+          {{
+            "field_name": "reaction_temperature",
+            "chinese_name": "反应温度",
+            "description": "Reaction temperature, affects reaction rate and selectivity",
+            "extraction_tip": "Look for temperature parameters in the experimental or methods section",
+            "level": "Level 1",
+            "tag": "[Expansion]"
+          }}
+          ...
+        ]
+      }}
+      ```
+
+    # Step 4: 反思与完善
+    reflection: |
+      # Context
+      We are building an information extraction database for the task: "{user_query}".
+      A preliminary Schema has been generated, and now you need to reflect on and refine it.
+      # Current Schema
+      {current_schema}
+      # Task
+      Please review and refine each field:
+      1. **Refine Descriptions**:
+         - If a description is not clear enough, improve it to be more precise.
+         - If an extraction tip is not specific enough, add more detailed guidance.
+         - If a Chinese name is not accurate, optimize it.
+      2. **Mark Key Fields**:
+         - Identify the 8-12 most core key fields from all fields.
+         - Add the `is_key_field: true` tag to these key fields, and `is_key_field: false` to the others.
+      3. **Rank the fields**:
+         - Rank the fields based on the importance level (Level 1/2/3/4).
+         - The fields with the highest importance level should be ranked first.
+      # Output
+      Please output the refined Schema in the same format as the input (key-value JSON format), including the refined information for all fields.
+      ```json
+      {{
+        "field_name": {{
+          "chinese_name": "中文名称",
+          "description": "Refined description",
+          "extraction_tip": "Refined extraction tip",
+          "level": "Level 1",
+          "tag": "[Core]",
+          "is_key_field": true
+        }}
+        ...
+      }}
+      ```
+
+    # Step 5: 字段聚类分析
+    cluster_analyzer: |
+      # Task
+      You have received a list of field definitions for a knowledge graph Schema. Please deeply analyze the relationship patterns between these fields and cluster them into **5-8 categories**.
+      # Fields Data
+      {fields_data}
+      # Requirements
+      - Consider semantic relevance, functional grouping, hierarchical relationships, dependencies, and usage scenarios.
+      - Each category should have a clear theme and boundary.
+      - All fields must be assigned to a category.
+      # Output Format
+      Please output the clustering results in JSON format as follows:
+      ```json
+      {{
+        "clusters": [
+          {{
+            "cluster_id": "cluster_1",
+            "cluster_name": "类别名称 (中文)",
+            "cluster_name_en": "Category Name (English)",
+            "description": "A detailed description of this category, explaining why these fields are grouped together.",
+            "field_count": 5,
+            "fields": [
+              {{
+                "field_name": "field_name",
+                "chinese_name": "中文名称",
+                "level": "Level 2",
+                "tag": "[Core]",
+                "is_key_field": true
+              }}
+            ],
+            "key_characteristics": ["Characteristic 1", "Characteristic 2"]
+          }}
+        ],
+        "summary": {{
+          "total_fields": 39,
+          "total_clusters": 6
+        }}
+      }}
+      ```

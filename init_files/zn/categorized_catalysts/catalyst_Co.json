@@ -1,0 +1,146 @@
+{
+    "catalysts": [
+        "Co(OAc)2",
+        "Co(acac)2",
+        "Co(acac)3",
+        "CoBr2",
+        "CoBr2(Bpy)",
+        "CoBr2(phen)",
+        "CoBr2.dppe",
+        "CoCl(PPh3)3",
+        "CoCl2",
+        "CoCl2.2LiCl",
+        "Co2(CO)8"
+    ],
+    "reagents": [
+        "C1C=C(CC1)[Zn]OC(=O)C(C)(C)C",
+        "CC(C)(C)C(=O)OCCCCCC[Zn]CCCCCC(=O)OC(C)(C)C",
+        "CC(C)=C(C#N)C[Zn]OC(=O)C(C)(C)C",
+        "CC(C)=C(C(=O)OCC)C[Zn]OC(=O)C(C)(C)C",
+        "CC(C)=CC[Zn]OC(=O)C(C)(C)C",
+        "CC1(C)C2CC(C=C2[Zn]OC(=O)C(C)(C)C)C1",
+        "CCC=C(C#N)C[Zn]OC(=O)C(C)(C)C",
+        "Clc1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "FC(F)(F)c1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "Fc1ccc(c(F)c1)[Zn]OC(=O)C(C)(C)C",
+        "c1ccc(cc1)C=CC[Zn]OC(=O)C(C)(C)C",
+        "c1ccc(cc1)[Zn]OC(=O)C(F)(F)F",
+        "c1ccc2c(c1)sc(c2)[Zn]OC(=O)C(C)(C)C"
+    ],
+    "papers": [
+        {
+            "title": "CobaltCatalyzed Electrophilic Cyanation of Arylzinc Halides with NCyanoNphenylpmethylbenzenesulfonamide (NCTS)",
+            "doi": "10.1002/adsc.201500245",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201500245.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "Sequential Organozinc Formation and Negishi Cross‐Coupling of Amides Catalysed by Cobalt Salt.",
+            "doi": "10.1002/adsc.201801577",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201801577.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "CobaltCatalyzed CrossCoupling of Organozinc Halides with Bromoalkynes",
+            "doi": "10.1002/adsc.201400369",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201400369.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "CobaltCatalyzed Addition of Arylzinc Reagents to Alkynes to Form orthoAlkenylarylzinc Species through 1,4Cobalt Migration\n",
+            "doi": "10.1002/anie.201204388",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201204388.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "Decarboxylative Negishi Coupling of Redox‐Active Aliphatic Esters by Cobalt Catalysis",
+            "doi": "10.1002/anie.201806799",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201806799.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "Sustainable Synthesis of Acyl Fluoride via 1,3‐Chelation‐Assisted Transhalogenation and Its Application in the Valorization of Biomass‐Derived Alcohol in Aqueous System",
+            "doi": "10.1002/adsc.202500103",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.202500103.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "Cobalt‐Catalyzed Cross‐Couplings and Electrophilic Aminations using Organozinc Pivalates",
+            "doi": "10.1002/cctc.201900070",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cctc.201900070.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "On the Scope of Trimethylaluminium-Promoted 1,2-Additions of ArZnX Reagents to Aldehydes",
+            "doi": "10.1002/chem.200901803",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200901803.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "CobaltCatalyzed CrossCoupling of 3 and 4Iodopiperidines with Grignard Reagents",
+            "doi": "10.1002/chem.201501543",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201501543.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "Metal‐Catalyzed Synthesis and Use of Thioesters: Recent Developments",
+            "doi": "10.1002/chem.201705025",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201705025.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "A CobaltCatalyzed Multicomponent Approach to Novel 2,3Di and 2,2,3Trisubstituted 3Methoxycarbonylbutyrolactones",
+            "doi": "10.1002/ejoc.201000698",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201000698.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "CobaltCatalyzed CrossCoupling Reactions of Aryl Halides",
+            "doi": "10.1002/ijch.201000032",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ijch.201000032.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "PII: 0040-4039(95)01802-O",
+            "doi": "10.1016/0040-4039(95)01802-O",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4039(95)01802-O.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "10.1016_j.ccr.2022.214455",
+            "doi": "10.1016/j.ccr.2022.214455",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.ccr.2022.214455.pdf",
+            "category": "Pd, Ni, Cu, Co, Rh"
+        },
+        {
+            "title": "PII: 0040-4020(96)00311-0",
+            "doi": "10.1016/0040-4020(96)00311-0",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4020(96)00311-0.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "Mannich-like three-component synthesis of &alpha;-branched amines involving organozinc compounds: ReactIR monitoring and mechanistic aspects",
+            "doi": "10.1016/j.jorganchem.2013.02.032",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2013.02.032.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "Tandem catalytic enantio and diastereoselective synthesis of cyclopropyl alcohols using aryl aldehydes",
+            "doi": "10.1002/poc.2965",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_poc.2965.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2003.08.032",
+            "doi": "10.1016/j.tet.2003.08.032",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2003.08.032.pdf",
+            "category": "Co"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.07.018",
+            "doi": "10.1016/j.tet.2004.07.018",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.07.018.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        }
+    ]
+}

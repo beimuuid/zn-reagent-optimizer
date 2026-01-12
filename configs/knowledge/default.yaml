@@ -1,0 +1,10 @@
+# 知识树相关配置 (@package knowledge)
+
+# UCB探索常数
+Cp: 10.0
+# UCB平滑参数
+alpha: 1.0
+# 是否使用历史数据进行知识树更新
+use_history_data: false
+# 历史数据保存路径
+history_csv_path:

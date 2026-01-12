@@ -1,0 +1,23 @@
+# @package _global_
+
+# 主配置文件，通过 `defaults` 列表来组合其他配置文件
+# OmegaConf 会自动加载并合并这些文件
+HYDRA_FULL_ERROR: 1
+defaults:
+  - evaluation: default
+  - knowledge: default
+  - llm: default
+  - optimization: default
+  - paths: default
+  - agents: default
+  - _self_
+
+# --- 全局参数 ---
+project_name: "KnowledgeGuidedOptimizer"
+seed: 
+
+# Runtime parameters
+reactants: {}
+
+search_query:
+  "Selection of organozinc reagents that possess both high reactivity and high stability."

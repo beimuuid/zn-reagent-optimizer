@@ -1,0 +1,18 @@
+# 路径相关配置 (@package paths)
+
+outdir: "results"
+logdir: "logs"
+
+
+
+# --- 中间文件路径 (可选, 提供则跳过该步骤) ---
+# 如果提供了这些路径, 相应的流程步骤将被跳过, 并直接加载文件内容
+
+experiment_process_path: 
+schema_path: "/root/optimizer/init_files/zn/final_schema.csv"
+search_results_path: "/root/optimizer/init_files/zn/search_results.json"
+mechanism_structured_data_path: "/root/optimizer/init_files/zn/mechanism_structured_data.json"
+variables_structured_data_path: "/root/optimizer/init_files/zn/variables_structured_data.json"
+optimization_variables_path: 
+refined_optimization_variables_path: 
+variable_divisions_path: "

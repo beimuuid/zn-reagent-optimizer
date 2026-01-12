@@ -1,0 +1,117 @@
+# @package agents
+variable_extraction:
+  # 提取 Agent 配置 (@package agents)
+
+  # --- 模型配置 ---
+  model_name: ${llm.model_name}
+  temperature: ${llm.temperature}
+  base_url: ${llm.base_url}  # 从全局 llm 配置继承
+  api_key: ${llm.api_key}    # 从全局 llm 配置继承
+
+  # --- Prompt 模板 ---
+  prompts:
+    extract_variables: |
+      You are a reaction optimization expert. From the following structured literature data on reaction variables, please identify the reaction variables to be optimized and their corresponding optimization spaces (all possible values).
+
+      ## Structured Literature Data on Variables:
+      {variables_structured_data}
+      ## Optimization Targets:
+      {targets}
+
+      ## Task Requirements:
+      Important:
+      需要提取的优化变量为：有机锌试剂（organozinc_reagent），溶剂（solvent）添加剂（additive），催化剂（catalyst）。
+      
+      1. Analyze the structured literature data on variables to identify all the reaction variables
+      2. Analyze the optimization targets to understand their types (maximization, minimization) and prioritize variables related to them, as these are usually the main variables for optimization.
+      3. For each variable, determine whether it is a continuous or discrete variable:
+         - Identify its all possible values to construct its domain
+         - for continuous variables (A numerical variable that can take any value within a certain range like temperature, concentration, time), use the interval spanned by all possible values as the value range; 
+         - for discrete variables (A categorical variable or a variable with a finite number of values like ligand, base, solvent), use the set of all possible values as the domain.
+         - If the variable is a continuous variable, determine its unit according to the Structure Literature Data on Variables, and add it to the "units" field.
+         - If the variable is a discrete variable, set the unit to "none".
+      4. Remove duplicate values and standardize variable names (use lowercase, remove suffixes like "_name", "_identifier", e.g., "ligand_name" -> "ligand").
+      5. If a variable's value is "None", "null", or an empty string, do not include it in the value list.
+
+      ## Output Format:
+      Output a strictly valid JSON in the following format:
+      ```json
+      {{
+        "vars": ["ligand", "base", "solvent", "temperature", "concentration"],
+        "domains": {{
+          "ligand": ["SPhos", "XPhos", "P(Ph)3"],
+          "base": ["KOH", "NaOH", "CsF"],
+          "solvent": ["THF", "MeOH", "DMF"],
+          "temperature": [20, 100],
+          "concentration": [0.1, 1.0]
+        }},
+        "var_types": {{
+          "ligand": "discrete",
+          "base": "discrete",
+          "solvent": "discrete",
+          "temperature": "continuous",
+          "concentration": "continuous"
+        }},
+        "units": {{
+          "temperature": "°C",
+          "concentration": "mol/L",
+          "time": "s",
+          "ligand": "none",
+          "base": "none",
+          "solvent": "none"
+        }}
+      }}
+      ```
+      Please output only the JSON, without any additional explanation.
+
+    extract_variable_divisions: |
+      You will be given a set of structured literature data on reaction mechanisms, variable description information and optimization targets. Please extract variable divisions and the relationship patterns between variables from this data and convert them into structured prior knowledge for Bayesian optimization.
+
+      ## Structured Literature Data on Mechanisms:
+      {mechanism_structured_data}
+      ##Reaction Variables Description Information:
+      {vars_description}
+      ## Optimization Targets:
+      {targets}
+
+      ## Task Requirements:
+      Step 1 **Extract and Analyze Information**:
+        1. Analyze the reaction variable description information to understand the types of variables (continuous, discrete), their units and value ranges.
+        2. Analyze the optimization targets to understand their physical meaning and types (maximization, minimization).
+        3. Analyze the structured literature data on mechanisms to find the relationship patterns between reaction variables and the optimization targets, please pay special attention to the "influence_analysis" field, which is the influence of key field values on the reaction performance indicators.
+      Step 2 **Assign Importance Weights**:
+        1. Based on your analysis of the reaction variable description information and the structured literature data on mechanisms, please assign importance weights to each variable according to its influence on the optimization targets.
+        2. For variables that are directly related to the optimization targets, give a higher importance weight.
+        3. The sum of all `importance` values should be 1.
+      Step 3 **Interval Division and Prior Scoring**:
+        1. Based on your analysis of the reaction variable description information and the structured literature data on mechanisms, please divide the reaction variables into different variable divisions for continuous and discrete variables.
+        2. For continuous variables, please use the "range" field to describe the variable's value range in the format [min, max]. For discrete variables, please use the "cluster" field to describe the set of variable values.
+        3. `confidence` is the confidence level of the effect of the reaction variable on the optimization target, ranging from 0 to 1, where 0 means completely irrelevant and 1 means completely relevant.
+        4. `sign` is the direction of the effect of the reaction variable on the optimization target, with possible values ["+", "-", "0"], where "+" means positive correlation, "-" means negative correlation, and "0" means no correlation. For example, if the optimization target is "maximize", "+" means it increases the optimization target, "-" means it decreases it.
+        5. `effect_on` is the name of the optimization target affected by the reaction variable, with its value being a key from the optimization targets, e.g., if "yield":"maximize", the value is "yield".
+        6. `description` is a concise explanation of the rationale behind the variable division.
+      ## Important Notes:
+      1. Only divide intervals for the variables listed in the reaction variable description information; do not analyze other variables.
+      2. Divide the intervals as finely as possible to improve the optimization performance of the Bayesian optimization.
+
+      ## Output Format:
+      Output a strictly valid JSON in the following format:
+      ```json
+      {{
+        "importance": {{
+          "ligand": 0.4,
+          "temperature": 0.35,
+          "solvent": 0.25,
+          ...
+        }},
+        "variable_divisions": [
+          {{"variable":"ligand","type":"discrete","cluster":["SPhos", "AmPhos", "P(Cy)3"],"effect_on":"yield","sign":"+","confidence":0.8,"description":""}},
+          {{"variable":"temperature","type":"continuous","range":[218, 500],"effect_on":"critical temperature","sign":"-","confidence":0.8,"description":""}},
+          {{"variable":"solvent","type":"discrete","cluster":["MeOH/H2O_V2 9:1", "MeCN", "THF"],"effect_on":"zero-resistance temperature","sign":"0","confidence":0.8,"description":""}},
+          ...
+        ]
+      }}
+      ```
+      Please output only the JSON, without any additional explanation.
+
+    

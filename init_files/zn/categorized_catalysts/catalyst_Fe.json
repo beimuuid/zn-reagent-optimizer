@@ -1,0 +1,168 @@
+{
+    "catalysts": [
+        "CrCl3/Fe",
+        "Fe(CO)5",
+        "Fe(OTf)2",
+        "Fe(acac)2",
+        "Fe(acac)3",
+        "FeBr2",
+        "FeCl2",
+        "FeCl3",
+        "Fe2O3",
+        "Fe3O4",
+        "FeO",
+        "Ru(OH)n-Fe3O4"
+    ],
+    "reagents": [
+    "BrZnCCC(=O)OCC",
+    "BrZnCCCCCCCC#N",
+    "BrZnCCCCCCCCCC(=O)N1CCCCC1",
+    "BrZnCCCCCCCOC(c1ccccc1)(c2ccccc2)c3ccccc3",
+    "BrZnCCCCCCCO[Si](C(C)C)C(C)C",
+    "BrZnCCCCCl",
+    "BrZnCCCOC",
+    "BrZnCCCO[Si](C(C)C)C(C)C",
+    "Br[Zn]CC(=O)O[R]",
+    "C(C(=O)OC(C)(C)C)[Zn]Br",
+    "C(C(=O)OC(C)C)[Zn]Br",
+    "C(C(=O)OC)[Zn]Br",
+    "C(C(=O)OCC)[Zn]Br",
+    "C=C(C(=O)OCC)C[Zn]Br",
+    "CC(=O)OCCCC[Zn]CCCCCOOC(=O)C",
+    "CC(=O)OCCCC[Zn]CCCCOC(C)=O",
+    "CC1(C)O[C@@H](CO1)CC[Zn]I",
+    "CC1(C)O[C@H](CO1)CC[Zn]I",
+    "ClCCCC[Zn]I",
+    "COC(=O)C(C)(C)C=CC[Zn]Br",
+    "COC(=O)c1ccc(C[Zn]Cl)cc1",
+    "COC(=O)c1ccc(cc1)[Zn]Br",
+    "COc1ccc(cc1)[Zn]Br",
+    "COc1ccc(cc1)[Zn]Cl",
+    "COc1ccc(cc1)[Zn]I",
+    "COc1ccccc1[Zn]Br",
+    "N#CC(C)CCCC[Zn]Br",
+    "N#CCCC[Zn]Br",
+    "O=C(OC(C)(C)C)N1CCC2=C(C1)C=CC=C2[Zn]Cl",
+    "O=C1c2ccccc2C(=O)N1CCCC[Zn]Br",
+    "c1ccc(S(=O)(=O)CCCC[Zn]Cl)cc1",
+    "c1ccc(cc1)COCCC[Zn]Br",
+    "c1ccc2c(c1)oc=c2[Zn]Cl",
+    "c1ccc2c(c1)oc=c2[Zn]I"
+    ],
+    "papers": [
+        {
+            "title": "Highly Enantioselective Synthesis of Secondary Alcohols using Triphenylborane",
+            "doi": "10.1002/adsc.200404067",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200404067.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "orthoAllylation of 1Arylpyrazoles with Allyl Phenyl Ether via IronCatalyzed CH Bond Activation under Mild Conditions",
+            "doi": "10.1002/adsc.201400063",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201400063.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "An Efficient Synthesis of Diaryl Ketones by Iron-Catalyzed Arylation of Aroyl Cyanides\n\nWe thank the Fonds der Chemischen Industrie, the DFG and CNRS (financial support to T.J.K.), and Aventis Pharma (Frankfurt a.M., financial support to I.S.) for supporting this research program. We thank BASF AG (Ludwigshafen), Degussa AG (Hanau), and Chemetall GmbH (Frankfurt a. M.) for generous gifts of chemicals.\n",
+            "doi": "10.1002/anie.200453696",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200453696.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "Highly Regio- and Stereoselective Double Michael Addition-Cyclization of 2,3-Allenoates with Organozinc Compounds: Efficient Synthesis of 5-Benzylidenecyclohex-2-enones\n\nFinancial support was received from the National Natural Science Foundation of China (20732005) and the Major State Basic Research Development Program (2006CB806105). Shengming Ma is a Qiu Shi Adjunct Professor at Zhejiang University. We thank Guangke He in this research group for reproducing the results presented in entries[emsp14]2, 4, 5, and 9 of Table[emsp14]3.",
+            "doi": "10.1002/anie.200801497",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200801497.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "Exploiting BoronZinc Transmetallation for the Arylation of Benzyl Halides: What are the Reactive Species?",
+            "doi": "10.1002/anie.201202219",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201202219.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "Shedding New Light on ZnCl2Mediated Addition Reactions of Grignard Reagents to Ketones: Structural Authentication of Key Intermediates and DiffusionOrdered NMR Studies",
+            "doi": "10.1002/chem.201002544",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201002544.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "Iron‐Catalyzed Cross‐Coupling of Thioesters and Organomanganese Reagents**",
+            "doi": "10.1002/chem.202202212",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.202202212.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "Metal‐Catalyzed Synthesis and Use of Thioesters: Recent Developments",
+            "doi": "10.1002/chem.201705025",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201705025.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "Synthesis of New Chiral [2-(1-Hydroxyalkyl)pyrrolidino]methyl-ferrocenes and Application to the Catalytic Asymmetric Addition of Diethylzinc to Arylaldehydes",
+            "doi": "10.1002/cjoc.200591443",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cjoc.200591443.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "N‐Heterocyclic Carbene Based Tri‐organyl‐Zn–Alkyl Cations: Synthesis, Structures, and Use in CO2 Functionalization",
+            "doi": "10.1002/chem.201605907",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201605907.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "Chiral Oxazolinyl Hydroxyl Ferrocene Catalysts: Synthesis and Applications in Asymmetric Reactions",
+            "doi": "10.1002/slct.202001874",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_slct.202001874.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "10.1007_978-3-642-36270-5_4",
+            "doi": "10.1007/978-3-642-36270-5/4",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_978-3-642-36270-5_4.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "10.1007_s11030-009-9195-z",
+            "doi": "10.1007/s11030-009-9195-z",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s11030-009-9195-z.pdf",
+            "category": "Ni, Cu, Fe, Pd, Rh"
+        },
+        {
+            "title": "PII: 0040-4020(96)00311-0",
+            "doi": "10.1016/0040-4020(96)00311-0",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4020(96)00311-0.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "Reactions of allylzinc bromide with ethynylferrocene derived fluorinated cyclophosphazenes",
+            "doi": "10.1016/j.jorganchem.2014.06.025",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2014.06.025.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "Functionalized organolithium reagents in the synthesis of chiral ligands for catalytic enantioselective addition of diethylzinc to aldehydes",
+            "doi": "10.1016/j.poly.2012.06.090",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.poly.2012.06.090.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "PII: 0040-4039(95)01668-8",
+            "doi": "10.1016/0040-4039(95)01668-8",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4039(95)01668-8.pdf",
+            "category": "Fe"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.07.018",
+            "doi": "10.1016/j.tet.2004.07.018",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.07.018.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2005.03.076",
+            "doi": "10.1016/j.tet.2005.03.076",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2005.03.076.pdf",
+            "category": "Fe"
+        }
+    ]
+}

@@ -1,0 +1,271 @@
+{
+    "reagents": [
+        "Br[Zn]CC(=O)O[R]",
+        "BrZnCCC(=O)OCC",
+        "BrZnCCCCCCCCCC(=O)N1CCCCC1",
+        "BrZnCCCCCCCO[Si](C(C)C)C(C)C",
+        "BrZnCCCCCCCOC(c1ccccc1)(c2ccccc2)c3ccccc3",
+        "BrZnCCCOC",
+        "BrZnCCCO[Si](C(C)C)C(C)C",
+        "C(C(=O)OC(C)(C)C)[Zn]Br",
+        "C(C(=O)OC(C)C)[Zn]Br",
+        "C(C(=O)OC)[Zn]Br",
+        "C(C(=O)OCC)[Zn]Br",
+        "C=C(C(=O)OCC)C[Zn]Br",
+        "C1C=C(CC1)[Zn]OC(=O)C(C)(C)C",
+        "CC(=O)OCCCC[Zn]CCCCOC(C)=O",
+        "CC(=O)OCCCC[Zn]CCCCCOOC(=O)C",
+        "CC(C)=C(C#N)C[Zn]OC(=O)C(C)(C)C",
+        "CC(C)=C(C(=O)OCC)C[Zn]Cl",
+        "CC(C)=C(C(=O)OCC)C[Zn]OC(=O)C(C)(C)C",
+        "CC(C)=CC[Zn]OC(=O)C(C)(C)C",
+        "CC(C)(C)C(=O)OCCCCCC[Zn]CCCCCC(=O)OC(C)(C)C",
+        "CC1(C)C2CC(C=C2[Zn]OC(=O)C(C)(C)C)C1",
+        "CC1(C)OB(C(CCC2=CC=CC=C2)([Zn]Br)B3OC(C)(C)C(C)(C)O3)OC1(C)C",
+        "CC1(C)OB(C([Zn]Br)B2OC(C)(C)C(C)(C)O2)OC1(C)C",
+        "CC1(C)O[C@@H](CO1)CC[Zn]I",
+        "CC1(C)O[C@H](CO1)CC[Zn]I",
+        "CCC=C(C#N)C[Zn]OC(=O)C(C)(C)C",
+        "CCCC[Zn]c1ccc(OC)cc1",
+        "CCCC[Zn]c1cccc(OC)c1",
+        "C[Zn]c1ccc(OC)cc1",
+        "C[Zn]c1cccc(OC)c1",
+        "COC(=O)C(C)(C)C=CC[Zn]Br",
+        "COC(=O)c1ccc(C[Zn]Cl)cc1",
+        "COC(=O)c1ccc(cc1)[Zn]Br",
+        "COC1=CC(C[Zn]Cl)=CC=C1.Cl[Li]",
+        "COc1ccccc1[Zn](Cl)(Cl)Cl.[Mg](O1CCCC1)O1CCCC1",
+        "Clc1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "Clc1ccccc1C([Zn]Cl)C(=O)OC",
+        "FC(F)(F)c1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "Fc1ccc(c(F)c1)[Zn]OC(=O)C(C)(C)C",
+        "O=C(OC(C)(C)C)N1CCC2=C(C1)C=CC=C2[Zn]([C-]#N)[Cu-].[Li+]",
+        "O=C(OC(C)(C)C)N1CCC2=C(C1)C=CC=C2[Zn]Cl",
+        "O=C1c2ccccc2C(=O)N1CCCC[Zn]Br",
+        "[Li+].[Cl-].BrZnCCCCCCCCCC(=O)N1CCCCC1",
+        "[Li+].[Cl-].BrZnCCCCCCCO[Si](C(C)C)C(C)C",
+        "[Li+].[Cl-].BrZnCCCCCCCOC(c1ccccc1)(c2ccccc2)c3ccccc3",
+        "[Li+].[Cl-].BrZnCCCOC",
+        "[Li+].[Cl-].BrZnCCCO[Si](C(C)C)C(C)C",
+        "c1ccc(S(=O)(=O)CCCC[Zn]Cl)cc1",
+        "c1ccc(cc1)C=CC[Zn]OC(=O)C(C)(C)C",
+        "c1ccc(cc1)COCCC[Zn]Br",
+        "c1ccc(cc1)[Zn]OC(=O)C(F)(F)F",
+        "c1ccc2c(c1)sc(c2)[Zn]OC(=O)C(C)(C)C"
+    ],
+    "catalysts": [
+        "Al(OPri)3",
+        "AlCl3",
+        "Fe2O3",
+        "Fe3O4",
+        "FeO",
+        "Nano NiO",
+        "Ni Nps",
+        "Ni(Xant)Cl2",
+        "Ni-NP",
+        "NiBr2",
+        "NiCl2",
+        "NiI2",
+        "O2 (traces)",
+        "Pd(OH)2/C",
+        "Pd/C",
+        "PdCl2",
+        "Polystyrene supported Pd(II) complex (PS-ala-Pd)",
+        "Ru/C",
+        "palladium black"
+    ],
+    "additives": [
+        "1,2-Benzenediol",
+        "1,2-ethanediol",
+        "1-Naphthol",
+        "2,4,6-trichlorophenol",
+        "2,7-Dihydroxyl-naphthalene",
+        "2-Naphthol",
+        "AcOH",
+        "Amberlyst-15",
+        "C4F9CO2H",
+        "CF3CH2OH",
+        "CSA",
+        "CuSO4.5H2O",
+        "H2O",
+        "H2SO4",
+        "H3PO4",
+        "HCl",
+        "HF",
+        "HF/pyridine",
+        "MeSO3H",
+        "PPA",
+        "PPTS",
+        "PTSA",
+        "Phenol",
+        "TFA",
+        "ammonium chloride",
+        "aqueous formaldehyde solution",
+        "citric acid",
+        "hydroquinone",
+        "m-toluic acid",
+        "t-BuOH"
+    ],
+    "solvents": [
+        "Heptane/THF",
+        "Hexane/THF"
+    ],
+    "papers": [
+        {
+            "title": "Direct Organometallic Synthesis of Carboxylate Intercalated Layered Zinc Hydroxides for Fully Exfoliated Functional Nanosheets",
+            "doi": "10.1002/adfm.202102631",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adfm.202102631.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Enantioselective Addition of Organometallic Reagents to Carbonyl Compounds: Chirality Transfer, Multiplication, and Amplification",
+            "doi": "10.1002/anie.199100491",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.199100491.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Synthesis of Complex Druglike Molecules by the Use of Highly Functionalized Bench\u2010Stable Organozinc Reagents",
+            "doi": "10.1002/anie.201604652",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201604652.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Nickel\u2010Catalyzed CO2 Rearrangement of Enol Metal Carbonates for the Efficient Synthesis of \u03b2\u2010Ketocarboxylic Acids",
+            "doi": "10.1002/anie.201609338",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201609338.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Decarboxylative Negishi Coupling of Redox\u2010Active Aliphatic Esters by Cobalt Catalysis",
+            "doi": "10.1002/anie.201806799",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201806799.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Preparation of Solid Polyfunctional Alkynylzinc Pivalates with Enhanced Air and Moisture Stability for Organic Synthesis",
+            "doi": "10.1002/anie.201704400",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201704400.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Novel chiral thiazolinecontaining NO ligands in the asymmetric addition of diethylzinc to aldehydes: substituent effect on the enantioselectivity",
+            "doi": "10.1002/aoc.2820",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_aoc.2820.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Asymmetric ethylation of aromatic aldehyde by diethylzinc in the presence of chiral auxiliaries derived from (S)-[4-HOC6H4CH2CH(NH2)CPh2OH]",
+            "doi": "10.1002/aoc.590090708",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_aoc.590090708.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Chiral P,N\u2010ligands for the highly enantioselective addition of diethylzinc to aromatic aldehydes",
+            "doi": "10.1002/aoc.5108",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_aoc.5108.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Radical-Polar Crossover Domino Reaction Involving Alkynes: A Stereoselective Zinc Atom Radical Transfer",
+            "doi": "10.1002/chem.200801451",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200801451.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Cobalt\u2010Catalyzed Cross\u2010Couplings and Electrophilic Aminations using Organozinc Pivalates",
+            "doi": "10.1002/cctc.201900070",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cctc.201900070.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Systematic Studies using 2-(1-Adamantylethynyl)pyrimidine-5-carbaldehyde as a Starting Material in Soai's Asymmetric Autocatalysis",
+            "doi": "10.1002/chem.200900634",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200900634.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Highly Homogeneous Stereocontrolled Construction of Quaternary Hydroxyesters by Addition of Dimethylzinc to Ketoesters Promoted by Chiral Perhydrobenzoxazines and B(OEt)3",
+            "doi": "10.1002/chem.201102913",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201102913.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Absolute Asymmetric Synthesis of Enantiopure Organozinc Reagents, Followed by Highly Enantioselective Chlorination",
+            "doi": "10.1002/chem.201301465",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201301465.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Dimethylzinc-Mediated, Enantioselective Synthesis of Propargylic Amines",
+            "doi": "10.1002/chem.200601347",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200601347.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "AirStable Solid Aryl and Heteroaryl Organozinc Pivalates: Syntheses and Applications in Organic Synthesis",
+            "doi": "10.1002/chem.201403015",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201403015.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Mechanochemical Pd\u2010Catalyzed Cross\u2010Coupling of Arylhalides and Organozinc Pivalates",
+            "doi": "10.1002/chem.202202040",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.202202040.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Modulation of Multifunctional N,O,P Ligands for Enantioselective CopperCatalyzed Conjugate Addition of Diethylzinc and Trapping of the Zinc Enolate",
+            "doi": "10.1002/asia.201300544",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_asia.201300544.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Synthesis and application of 3?substituted (S)?BINOL as chiral ligands for the asymmetric ethylation of aldehydes",
+            "doi": "10.1002/chir.20842",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.20842.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "The Syntheses of new Camphorsulfonylated Ligands Derived from 2Amino2Hydroxy1,1Binaphthyl and Their Enantioselectivities in the Addition of Dialkylzinc Reagents to Aldehydes",
+            "doi": "10.1002/chir.22078",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.22078.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Enabling Asymmetric Alkynylation of Azaaryl Aldehydes with Soai Autocatalyst\n",
+            "doi": "10.1002/ejoc.201500507",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201500507.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Catalytic enantioselective organozinc addition toward optically active tertiary alcohol synthesis",
+            "doi": "10.1002/tcr.20146",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.20146.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "PII: 0957-4166(95)00142-C",
+            "doi": "10.1016/0957-4166(95)00142-C",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0957-4166(95)00142-C.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "Improved dimethylzinc-promoted vinylation of nitrones with vinylboronic esters",
+            "doi": "10.1016/j.jorganchem.2010.07.009",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2010.07.009.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2005.03.076",
+            "doi": "10.1016/j.tet.2005.03.076",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2005.03.076.pdf",
+            "category": "O2-"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.11.030",
+            "doi": "10.1016/j.tet.2004.11.030",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.11.030.pdf",
+            "category": "O2-"
+        }
+    ]
+}

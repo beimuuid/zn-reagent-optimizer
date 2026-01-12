@@ -1,0 +1,378 @@
+{
+  "variable_divisions": [
+    {
+      "variable": "catalyst",
+      "type": "discrete",
+      "cluster": [
+        "Ni(PMe3)2Cl2",
+        "NiCl2(PCy3)2",
+        "NiCl2(PEt3)2",
+        "Ni(cod)2",
+        "Pd(OAc)2",
+        "Pd(dba)2",
+        "PdCl2(SPhos)2",
+        "Pd-PEPPSI-IPent",
+        "Pd-PEPPSI-IPr",
+        "XPhos Pd G3",
+        "QPhos Pd G3",
+        "Ni(dppf)Cl2"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.9,
+      "description": "Highly active and selective catalysts for cross-coupling, often featuring bulky, electron-rich phosphine or NHC ligands. Ni(PMe3)2Cl2 and NiCl2(PCy3)2 are optimal for C-CN and C-N activation respectively. Pd-NHC complexes are excellent for C-S and sterically hindered couplings."
+    },
+    {
+      "variable": "catalyst",
+      "type": "discrete",
+      "cluster": [
+        "Pd(PPh3)4",
+        "PdCl2(PPh3)2",
+        "NiCl2(dppe)",
+        "NiCl2(dppp)",
+        "CoBr2",
+        "CoCl2",
+        "Cu(OAc)2",
+        "CuI",
+        "CuCN",
+        "Cu(OTf)2",
+        "CuTC"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.6,
+      "description": "Standard, moderately effective catalysts. Often serve as good starting points but are frequently outperformed by more specialized ligand/metal combinations. Their effectiveness is highly dependent on the specific reaction type."
+    },
+    {
+      "variable": "catalyst",
+      "type": "discrete",
+      "cluster": [
+        "PdCl2(dppb)",
+        "Pd(PCy3)2",
+        "Pd(PPh3)2Cl2",
+        "FeCl2",
+        "Fe(OTf)2"
+      ],
+      "effect_on": "yield",
+      "sign": "-",
+      "confidence": 0.8,
+      "description": "Ineffective or poorly performing catalysts for specific transformations. For example, Pd catalysts can fail in reactions optimized for Ni, and certain phosphine ligands like dppb can be unsuitable for selective monoalkylation."
+    },
+    {
+      "variable": "catalyst",
+      "type": "discrete",
+      "cluster": [
+        "Rh(cod)OH2",
+        "RhCl(C2H4)22",
+        "IrCl(COE)22",
+        "Ni/dcype",
+        "Ir(ppy)3",
+        "4CzIPN"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.7,
+      "description": "Catalysts for specific C-H activation, ring-opening, or photoredox reactions. Their effectiveness is highly specific to the transformation and often depends on a dual catalytic system."
+    },
+    {
+      "variable": "catalyst",
+      "type": "discrete",
+      "cluster": [
+        "(-)-DAIB",
+        "(R)-DPP-H8-BINOL",
+        "Taniaphos",
+        "chiral phosphoramidites",
+        "chiral peptide ligands",
+        "chiral dipeptide ligands",
+        "chiral Schiff base ligands",
+        "chiral P,N-ligands",
+        "chiral diselenide ligands",
+        "chiral diamine ligands"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.85,
+      "description": "Chiral ligands and catalysts that induce high enantioselectivity. Performance is often highly substrate-specific and may involve matched/mismatched pairing effects. Includes amino alcohols, BINOL derivatives, and various phosphine/phosphoramidite scaffolds."
+    },
+    {
+      "variable": "solvent",
+      "type": "discrete",
+      "cluster": [
+        "THF",
+        "Dioxane",
+        "DME",
+        "THF/Dioxane",
+        "THF/DME (1:1)"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.7,
+      "description": "Standard coordinating ethereal solvents. Generally effective for a wide range of organometallic reactions, including Grignard formation, Negishi couplings, and copper-catalyzed additions."
+    },
+    {
+      "variable": "solvent",
+      "type": "discrete",
+      "cluster": [
+        "Et2O",
+        "MTBE",
+        "CPME",
+        "Toluene/i-Pr2O (4:1)"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.8,
+      "description": "Less coordinating or sterically hindered ethereal solvents. Often optimal for enantioselective additions as they minimize competition with the chiral ligand for metal coordination, leading to higher stereocontrol."
+    },
+    {
+      "variable": "solvent",
+      "type": "discrete",
+      "cluster": [
+        "DMF",
+        "NMP",
+        "DMAc",
+        "DMPU",
+        "DMSO",
+        "THF/NMP (1:1)",
+        "THF/DMF",
+        "MeCN/DMF (2:1)"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.9,
+      "description": "Highly polar aprotic solvents. Essential for specific reactions like C-N/C-S couplings and for stabilizing sensitive intermediates like perfluoroalkylzincs. Often inhibitory in other systems."
+    },
+    {
+      "variable": "solvent",
+      "type": "discrete",
+      "cluster": [
+        "Toluene",
+        "Benzene",
+        "Xylene",
+        "Mesitylene"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.8,
+      "description": "Non-polar aromatic solvents. Optimal for many enantioselective additions catalyzed by chiral amino alcohols, likely by promoting a specific catalyst aggregation state and minimizing coordination."
+    },
+    {
+      "variable": "solvent",
+      "type": "discrete",
+      "cluster": [
+        "Hexane",
+        "Heptane",
+        "Pentane"
+      ],
+      "effect_on": "yield",
+      "sign": "-",
+      "confidence": 0.7,
+      "description": "Non-polar aliphatic solvents. Generally poor solvents for polar catalysts and reagents, leading to low solubility and reactivity, although they are optimal in some specific enantioselective additions."
+    },
+    {
+      "variable": "solvent",
+      "type": "discrete",
+      "cluster": [
+        "H2O",
+        "EtOH",
+        "MeOH",
+        "iPrOH",
+        "t-AmylOH",
+        "aqueous medium"
+      ],
+      "effect_on": "yield",
+      "sign": "-",
+      "confidence": 0.9,
+      "description": "Protic solvents. Generally detrimental to reactions involving organometallic reagents due to rapid protonolysis, except in specific cases like 'on water' catalysis or when used as a proton source."
+    },
+    {
+      "variable": "additive",
+      "type": "discrete",
+      "cluster": [
+        "LiCl",
+        "LiBr",
+        "ZnBr2",
+        "ZnCl2",
+        "MgCl2",
+        "MgBr2"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.95,
+      "description": "Essential salt additives. LiCl is a crucial activator for many organozinc preparations and Negishi couplings by breaking aggregates. MgX2 and ZnX2 are key Lewis acids or transmetalation promoters in many systems."
+    },
+    {
+      "variable": "additive",
+      "type": "discrete",
+      "cluster": [
+        "AlMe3",
+        "BF3.OEt2",
+        "Ti(OiPr)4",
+        "Ti(Ot-Bu)4",
+        "AlCl3"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.9,
+      "description": "Strong Lewis acid additives. Required to activate carbonyls or other electrophiles towards attack by less reactive organometallic reagents. Ti(OiPr)4 is a key co-catalyst in many enantioselective additions."
+    },
+    {
+      "variable": "additive",
+      "type": "discrete",
+      "cluster": [
+        "K3PO4",
+        "K2CO3",
+        "Cs2CO3",
+        "KOH",
+        "KOtBu",
+        "NaOtBu",
+        "NaH"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.8,
+      "description": "Inorganic and organic bases. Essential for many cross-coupling reactions (e.g., Suzuki, Heck) and C-H activation pathways to facilitate deprotonation or transmetalation steps."
+    },
+    {
+      "variable": "additive",
+      "type": "discrete",
+      "cluster": [
+        "HMPA",
+        "DMPU",
+        "TMEDA",
+        "DiMPEG"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.9,
+      "description": "Strongly coordinating additives. Can dramatically alter reactivity and selectivity by modifying the aggregation state and coordination sphere of organometallic reagents, such as in mixed zincate couplings."
+    },
+    {
+      "variable": "additive",
+      "type": "discrete",
+      "cluster": [
+        "TMSCl",
+        "Ac2O",
+        "Citric acid",
+        "TFA"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.9,
+      "description": "Essential promoters for specific reaction types. TMSCl is required for certain olefination and trapping reactions. Acetic anhydride is a specific CO precursor. Brønsted acids like citric acid promote condensation steps."
+    },
+    {
+      "variable": "additive",
+      "type": "discrete",
+      "cluster": [
+        "CuI",
+        "PPh3",
+        "LiCl"
+      ],
+      "effect_on": "yield",
+      "sign": "-",
+      "confidence": 0.8,
+      "description": "Inhibitory additives in specific contexts. For example, CuI can inhibit some Pd-catalyzed reactions, excess PPh3 can inhibit 'ligandless' systems, and LiCl can promote a racemic background reaction in some enantioselective additions."
+    },
+    {
+      "variable": "organozinc_reagent",
+      "type": "discrete",
+      "cluster": [
+        "Clc1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "FC(F)(F)c1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "Fc1ccc(c(F)c1)[Zn]OC(=O)C(C)(C)C",
+        "c1ccc2c(c1)sc(c2)[Zn]OC(=O)C(C)(C)C",
+        "CC(C)=C(C#N)C[Zn]OC(=O)C(C)(C)C",
+        "CC(C)=CC[Zn]OC(=O)C(C)(C)C",
+        "C1C=C(CC1)[Zn]OC(=O)C(C)(C)C",
+        "CC1(C)C2CC(C=C2[Zn]OC(=O)C(C)(C)C)C1",
+        "CC(C)(C)C(=O)OCCCCCC[Zn]CCCCCC(=O)OC(C)(C)C"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.9,
+      "description": "Air-stable solid organozinc pivalates. These reagents show enhanced stability due to the pivalate group, making them easy to handle while retaining high reactivity in cross-coupling reactions."
+    },
+    {
+      "variable": "organozinc_reagent",
+      "type": "discrete",
+      "cluster": [
+        "Cl[Zn]Cc1ccccc1.Cl[Li]",
+        "Cl[Zn]CC1=C2C=CC=CC2=CC=C1.Cl[Li]",
+        "Cl[Zn]CC1=CC(Br)=CC=C1.Cl[Li]",
+        "CC1=CC=C(C[Zn]Cl)C=C1.Cl[Li]",
+        "COC1=CC(C[Zn]Cl)=CC=C1.Cl[Li]",
+        "FC1=CC=C(C[Zn]Cl)C=C1.Cl[Li]",
+        "N#CC1=CC(C[Zn]Cl)=CC=C1.Cl[Li]",
+        "C=CC[Zn]Cl.Cl[Li]",
+        "CC(C)=CC[Zn]Cl.Cl[Li]"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.9,
+      "description": "Organozinc reagents complexed with LiCl ('ate' complexes). The presence of LiCl is often crucial for high reactivity, as it breaks up aggregates and forms more nucleophilic zincate species."
+    },
+    {
+      "variable": "organozinc_reagent",
+      "type": "discrete",
+      "cluster": [
+        "CCCC[Zn-](CCCC)c1ccccc1.[Br-].[Mg+2]",
+        "CCCC[Zn-](c1ccccc1)c1ccccc1.[Br-].[Mg+2]",
+        "C[Zn]c1ccccc1",
+        "CCCC[Zn]c1ccccc1"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.7,
+      "description": "Mixed diorganozinc or triorganozincate reagents. Used for atom-economical transfer of a specific group, with the other group(s) acting as non-transferable 'dummy' ligands. Selectivity is highly tunable with additives."
+    },
+    {
+      "variable": "organozinc_reagent",
+      "type": "discrete",
+      "cluster": [
+        "c1ccc(cc1)C(C)[Zn]Cl",
+        "CC(CC)ZnBr",
+        "C1CCC(CC1)[Zn]Br",
+        "C1CCC(C1)[Zn]Br",
+        "CC(C)[Zn]C(C)C"
+      ],
+      "effect_on": "yield",
+      "sign": "-",
+      "confidence": 0.6,
+      "description": "Secondary or sterically hindered organozinc reagents. Generally show lower reactivity compared to primary or less hindered analogues, often requiring more forcing conditions or resulting in lower yields."
+    },
+    {
+      "variable": "organozinc_reagent",
+      "type": "discrete",
+      "cluster": [
+        "FC(F)(F)c1cccc(c1)[Zn]Br",
+        "FC(F)(F)c1ccc(cc1)[Zn]I",
+        "N#Cc1ccc(cc1)[Zn]Br",
+        "N#Cc1cccc(c1)[Zn]Br"
+      ],
+      "effect_on": "yield",
+      "sign": "-",
+      "confidence": 0.7,
+      "description": "Organozinc reagents with strong electron-withdrawing groups (EWGs). These reagents are often less nucleophilic and thus less reactive, leading to lower yields compared to electron-neutral or electron-rich analogues."
+    },
+    {
+      "variable": "organozinc_reagent",
+      "type": "discrete",
+      "cluster": [
+        "c1ccc(C[Zn]Br)c(Br)c1",
+        "c1ccc(cc1)[Zn]c1ccccc1",
+        "c1ccc(cc1)C[Zn]Br",
+        "c1ccc(cc1)[Zn]Br"
+      ],
+      "effect_on": "yield",
+      "sign": "+",
+      "confidence": 0.8,
+      "description": "Simple, unfunctionalized primary alkyl or aryl zinc reagents. Often serve as high-yielding benchmarks in optimization studies, demonstrating the fundamental reactivity of the system."
+    }
+  ],
+  "importance": {
+    "catalyst": 0.35,
+    "additive": 0.3,
+    "solvent": 0.2,
+    "organozinc_reagent": 0.15
+  }
+}

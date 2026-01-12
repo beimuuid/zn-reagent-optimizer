@@ -1,0 +1,16 @@
+# LLM 相关配置 (@package llm)
+
+# LLM API 的基础 URL (可选, null 表示使用默认)
+base_url: 
+# LLM API 密钥 (可选, null 表示使用环境变量)
+api_key: 
+
+# 要使用的 LLM 模型名称
+model_name: "gemini-3-pro-preview"
+
+# LLM 模型温度 (设置为 0 以获得确定的输出)
+temperature: 0.2
+# 最大重试次数
+max_retries: 5
+# 重试延迟
+retry_delay: 10

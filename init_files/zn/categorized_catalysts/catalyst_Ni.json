@@ -1,0 +1,358 @@
+{
+    "catalysts": [
+        "Cp2Ni",
+        "Nano NiO",
+        "Ni Nps",
+        "Ni(IPr)2",
+        "Ni(OAc)2",
+        "Ni(OTf)2",
+        "Ni(Xant)(oTol)Cl",
+        "Ni(Xant)Cl2",
+        "Ni(acac)2",
+        "Ni(cod)2",
+        "Ni(dppe)Cl2",
+        "Ni(dppf)(oTol)Cl",
+        "Ni(dppf)Cl2",
+        "Ni(dppp)Cl2",
+        "Ni-NP",
+        "NiBr2",
+        "NiBr2.dtbpy",
+        "NiCl2",
+        "NiCl2(IPr)(PPh3)",
+        "NiCl2(PCy3)2",
+        "NiCl2(PEt3)2",
+        "NiCl2(PMe3)2",
+        "NiCl2(PPh3)2",
+        "NiCl2.dtbpy",
+        "NiCl2(dme)",
+        "NiHCl(dppe)",
+        "NiI2",
+        "NiXantPhos Pd G3",
+        "dttbpy.NiCl2"
+    ],
+    "reagents": [
+        "Clc1ccc(c(c1)Cl)[Zn]Br",
+        "Clc1ccc(c(c1)Cl)[Zn]I",
+        "Clc1ccc(cc1)[Zn]Br",
+        "Clc1ccc(cc1)[Zn]Cl",
+        "Clc1ccc(cc1)[Zn]I",
+        "Clc1ccccc1C([Zn]Cl)C(=O)OC",
+        "FC(F)(F)c1ccc(cc1)[Zn]Br",
+        "FC(F)(F)c1ccc(cc1)[Zn]I",
+        "FC(F)(F)c1cccc(c1)C[Zn]Cl",
+        "FC(F)(F)c1cccc(c1)[Zn]Br",
+        "FC(F)(F)c1cccc(c1)[Zn]Cl",
+        "F[C](F)(F)C(Cl)(Cl)[Zn]Cl",
+        "F[C](F)(F)C(F)(F)[Zn]I",
+        "F[C](F)(F)C([Zn]I)C(F)(F)F",
+        "F[C](F)(F)[Zn]I",
+        "Fc1ccc(cc1)[Zn]Br",
+        "N#Cc1ccc(cc1)[Zn]Br",
+        "N#Cc1ccc(cc1)[Zn]I",
+        "N#Cc1cccc(c1)C[Zn]Cl",
+        "N#Cc1cccc(c1)[Zn]Br",
+        "N#Cc1ccccc1[Zn]Br"
+    ],
+    "papers": [
+        {
+            "title": "Room Temperature Nickel(0)-Catalyzed Suzuki-Miyaura Cross-Couplings of Activated Alkenyl Tosylates: Efficient Synthesis of 4-Substituted Coumarins and 4-Substituted 2(5H)- Furanones",
+            "doi": "10.1002/adsc.200404150",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200404150.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "An Efficient and Reliable Procedure for the Preparation of Highly Reactive Rieke Zinc",
+            "doi": "10.1002/adsc.201201077",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201201077.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "NickelCatalyzed CrossCoupling of Arene or Heteroarenecarbonitriles with Aryl or Heteroarylmanganese Reagents through CCN Bond Activation",
+            "doi": "10.1002/adsc.201200369",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201200369.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "NickelCatalyzed Reductive Benzylation of Aldehydes with Benzyl Halides and Pseudohalides",
+            "doi": "10.1002/adsc.201400970",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201400970.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Preparation and Evaluation of Sterically Hindered Acridine Photocatalysts",
+            "doi": "10.1002/adsc.202200515",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.202200515.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Synthesis of 2,4 and 2,5Disubstituted Oxazoles via Metal Catalyzed CrossCoupling Reactions",
+            "doi": "10.1002/adsc.201000668",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201000668.pdf",
+            "category": "Pd, Ni, Cu"
+        },
+        {
+            "title": "Nickel-Catalyzed Cross-Coupling Reaction of Alkyl Halides with Organozinc and Grignard Reagents with 1,3,8,10-Tetraenes as Additives\n\nThis research was supported financially in part by a Grant-in-Aid for Scientific Research. We thank the Instrumental Analysis Center, Faculty of Engineering, Osaka University, for high-resolution mass-spectrometric measurements and elemental analysis.\n",
+            "doi": "10.1002/anie.200460246",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200460246.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "NickelCatalyzed Cyclization of DifluoroSubstituted 1,6Enynes with Organozinc Reagents through the Stereoselective Activation of CF Bonds: Synthesis of Bicyclo[3.2.0]heptene Derivatives\n",
+            "doi": "10.1002/anie.201004543",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201004543.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "NickelCatalyzed CrossCoupling of Aryltrimethylammonium Iodides with Organozinc Reagents\n",
+            "doi": "10.1002/anie.201100683",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201100683.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Nickel‐Catalyzed CO2 Rearrangement of Enol Metal Carbonates for the Efficient Synthesis of β‐Ketocarboxylic Acids",
+            "doi": "10.1002/anie.201609338",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201609338.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Dual Nickel‐ and Photoredox‐Catalyzed Enantioselective Desymmetrization of Cyclic meso‐Anhydrides",
+            "doi": "10.1002/anie.201700097",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201700097.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Reaction of Nitrogen‐Radicals with Organometallics Under Ni‐Catalysis: N‐Arylations and Amino‐Functionalization Cascades",
+            "doi": "10.1002/anie.201900510",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201900510.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Enantioselective Radical Addition/Cross‐Coupling of Organozinc Reagents, Alkyl Iodides, and Alkenylboron Reagents",
+            "doi": "10.1002/anie.201908029",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201908029.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Regio- and stereospecific synthesis of polysubstituted alkenes by carbozincation of acetylenic sulfones",
+            "doi": "10.1002/aoc.1508",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_aoc.1508.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Reactivity of mixed organozinc and mixed organocopper reagents: 11. Nickel-catalyzed atom-economic aryl–allyl coupling of mixed (n-alkyl)(aryl)zincs",
+            "doi": "10.1002/aoc.3192",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_aoc.3192.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "A.M. Zaitsev: Lasting Contributions of a Synthetic Virtuoso a Century after his Death",
+            "doi": "10.1002/anie.201100215",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201100215.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Catalytic Enantioselective Conjugate Addition of Dialkylzinc Compounds to Chalcones",
+            "doi": "10.1002/cber.19921250530",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cber.19921250530.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Stereoselective Preparation of Polyfunctional Cyclopentane Derivatives by Radical Nickel- or Palladium-Catalyzed Carbozincations",
+            "doi": "10.1002/chem.19960021006",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.19960021006.pdf",
+            "category": "Pd, Ni, Cu"
+        },
+        {
+            "title": "OnePot Synthesis of Amino Acids from Imines through CO2 Incorporation: An Alternative Method for Strecker Synthesis\n",
+            "doi": "10.1002/anie.201006422",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201006422.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Pd and NiCatalyzed CrossCoupling Reactions of Functionalized Organozinc Reagents with Unsaturated Thioethers",
+            "doi": "10.1002/chem.201002850",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201002850.pdf",
+            "category": "Pd, Ni"
+        },
+        {
+            "title": "Expanding MgZn Hybrid Chemistry: Inorganic Salt Effects in Addition Reactions of Organozinc Reagents to Trifluoroacetophenone and the Implications for a Synergistic LithiumMagnesiumZinc Activation",
+            "doi": "10.1002/chem.201100866",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201100866.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "NickelCatalyzed Csp2Csp3 Bond Formation by CarbonFluorine Activation",
+            "doi": "10.1002/chem.201303809",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201303809.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "A General Strategy for the Synthesis of Enantiomerically Pure Azetidines and Aziridines through NickelCatalyzed CrossCoupling",
+            "doi": "10.1002/chem.201500886",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201500886.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Efficient Synthesis of Diaryl Ketones by Nickel‐Catalyzed Negishi Cross‐Coupling of Amides by Carbon–Nitrogen Bond Cleavage at Room Temperature Accelerated by a Solvent Effect",
+            "doi": "10.1002/chem.201602202",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201602202.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Nickel‐Catalyzed Coupling of Arylzinc Halides with Thioesters",
+            "doi": "10.1002/chem.201801887",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201801887.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Metal‐Catalyzed Synthesis and Use of Thioesters: Recent Developments",
+            "doi": "10.1002/chem.201705025",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201705025.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "Absolute Asymmetric Synthesis of Enantiopure Organozinc Reagents, Followed by Highly Enantioselective Chlorination",
+            "doi": "10.1002/chem.201301465",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201301465.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Photoinduced Merging with Copper‐ or Nickel‐Catalyzed 1,4‐Cyanoalkylarylation of 1,3‐Enynes to Access Multiple Functionalizatized Allenes in Batch and Continuous Flow",
+            "doi": "10.1002/cjoc.202200056",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cjoc.202200056.pdf",
+            "category": "Cu, Ni"
+        },
+        {
+            "title": "An Alternative Synthesis of Cycloalkyl‐Substituted CPA Catalysts and Application in Asymmetric Protonation Reactions**",
+            "doi": "10.1002/ejoc.202100980",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.202100980.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Enantioselective addition of diethylzinc to aldehydes catalyzed by optically active C2-symmetrical bis-[beta]-amino alcohols",
+            "doi": "10.1002/chir.10132",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.10132.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "New chiral fluoroanthryl derivatives: Resolution of the enantiomers by chromatography on cellulose esters and their evaluation as chiral solvating agents in NMR spectroscopy",
+            "doi": "10.1002/chir.530030307",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.530030307.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Alkylation of electron‐deficient olefins through conjugate addition of organozinc reagents: An update",
+            "doi": "10.1002/ejoc.202100828",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.202100828.pdf",
+            "category": "Pd, Ni, Cu, Rh"
+        },
+        {
+            "title": "The Development of a Stereoselective Method for the Synthesis of Tetrasubstituted Derivatives of &#x03B1;,&#x03B2;&#x2010;Unsaturated Carboxylic Acids",
+            "doi": "10.1002/hlca.201600079",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_hlca.201600079.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Enabling Asymmetric Alkynylation of Azaaryl Aldehydes with Soai Autocatalyst\n",
+            "doi": "10.1002/ejoc.201500507",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201500507.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Telescoped Synthesis of γ‐Bromo‐β‐Lactones from Allylic Bromides Employing Carbon Dioxide",
+            "doi": "10.1002/ijch.201600125",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ijch.201600125.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "10.1007_s10562-013-0979-5",
+            "doi": "10.1007/s10562-013-0979-5",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s10562-013-0979-5.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Chiral N‐tert‐Butylsulfinyl Imines: New Discoveries",
+            "doi": "10.1002/tcr.202000122",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.202000122.pdf",
+            "category": "Pd, Ni, Cu, Rh"
+        },
+        {
+            "title": "10.1007_s11172-012-0176-5",
+            "doi": "10.1007/s11172-012-0176-5",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s11172-012-0176-5.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Nickel-Catalyzed Aromatic C–H Functionalization",
+            "doi": "10.1007/s41061-016-0053-z",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s41061-016-0053-z.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "Synthesis of Chiral Pyridylphenols for the Enantioselective Addition of Diethylzinc to Aldehydes",
+            "doi": "10.1002/jccs.201100474",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_jccs.201100474.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "10.1016_j.ccr.2022.214455",
+            "doi": "10.1016/j.ccr.2022.214455",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.ccr.2022.214455.pdf",
+            "category": "Pd, Ni, Cu, Co, Rh"
+        },
+        {
+            "title": "Regio- and stereospecific synthesis of vinyl halides via carbozincation of acetylenic sulfones followed by halogenation",
+            "doi": "10.1016/j.jorganchem.2009.03.006",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2009.03.006.pdf",
+            "category": "Cu, Ni"
+        },
+        {
+            "title": "10.1007_s11030-009-9195-z",
+            "doi": "10.1007/s11030-009-9195-z",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s11030-009-9195-z.pdf",
+            "category": "Ni, Cu, Fe, Pd, Rh"
+        },
+        {
+            "title": "PII: 0040-4020(96)00311-0",
+            "doi": "10.1016/0040-4020(96)00311-0",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4020(96)00311-0.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "Reactivity of mixed organozinc and mixed organocopper reagents: 14. Phosphine-nickel catalyzed aryl-allyl coupling of (n-butyl)(aryl)zincs. Ligand and substrate control on the group selectivity and regioselectivity",
+            "doi": "10.1016/j.jorganchem.2016.05.014",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2016.05.014.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "PII: 0022-328X(91)83083-G",
+            "doi": "10.1016/0022-328X(91)83083-G",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0022-328X(91)83083-G.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.09.005",
+            "doi": "10.1016/j.tet.2004.09.005",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.09.005.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.11.030",
+            "doi": "10.1016/j.tet.2004.11.030",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.11.030.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "PII: 0223-5234(96)88279-1",
+            "doi": "10.1016/0223-5234(96)88279-1",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0223-5234(96)88279-1.pdf",
+            "category": "Ni"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.07.018",
+            "doi": "10.1016/j.tet.2004.07.018",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.07.018.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        }
+    ]
+}

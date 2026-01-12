@@ -1,0 +1,274 @@
+[
+    {
+        "reagent": "BrZnCCC(=O)OCC",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This functionalized alkylzinc reagent contains an ester group. Iron catalysts, such as Fe(acac)3, effectively promote the conjugate addition (Michael addition) of such alkylzinc halides to electron-deficient alkenes. The mild nature of the iron catalyst ensures chemoselectivity, preventing the nucleophilic attack on the ester moiety while facilitating the C-C bond formation at the beta-position of enones or enoates.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCCCCCC#N",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This long-chain alkylzinc reagent features a nitrile group. Iron catalysts are highly compatible with nitriles, avoiding the side reactions (such as addition to the cyano group) often seen with harder nucleophiles. The catalyst facilitates the transfer of the alkyl chain in cross-coupling or conjugate addition reactions, maintaining the integrity of the nitrile functionality.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCCCCCCCC(=O)N1CCCCC1",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "Containing a tertiary amide group, this alkylzinc reagent is stable under iron-catalyzed conditions. Iron catalysts can mediate the coupling of this reagent without interfering with the amide bond, which is less electrophilic than esters or ketones. The catalyst promotes the activation of the C-Zn bond for subsequent C-C bond forming steps.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCCCCCOC(c1ccccc1)(c2ccccc2)c3ccccc3",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This reagent contains a bulky trityl ether protecting group. Iron catalysts are sensitive to steric hindrance but generally tolerate remote bulky groups. The catalyst facilitates the reaction of the primary alkylzinc moiety, while the trityl group remains stable, protecting the oxygen functionality during the transformation.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCCCCCO[Si](C(C)C)C(C)C",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "The silyl ether functionality (TIPS) in this alkylzinc reagent is robust under iron-catalyzed conditions. The catalyst promotes the reaction of the alkylzinc species without cleaving the silyl protecting group, allowing for the introduction of protected alcohols into complex molecular scaffolds.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCCCl",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This reagent contains a primary alkyl chloride. Iron catalysts are known for their ability to distinguish between different halogen leaving groups. In cross-coupling or addition reactions, the iron catalyst activates the C-Zn bond while leaving the C-Cl bond intact, enabling chemoselective transformations.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCOC",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "The ether functionality in this alkylzinc reagent is inert to iron catalysts. The catalyst facilitates the nucleophilic activity of the zinc reagent, allowing for efficient C-C bond formation, such as Michael addition, without affecting the ether linkage.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "BrZnCCCO[Si](C(C)C)C(C)C",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "Similar to other silyl-protected reagents, this TIPS-protected alkylzinc species is compatible with iron catalysis. The bulky silyl group does not interfere with the iron-mediated activation of the C-Zn bond, ensuring selective reaction at the carbon center.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "Br[Zn]CC(=O)O[R]",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This is a Reformatsky reagent. While typically used in uncatalyzed additions to aldehydes, iron catalysts can promote its conjugate addition to enones or cross-coupling reactions. The ester group is well-tolerated by the iron center, preventing self-condensation or side reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "C(C(=O)OC(C)(C)C)[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This tert-butyl ester Reformatsky reagent benefits from the steric bulk of the ester group, which suppresses side reactions. Iron catalysts can facilitate its coupling with electrophiles, leveraging the stability of the zinc enolate intermediate.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "C(C(=O)OC(C)C)[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "The isopropyl ester Reformatsky reagent is compatible with iron catalysis. The catalyst promotes the nucleophilic attack of the zinc reagent while the ester group remains intact, demonstrating the chemoselectivity of the iron-catalyzed process.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "C(C(=O)OC)[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This methyl ester Reformatsky reagent is a standard nucleophile. Iron catalysts can enhance its reactivity towards less reactive electrophiles or in conjugate additions, maintaining the ester functionality.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "C(C(=O)OCC)[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "The ethyl ester Reformatsky reagent reacts efficiently under iron catalysis. The catalyst mediates the C-C bond formation, typically via a radical or ferrate mechanism, without affecting the ester group.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "C=C(C(=O)OCC)C[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This allylic/Reformatsky-type reagent contains an alpha,beta-unsaturated ester. Iron catalysts are particularly effective for allylic substitutions and can facilitate the coupling of this reagent while preserving the conjugated system.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "CC(=O)OCCCC[Zn]CCCCCOOC(=O)C",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This is a functionalized dialkylzinc reagent with ester groups. Iron catalysts are excellent for mediating the transfer of alkyl groups from such reagents in cross-coupling or Michael addition reactions, tolerating the distal ester functionalities.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "CC(=O)OCCCC[Zn]CCCCOC(C)=O",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "Similar to the previous reagent, this functionalized dialkylzinc is compatible with iron catalysis. The catalyst facilitates the reaction of the alkyl chain while the ester groups remain unreactive, demonstrating high chemoselectivity.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "CC1(C)O[C@@H](CO1)CC[Zn]I",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This alkylzinc reagent contains a protected diol (acetonide). Iron catalysts tolerate acetal/ketal protecting groups well, allowing for the reaction of the alkylzinc moiety without deprotection or side reactions involving the oxygen functionalities.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "CC1(C)O[C@H](CO1)CC[Zn]I",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "The stereoisomer of the previous reagent, this acetonide-protected alkylzinc is also compatible with iron catalysis. The catalyst's mechanism does not typically interfere with remote stereocenters or acid-sensitive protecting groups like acetonides under neutral/mild conditions.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "ClCCCC[Zn]I",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This alkylzinc reagent contains a primary chloride. Iron catalysts are highly chemoselective and can activate the C-Zn bond for cross-coupling or addition without reacting with the alkyl chloride, which is less reactive towards oxidative addition with iron compared to palladium or nickel.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "COC(=O)C(C)(C)C=CC[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This reagent features an alkene and a sterically hindered ester. Iron catalysts can promote the reaction of the alkylzinc moiety. The steric bulk of the pivalate-like ester and the alkene unsaturation are tolerated, allowing for selective C-C bond formation at the zinc center.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "COC(=O)c1ccc(C[Zn]Cl)cc1",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This benzylic zinc reagent contains an ester group. Iron catalysts are effective for benzylic cross-couplings and additions. The ester group on the aromatic ring is stable under the reaction conditions, and the benzylic position is activated for coupling.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "reagent": "COC(=O)c1ccc(cc1)[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This arylzinc reagent with an electron-withdrawing ester group is a suitable partner for iron-catalyzed cross-coupling or C-H activation. The iron catalyst facilitates the transmetalation and subsequent coupling, tolerating the ester functionality which might be sensitive to more nucleophilic reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "reagent": "COc1ccc(cc1)[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This electron-rich arylzinc reagent (p-methoxyphenyl) is highly reactive in iron-catalyzed transformations. Iron catalysts can efficiently mediate its cross-coupling or addition reactions, often with high yields due to the electronic activation provided by the methoxy group.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "reagent": "COc1ccc(cc1)[Zn]Cl",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "Similar to the bromide analog, this arylzinc chloride is compatible with iron catalysis. The chloride counterion does not significantly hinder the transmetalation step in iron-catalyzed cycles, allowing for efficient coupling of the electron-rich aryl group.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "reagent": "COc1ccc(cc1)[Zn]I",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This arylzinc iodide is highly reactive. Iron catalysts can effectively utilize this reagent in cross-coupling reactions. The iodide counterion may facilitate the formation of active iron-zinc intermediates, promoting the reaction.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "reagent": "COc1ccccc1[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This ortho-methoxyphenylzinc reagent introduces steric hindrance near the metal center. Iron catalysts are generally robust but may show sensitivity to steric bulk. However, the chelating potential of the ortho-methoxy group might stabilize the organozinc intermediate or the iron-zinc transmetalation species.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "reagent": "N#CC(C)CCCC[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This branched alkylzinc reagent contains a nitrile group. Iron catalysts tolerate nitriles well and can facilitate the coupling of secondary/branched alkyl groups, although steric hindrance at the beta-position might slightly reduce the reaction rate compared to linear analogs.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "N#CCCC[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This primary alkylzinc reagent with a nitrile group is an excellent substrate for iron-catalyzed reactions. The linear chain minimizes steric hindrance, and the nitrile group is inert to the iron catalyst, allowing for high-yielding cross-couplings or additions.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "O=C(OC(C)(C)C)N1CCC2=C(C1)C=CC=C2[Zn]Cl",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This complex heterocyclic zinc reagent contains a Boc-protected amine and an aryl zinc moiety. Iron catalysts are compatible with Boc groups and can mediate the coupling of this sterically demanding substrate, making it useful for the synthesis of functionalized alkaloids or pharmaceutical intermediates.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "reagent": "O=C1c2ccccc2C(=O)N1CCCC[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This reagent features a phthalimide group. Iron catalysts are highly tolerant of imides and amides. The catalyst promotes the reaction of the alkylzinc chain without interfering with the phthalimide protecting group, allowing for the introduction of protected amines.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "c1ccc(S(=O)(=O)CCCC[Zn]Cl)cc1",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "The sulfone group in this alkylzinc reagent is stable under iron-catalyzed conditions. Iron catalysts can facilitate the coupling of this reagent, enabling the introduction of sulfonyl-functionalized alkyl chains into organic molecules.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)COCCC[Zn]Br",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This reagent contains a benzyl ether. Iron catalysts are compatible with ether functionalities and can promote the reaction of the alkylzinc moiety. The benzyl ether remains intact, serving as a robust protecting group during the iron-catalyzed transformation.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200801497"
+        ]
+    },
+    {
+        "reagent": "c1ccc2c(c1)oc=c2[Zn]Cl",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "This heteroarylzinc reagent (coumarin derivative) is a viable substrate for iron catalysis. Iron catalysts can mediate the cross-coupling or addition of this electron-rich/conjugated heterocyclic system, tolerating the lactone functionality inherent in the coumarin ring.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    },
+    {
+        "reagent": "c1ccc2c(c1)oc=c2[Zn]I",
+        "catalyst_commonality_summary": "Iron-based catalysts (e.g., Fe(acac)3, FeCl2) are sustainable, low-cost transition metal catalysts that operate via variable oxidation states (Fe(I)/Fe(II)/Fe(III)) and often involve radical or organoferrate intermediates. They are characterized by high functional group tolerance and the ability to catalyze C-C bond formation under mild conditions.",
+        "activity_analysis": "Similar to the chloride analog, this coumarin-derived zinc iodide is reactive in iron-catalyzed reactions. The iodide counterion may enhance the rate of transmetalation to the iron center, facilitating efficient coupling of the heteroaryl group.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400063"
+        ]
+    }
+]

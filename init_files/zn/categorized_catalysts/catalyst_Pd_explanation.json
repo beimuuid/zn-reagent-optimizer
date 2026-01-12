@@ -1,0 +1,142 @@
+[
+    {
+        "reagent": "C(C)[Zn]C(C)C",
+        "catalyst_commonality_summary": "Catalysts for secondary dialkylzinc reagents typically involve chiral ligands (e.g., amino alcohols, phosphoramidites) for asymmetric additions or transition metals (Pd, Ni) with bulky ligands for cross-coupling to prevent isomerization.",
+        "activity_analysis": "Di-sec-butylzinc exhibits higher steric hindrance compared to primary alkylzincs. In asymmetric additions to aldehydes, this steric bulk can enhance enantioselectivity when matched with appropriate chiral ligands like amino alcohols or DAIB analogues. However, in cross-coupling reactions (Negishi), secondary alkyl groups are prone to isomerization to primary alkyls via beta-hydride elimination. Catalysts with bulky ligands (e.g., Pd-PEPPSI-IPent or CPhos) or specific conditions (low temperature) are required to suppress this isomerization and maintain the secondary structure during transmetalation and reductive elimination.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201906898",
+            "10.1002/chem.202000870"
+        ]
+    },
+    {
+        "reagent": "C([Zn]Cl)[Zn]Cl",
+        "catalyst_commonality_summary": "Catalysts for gem-dizinc species often involve copper(I) salts (e.g., CuCN, CuI) with lithium additives to facilitate transmetalation, or Lewis acids (e.g., TiCl4) for activation in addition reactions.",
+        "activity_analysis": "Bis(chlorozincio)methane acts as a bis-nucleophile. Its activity is significantly influenced by the presence of additives like LiCl or Mg salts, which modify the aggregation state to form more reactive zincate species. In the presence of copper catalysts, it undergoes 1,4-addition to enones followed by cyclopropanation or trapping, behaving similarly to the iodo-analog but with potentially different solubility and reactivity profiles due to the chloride counterion.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900123",
+            "10.1002/chem.201000738"
+        ]
+    },
+    {
+        "reagent": "C([Zn]I)[Zn]I",
+        "catalyst_commonality_summary": "Catalysts include Copper(I) salts (CuCN, CuI) often with LiCl for solubilization and transmetalation, and Lewis acids for carbonyl activation.",
+        "activity_analysis": "Bis(iodozincio)methane is a versatile reagent for methylenation and cyclopropanation. Its activity is highly dependent on the solvent (THF is preferred) and the presence of TMSCl as an additive in conjugate additions to trap the intermediate zinc enolate. The reagent can undergo sequential reactions, such as 1,4-addition followed by intramolecular alkylation, facilitated by the dual zinc centers acting cooperatively as Lewis acids.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900123",
+            "10.1002/chem.201000738"
+        ]
+    },
+    {
+        "reagent": "CC(C)(C)[Zn]C(C)(C)C",
+        "catalyst_commonality_summary": "Catalysts involving radical initiators (e.g., air, AIBN) or transition metals (Cu, Pd) capable of handling bulky nucleophiles.",
+        "activity_analysis": "Di-tert-butylzinc is characterized by the weak C-Zn bond and high steric bulk of the tert-butyl group. This makes it an excellent radical initiator for reactions like hydrosilylation, where it decomposes to generate tert-butyl radicals. In nucleophilic substitutions or additions, its high steric hindrance requires highly active catalysts or specific conditions (e.g., polar solvents, high temperatures) to facilitate transmetalation and C-C bond formation.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201200126",
+            "10.1002/anie.202210103"
+        ]
+    },
+    {
+        "reagent": "CC(C)[Zn]C(C)C",
+        "catalyst_commonality_summary": "Chiral ligands such as amino alcohols (e.g., DAIB, ProPhenol), pyrimidyl alkanols (Soai catalyst), and transition metals (Cu, Ni) for cross-coupling.",
+        "activity_analysis": "Diisopropylzinc is more reactive than dimethyl- or diethylzinc in addition reactions due to the branching at the alpha-carbon. It is the reagent of choice for the Soai asymmetric autocatalysis reaction, where its reactivity allows for high amplification of chirality. In conjugate additions, the isopropyl group provides better yields than ethyl groups in certain domino reactions due to faster addition rates, though it can be prone to isomerization in cross-couplings without optimized ligands.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.200900634",
+            "10.1002/ejoc.201500507",
+            "10.1002/adsc.200800242"
+        ]
+    },
+    {
+        "reagent": "CC1(C)OB(C(CCC2=CC=CC=C2)([Zn]Br)B3OC(C)(C)C(C)(C)O3)OC1(C)C",
+        "catalyst_commonality_summary": "Iridium catalysts with chiral phosphoramidite or P,olefin ligands are typically used for asymmetric allylic substitutions involving these functionalized reagents.",
+        "activity_analysis": "This gem-diboryl alkylzinc reagent features high steric bulk and functional density. Its activity in Iridium-catalyzed asymmetric allylic substitution is governed by the stability of the C-Zn bond adjacent to two boron atoms. The zinc species acts as a nucleophile, and the reaction conditions (e.g., ZnBr2 additive) are tuned to maintain the integrity of the gem-diboryl moiety while allowing for high enantioselectivity and regioselectivity in the formation of the new C-C bond.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201805476"
+        ]
+    },
+    {
+        "reagent": "CC1(C)OB(C([Zn]Br)B2OC(C)(C)C(C)(C)O2)OC1(C)C",
+        "catalyst_commonality_summary": "Iridium catalysts (e.g., [Ir(cod)Cl]2) with chiral ligands and zinc salt additives (ZnBr2) are essential for the reactivity of this reagent.",
+        "activity_analysis": "(Diborylmethyl)zinc bromide is generated in situ from the corresponding lithium species to modulate reactivity. The addition of ZnBr2 is critical to form a stable zinc species that avoids side reactions (like amination) observed with the lithium precursor. In Ir-catalyzed reactions, this reagent serves as a nucleophile to introduce the gem-diborylmethyl group with high enantiocontrol, requiring specific ligands to manage the steric demand.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201805476"
+        ]
+    },
+    {
+        "reagent": "CCCCCCCC[CH2-].CCCCCCCC[CH2-].[Zn+2]",
+        "catalyst_commonality_summary": "Nickel or Palladium catalysts with phosphine ligands (e.g., tetraenes, PPh3) for cross-coupling; Chiral ligands (e.g., amino alcohols) for aldehyde addition.",
+        "activity_analysis": "Di-n-nonylzinc acts as a primary dialkylzinc reagent. Its long alkyl chains make it lipophilic. In Ni-catalyzed cross-couplings, specific ligands like tetraenes can facilitate the reaction by stabilizing the active catalytic species and preventing beta-hydride elimination. In asymmetric additions to aldehydes, it behaves similarly to diethylzinc but may require different ligand structures or solvents to optimize the hydrophobic interactions in the transition state.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200460246",
+            "10.1002/chir.10132"
+        ]
+    },
+    {
+        "reagent": "CN1C=C(C2=CC=CC=C12)[Zn]Cl",
+        "catalyst_commonality_summary": "Palladium (e.g., Pd(OAc)2, Pd-PEPPSI) and Nickel catalysts with electron-rich phosphines (e.g., PPh3, SPhos) or NHC ligands.",
+        "activity_analysis": "Indolylzinc chloride is a heteroarylzinc reagent. Its activity in Negishi coupling is influenced by the coordination of the indole nitrogen to the metal center. Catalysts with strong binding ligands (like NHCs or bidentate phosphines) are often required to prevent catalyst poisoning and facilitate transmetalation. The reagent shows good functional group tolerance and can be coupled with various electrophiles, including those with acidic protons if appropriate ligands are used.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201602202",
+            "10.1002/adsc.200900499"
+        ]
+    },
+    {
+        "reagent": "CN1C=NC=C1[Zn]I",
+        "catalyst_commonality_summary": "Palladium catalysts (e.g., Pd-PEPPSI, Pd(PPh3)4) and Copper catalysts (for transmetalation).",
+        "activity_analysis": "(1-methyl-1H-imidazol-5-yl)zinc iodide is a heteroarylzinc reagent prone to coordination issues due to the imidazole nitrogens. High-activity catalysts like Pd-PEPPSI are effective in promoting cross-coupling by stabilizing the Pd center. The reagent is typically prepared via direct insertion or lithiation/transmetalation and exhibits reactivity characteristic of electron-rich heteroaromatics, suitable for coupling with aryl halides and triflates.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.tet.2005.02.072"
+        ]
+    },
+    {
+        "reagent": "C[Si](C)(C(C)(C)C)[Zn][Si](C)(C)C(C)(C)C",
+        "catalyst_commonality_summary": "Radical initiators (e.g., tBu2Hg) or transition metals capable of Si-Zn bond activation.",
+        "activity_analysis": "Bis(tert-butyldimethylsilyl)zinc contains reactive Si-Zn bonds. It is often used in radical silylzincation reactions where the weak Si-Zn bond undergoes homolysis to generate silyl radicals. The steric bulk of the TBS groups stabilizes the reagent but also requires specific activation methods (like radical initiators or higher temperatures) to effect reaction with unsaturated substrates.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201200126"
+        ]
+    },
+    {
+        "reagent": "C[Si](C)(C)[Si]([Zn][Si]([Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C)([Si](C)(C)C)[Si](C)(C)C",
+        "catalyst_commonality_summary": "Radical initiators (e.g., Et2Zn, oxygen traces) or specific copper catalysts for stereoselective additions.",
+        "activity_analysis": "This bis(hypersilyl)zinc reagent is extremely bulky. Its activity is dominated by radical pathways due to the weakness of the Si-Zn bond and steric hindrance preventing polar pathways. It is used for the silylzincation of alkynes, where the bulky silyl group dictates regioselectivity and stereoselectivity (often trans-addition). Radical initiators like Et2Zn are required to start the chain mechanism.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.202001566"
+        ]
+    },
+    {
+        "reagent": "C[Zn]C",
+        "catalyst_commonality_summary": "Chiral ligands (amino alcohols, diols, phosphoramidites) for asymmetric addition; Cu, Ni, or Pd catalysts for cross-coupling and conjugate addition.",
+        "activity_analysis": "Dimethylzinc is less reactive than diethylzinc in nucleophilic additions due to the stronger Zn-C bond and lack of beta-hydrogens. In asymmetric additions to aldehydes/ketones, it often requires higher catalyst loadings, specific ligands (e.g., with smaller bite angles or specific electronic properties), or additives (e.g., Ti(OiPr)4) to achieve high conversion and enantioselectivity. In cross-couplings, it serves as a methylating agent, often requiring polar cosolvents or specific ligands to facilitate transmetalation.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200390088",
+            "10.1002/chem.201102913",
+            "10.1002/asia.201200676"
+        ]
+    },
+    {
+        "reagent": "C[Zn]Cl",
+        "catalyst_commonality_summary": "Palladium (e.g., Pd-PEPPSI, Pd(PPh3)4) and Nickel catalysts (e.g., NiCl2(PPh3)2) with salt additives (LiCl, MgCl2).",
+        "activity_analysis": "Methylzinc chloride is a standard reagent for Negishi coupling. Its reactivity is lower than dimethylzinc but can be significantly enhanced by the addition of LiCl or MgCl2 to form zincate species. It is compatible with a wide range of functional groups. In radical-type couplings (e.g., with alkyl halides), it can serve as a methyl source, though it may require specific ligands to prevent side reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201908029",
+            "10.1016/j.ejmech.2011.10.039"
+        ]
+    },
+    {
+        "reagent": "COc1ccccc1[Zn](Cl)(Cl)Cl.[Mg](O1CCCC1)O1CCCC1",
+        "catalyst_commonality_summary": "Palladium and Nickel catalysts for cross-coupling; Chiral ligands for asymmetric additions.",
+        "activity_analysis": "This 2-methoxyphenylzincate species exhibits enhanced nucleophilicity compared to neutral organozincs due to its anionic character. The ortho-methoxy group can act as an internal directing group, influencing regioselectivity and stability via chelation. In cross-couplings, it is highly reactive towards aryl halides. In asymmetric additions, the ortho-substituent can sterically hinder the formation of the optimal transition state, sometimes reducing enantioselectivity or requiring specific ligand modifications.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201906898",
+            "10.1016/j.tet.2004.09.005"
+        ]
+    },
+    {
+        "reagent": "[2H]C([2H])([Zn]I)[Zn]I",
+        "catalyst_commonality_summary": "Copper(I) salts (CuCN) and Lewis acids for activation.",
+        "activity_analysis": "Deuterated bis(iodozincio)methane shows identical chemical reactivity to its non-deuterated counterpart but allows for the introduction of deuterium labels. It is used in cyclopropanation and methylenation reactions. The activity is driven by the Lewis acidity of the two zinc centers and can be modulated by additives like TMSCl or CuCN to trap intermediates or facilitate transmetalation.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900123"
+        ]
+    }
+]

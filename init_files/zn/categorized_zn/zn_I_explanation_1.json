@@ -1,0 +1,54 @@
+[
+    {
+        "combination": "CuCN.2LiCl / LiOtBu / Et2O",
+        "reagent_commonality_summary": "The provided zinc reagents are primarily functionalized organozinc iodides (RZnI), including alkyl, aryl, heteroaryl, and perfluoroalkyl derivatives. They exhibit moderate nucleophilicity and high functional group tolerance but often require activation or transmetalation for efficient C-C bond formation. They are sensitive to air and moisture but less so than Grignard reagents.",
+        "activity_analysis": "The catalyst CuCN\u00b72LiCl is a soluble source of copper(I) that facilitates the rapid transmetalation of organozinc iodides (RZnI) to form reactive mixed copper-zinc species (RCu(CN)ZnI). The additive LiOtBu acts as a base and nucleophilic activator, potentially forming higher-order zincates or cuprates that exhibit enhanced nucleophilicity. Et2O serves as a coordinating solvent that stabilizes the organometallic intermediates without being as strongly coordinating as THF, maintaining a high Lewis acidity at the metal centers for substrate activation. This combination is particularly effective for cross-coupling and substitution reactions.",
+        "mechanism_data_doi_list": [
+            "10.1016/0022-328X(92)88002-Z",
+            "10.1016/0040-4039(96)01934-X",
+            "10.1016/0969-8051(94)E0067-S",
+            "10.1002/cctc.201800939"
+        ]
+    },
+    {
+        "combination": "Cu(OTf)2 / Pyridine / Toluene/Et2O (1:1)",
+        "reagent_commonality_summary": "The provided zinc reagents are primarily functionalized organozinc iodides (RZnI), including alkyl, aryl, heteroaryl, and perfluoroalkyl derivatives. They exhibit moderate nucleophilicity and high functional group tolerance but often require activation or transmetalation for efficient C-C bond formation. They are sensitive to air and moisture but less so than Grignard reagents.",
+        "activity_analysis": "Cu(OTf)2 serves as a precatalyst that is reduced in situ by the organozinc reagent to form active Cu(I) species. The triflate counterion is non-coordinating, which enhances the Lewis acidity of the copper center, facilitating coordination with substrates like enones. Pyridine acts as a ligand, modulating the steric and electronic properties of the copper complex, potentially preventing aggregation or directing stereoselectivity. The mixed solvent system of Toluene/Et2O balances the solubility of the reagents with the need for a non-polar environment to enhance ionic interactions and stereocontrol in conjugate addition reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.200800242",
+            "10.1002/adsc.200600562",
+            "10.1002/anie.200390088",
+            "10.1002/asia.201300544"
+        ]
+    },
+    {
+        "combination": "CuTC / DABCO / Et2O",
+        "reagent_commonality_summary": "The provided zinc reagents are primarily functionalized organozinc iodides (RZnI), including alkyl, aryl, heteroaryl, and perfluoroalkyl derivatives. They exhibit moderate nucleophilicity and high functional group tolerance but often require activation or transmetalation for efficient C-C bond formation. They are sensitive to air and moisture but less so than Grignard reagents.",
+        "activity_analysis": "Copper(I) thiophene-2-carboxylate (CuTC) is a highly active catalyst for allylic substitutions and conjugate additions, often outperforming halides due to the 'carboxylate effect' which may facilitate transmetalation or oxidative addition steps. DABCO acts as a Lewis base additive that can coordinate to the zinc or copper centers, stabilizing the organometallic species and potentially influencing regioselectivity. Et2O provides a standard stabilizing medium for the organocopper intermediates formed during the catalytic cycle.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.200800086",
+            "10.1002/anie.200601855",
+            "10.1016/j.cclet.2015.10.009"
+        ]
+    },
+    {
+        "combination": "Cu(OAc)2 / DMAP / MTBE",
+        "reagent_commonality_summary": "The provided zinc reagents are primarily functionalized organozinc iodides (RZnI), including alkyl, aryl, heteroaryl, and perfluoroalkyl derivatives. They exhibit moderate nucleophilicity and high functional group tolerance but often require activation or transmetalation for efficient C-C bond formation. They are sensitive to air and moisture but less so than Grignard reagents.",
+        "activity_analysis": "Cu(OAc)2 is a versatile catalyst precursor that can mediate oxidative couplings or cross-couplings involving heteroatoms. DMAP serves as a strong nucleophilic ligand, enhancing the electron density at the copper center and facilitating oxidative addition or transmetalation steps. MTBE is a coordinating ether solvent that stabilizes the organometallic intermediates while allowing for higher reaction temperatures compared to Et2O. This system is effective for reactions such as the thiolation of organozinc reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201806261",
+            "10.1002/chem.201403446",
+            "10.1016/j.apcata.2013.03.027"
+        ]
+    },
+    {
+        "combination": "CuBr.SMe2 / LiOtBu / Et2O",
+        "reagent_commonality_summary": "The provided zinc reagents are primarily functionalized organozinc iodides (RZnI), including alkyl, aryl, heteroaryl, and perfluoroalkyl derivatives. They exhibit moderate nucleophilicity and high functional group tolerance but often require activation or transmetalation for efficient C-C bond formation. They are sensitive to air and moisture but less so than Grignard reagents.",
+        "activity_analysis": "CuBr\u00b7SMe2 is a stable source of CuBr where the dimethyl sulfide ligand is labile, allowing for easy substrate coordination. LiOtBu acts as a base and activator, facilitating the formation of reactive zincate or cuprate species via salt metathesis or aggregation modification. Et2O is the preferred solvent to stabilize these reactive intermediates. This combination is particularly useful for promoting the addition of organozinc reagents to electrophiles that require activation or for modifying the regioselectivity of the addition.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200500653",
+            "10.1016/j.jfluchem.2014.12.003",
+            "10.1002/s10562-013-0979-5"
+        ]
+    }
+]

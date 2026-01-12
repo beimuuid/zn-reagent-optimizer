@@ -1,0 +1,73 @@
+[
+    {
+        "combination": "Pd-PEPPSI-IPent / LiCl / THF/NMP",
+        "reagent_commonality_summary": "The zinc reagents (RZnX, R2Zn) are moderate nucleophiles with high functional group tolerance (esters, nitriles, ketones). They often exist in Schlenk equilibrium. Their reactivity is significantly enhanced by polar solvents and salt additives which break up aggregates or form reactive zincate species.",
+        "activity_analysis": "The bulky IPent ligand on the Pd-PEPPSI catalyst stabilizes the active Pd(0) species and facilitates the coupling of sterically hindered substrates (e.g., tetra-ortho-substituted biaryls). LiCl is crucial for solubilizing the organozinc reagent and forming reactive zincates that undergo rapid transmetalation. The THF/NMP mixture provides a polar environment that further accelerates the reaction and stabilizes the catalytic intermediates.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.201000359",
+            "10.1002/anie.201806480",
+            "10.1002/anie.201604652"
+        ]
+    },
+    {
+        "combination": "NiCl2(PMe3)2 / MgCl2 / THF",
+        "reagent_commonality_summary": "The zinc reagents (RZnX, R2Zn) are moderate nucleophiles with high functional group tolerance (esters, nitriles, ketones). They often exist in Schlenk equilibrium. Their reactivity is significantly enhanced by polar solvents and salt additives which break up aggregates or form reactive zincate species.",
+        "activity_analysis": "This combination is effective for the cross-coupling of organozinc reagents with nitriles (C-CN activation). The electron-rich PMe3 ligands facilitate the oxidative addition of the tough C-CN bond. MgCl2 acts as a Lewis acid, activating the nitrile electrophile and assisting in the transmetalation step. THF is the standard solvent to maintain reagent solubility.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201200369"
+        ]
+    },
+    {
+        "combination": "Ni(Xant)(oTol)Cl / LiCl / THF",
+        "reagent_commonality_summary": "The zinc reagents (RZnX, R2Zn) are moderate nucleophiles with high functional group tolerance (esters, nitriles, ketones). They often exist in Schlenk equilibrium. Their reactivity is significantly enhanced by polar solvents and salt additives which break up aggregates or form reactive zincate species.",
+        "activity_analysis": "This well-defined Ni(II) precatalyst with the Xantphos ligand is optimized for Fukuyama-type coupling of thioesters with organozinc reagents. The Xantphos ligand suppresses homocoupling side reactions. LiCl activates the zinc reagent, ensuring efficient transmetalation to the nickel center in THF.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201801887"
+        ]
+    },
+    {
+        "combination": "NiCl2(PCy3)2 / LiCl / THF/NMP",
+        "reagent_commonality_summary": "The zinc reagents (RZnX, R2Zn) are moderate nucleophiles with high functional group tolerance (esters, nitriles, ketones). They often exist in Schlenk equilibrium. Their reactivity is significantly enhanced by polar solvents and salt additives which break up aggregates or form reactive zincate species.",
+        "activity_analysis": "Used for the cross-coupling of ammonium salts or other difficult electrophiles. The bulky, electron-rich PCy3 ligand promotes oxidative addition. NMP as a cosolvent is critical for stabilizing the nickel intermediates and solubilizing the ammonium salts. LiCl aids in the formation of reactive zincate species.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201100683"
+        ]
+    },
+    {
+        "combination": "Pd-PEPPSI-IPr / LiCl / THF",
+        "reagent_commonality_summary": "The zinc reagents (RZnX, R2Zn) are moderate nucleophiles with high functional group tolerance (esters, nitriles, ketones). They often exist in Schlenk equilibrium. Their reactivity is significantly enhanced by polar solvents and salt additives which break up aggregates or form reactive zincate species.",
+        "activity_analysis": "A robust system for Negishi coupling. The IPr ligand provides a good balance of steric bulk and electron donation. LiCl is essential for the transmetalation step, likely by forming a higher-order zincate. THF is the standard solvent, compatible with the LiCl-mediated zinc insertion preparation of reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.201000359",
+            "10.1002/chem.201404380"
+        ]
+    },
+    {
+        "combination": "PdCl2(SPhos)2 / LiCl / THF",
+        "reagent_commonality_summary": "The zinc reagents (RZnX, R2Zn) are moderate nucleophiles with high functional group tolerance (esters, nitriles, ketones). They often exist in Schlenk equilibrium. Their reactivity is significantly enhanced by polar solvents and salt additives which break up aggregates or form reactive zincate species.",
+        "activity_analysis": "SPhos is a specialized Buchwald ligand that is highly effective for coupling sterically hindered or electron-rich substrates. In the presence of LiCl, the organozinc reagents (often prepared as RZnX\u00b7LiCl) undergo efficient transmetalation. This system is particularly useful for functionalized alkylzinc reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.202000870",
+            "10.1002/ejoc.201600959"
+        ]
+    },
+    {
+        "combination": "CuCN.2LiCl / LiCl / THF",
+        "reagent_commonality_summary": "The zinc reagents (RZnX, R2Zn) are moderate nucleophiles with high functional group tolerance (esters, nitriles, ketones). They often exist in Schlenk equilibrium. Their reactivity is significantly enhanced by polar solvents and salt additives which break up aggregates or form reactive zincate species.",
+        "activity_analysis": "This combination forms soluble organocuprates (RCu(CN)ZnX) from organozinc reagents. The LiCl solubilizes the copper salt. These species are softer nucleophiles, excellent for SN2' allylic substitutions or conjugate additions with high regioselectivity.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.200204662",
+            "10.1016/0040-4039(96)01934-X",
+            "10.1016/0969-8051(94)E0067-S"
+        ]
+    },
+    {
+        "combination": "Pd(OAc)2 / ZnBr2 / THF",
+        "reagent_commonality_summary": "The zinc reagents (RZnX, R2Zn) are moderate nucleophiles with high functional group tolerance (esters, nitriles, ketones). They often exist in Schlenk equilibrium. Their reactivity is significantly enhanced by polar solvents and salt additives which break up aggregates or form reactive zincate species.",
+        "activity_analysis": "Pd(OAc)2 serves as the catalyst precursor. ZnBr2 acts as an additive that can facilitate the formation of zincates or assist in the transmetalation of in-situ generated reagents, particularly in Negishi couplings involving functionalized substrates.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.ejmech.2011.10.039",
+            "10.1002/ejoc.201701753"
+        ]
+    }
+]

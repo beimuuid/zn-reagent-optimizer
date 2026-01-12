@@ -1,0 +1,110 @@
+[
+    {
+        "reagent": "C1C=C(CC1)[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts (e.g., CoCl2, CoBr2) are versatile transition metal salts that can be modified with ligands (phosphines, amines) or used as simple salts. They are particularly effective in catalyzing cross-coupling reactions of organozinc reagents, often involving a Co(I)/Co(III) or Co(I)/Co(II) redox cycle.",
+        "activity_analysis": "This reagent is a cyclic allylic zinc pivalate. The pivalate anion acts as a stabilizing counterion and can function as a ligand for the cobalt catalyst (the 'pivalate effect'), significantly enhancing the stability and reactivity of the organozinc species in cross-coupling reactions. Cobalt catalysts like CoCl2 are highly effective for coupling such pivalate-stabilized reagents with various electrophiles, often suppressing side reactions like homocoupling.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "CC(C)(C)C(=O)OCCCCCC[Zn]CCCCCC(=O)OC(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts, particularly simple salts like CoBr2 and CoCl2, are known for their ability to mediate cross-couplings of functionalized alkylzinc reagents under mild conditions.",
+        "activity_analysis": "This is a functionalized dialkylzinc reagent containing distal ester groups. Cobalt catalysts (e.g., CoBr2) are well-suited for the cross-coupling of such alkylzinc reagents with aryl halides or benzyl halides. The mild reaction conditions associated with cobalt catalysis ensure the tolerance of the ester functional groups on the alkyl chain. Additionally, cobalt-mediated carbonylation can be applied to such dialkylzincs to form symmetrical ketones.",
+        "mechanism_data_doi_list": [
+            "10.1002/ijch.201000032",
+            "10.1016/0040-4039(95)01802-O"
+        ]
+    },
+    {
+        "reagent": "CC(C)=C(C#N)C[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts can be tuned with ligands or additives to tolerate various functional groups and facilitate transmetalation steps in Negishi-type couplings.",
+        "activity_analysis": "This allylic zinc pivalate contains a nitrile group. The pivalate counterion stabilizes the zinc reagent and assists in the formation of active cobalt species (e.g., with CoCl2). Cobalt catalysts are generally compatible with nitrile groups, allowing for cross-coupling reactions without affecting the cyano functionality. The allylic nature of the zinc reagent typically ensures high reactivity in these couplings.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "CC(C)=C(C(=O)OCC)C[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt salts (CoCl2, CoBr2) act as efficient catalysts for organozinc pivalates, often utilizing the pivalate anion to stabilize the catalytic intermediate.",
+        "activity_analysis": "This reagent is an ester-functionalized allylic zinc pivalate. The pivalate group enhances the stability of the reagent and its compatibility with cobalt catalysts. The ester group is well-tolerated in cobalt-catalyzed cross-couplings, allowing for the synthesis of complex unsaturated esters. The cobalt catalyst facilitates the transfer of the allylic group to electrophiles.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "CC(C)=CC[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts are effective in mediating the reactivity of allylic organometallics, often controlling regioselectivity and suppressing isomerization.",
+        "activity_analysis": "Prenylzinc pivalate is a stable solid reagent due to the pivalate group. Cobalt catalysts (like CoCl2) can efficiently catalyze its cross-coupling with aryl or heteroaryl halides. The pivalate anion likely coordinates to the cobalt center, stabilizing the active catalyst and facilitating the transmetalation step, which is crucial for efficient coupling of allylic zinc species.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070",
+            "10.1002/anie.201308585"
+        ]
+    },
+    {
+        "reagent": "CC1(C)C2CC(C=C2[Zn]OC(=O)C(C)(C)C)C1",
+        "catalyst_commonality_summary": "Cobalt catalysts are capable of coupling sterically hindered or structurally complex organozinc reagents, often proceeding with retention of double bond geometry.",
+        "activity_analysis": "This pinene-derived alkenylzinc pivalate benefits from the stabilizing effect of the pivalate group. Cobalt catalysts (e.g., CoCl2) can promote the cross-coupling of this bulky alkenyl reagent with various electrophiles. The reaction conditions are typically mild enough to preserve the bicyclic structure and the alkene geometry.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "CCC=C(C#N)C[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts exhibit broad functional group tolerance and can be activated by carboxylate anions present in the reaction mixture.",
+        "activity_analysis": "Similar to other functionalized allylic zinc pivalates, this nitrile-containing reagent is stabilized by the pivalate group. Cobalt catalysts facilitate its participation in cross-coupling reactions. The presence of the nitrile group does not inhibit the cobalt catalyst, allowing for the synthesis of functionalized nitriles.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "Clc1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts are highly effective for the cross-coupling of arylzinc reagents, including those with electron-withdrawing or donating substituents.",
+        "activity_analysis": "This is an arylzinc pivalate with a chloro substituent. The pivalate group acts as an internal ligand for the cobalt catalyst (e.g., CoCl2), enhancing the rate of transmetalation and stabilizing the catalytic species. This allows for efficient cross-coupling (e.g., with heteroaryl halides or in electrophilic amination) without affecting the chloro substituent, which might otherwise be reactive under palladium catalysis.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070",
+            "10.1002/anie.201806799"
+        ]
+    },
+    {
+        "reagent": "FC(F)(F)c1ccc(cc1)[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts, especially with specific ligands like phenanthroline, show enhanced reactivity towards electron-deficient organozinc reagents.",
+        "activity_analysis": "This electron-deficient arylzinc pivalate (due to the CF3 group) is highly stable. Cobalt catalysts, particularly when modified with nitrogen ligands like phenanthroline (CoBr2(phen)), are very effective for coupling such electron-poor arylzinc reagents. The pivalate group further assists in the catalytic cycle by stabilizing the zinc reagent and potentially coordinating to cobalt.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "Fc1ccc(c(F)c1)[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts are robust and can mediate the coupling of ortho-substituted and electron-deficient arylzinc reagents.",
+        "activity_analysis": "This difluoro-substituted arylzinc pivalate is electron-deficient and sterically hindered at the ortho position. Cobalt catalysts (e.g., CoCl2) can effectively couple this reagent due to the stabilizing 'pivalate effect' and the robust nature of the cobalt catalytic cycle, which tolerates steric and electronic deactivation better than some other transition metals.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)C=CC[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts are effective for coupling allylic and benzylic zinc reagents, often preventing isomerization.",
+        "activity_analysis": "Cinnamylzinc pivalate is a stabilized allylic zinc reagent. Cobalt catalysts can facilitate its cross-coupling with electrophiles. The pivalate group aids in handling and stability, while the cobalt catalyst ensures efficient reaction at the allylic position, typically with high regioselectivity.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)[Zn]OC(=O)C(F)(F)F",
+        "catalyst_commonality_summary": "Cobalt catalysts can be used with organozinc reagents prepared with various activators, including trifluoroacetic acid.",
+        "activity_analysis": "This phenylzinc trifluoroacetate is similar to pivalates but with a less basic counterion. Cobalt catalysts (e.g., CoBr2) are compatible with arylzinc species generated in the presence of TFA (used to activate Zn). While the trifluoroacetate anion is less coordinating than pivalate, the cobalt catalyst can still mediate cross-coupling reactions, such as with acyl chlorides or in Negishi-type couplings.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201801577"
+        ]
+    },
+    {
+        "reagent": "c1ccc2c(c1)sc(c2)[Zn]OC(=O)C(C)(C)C",
+        "catalyst_commonality_summary": "Cobalt catalysts are highly efficient for the cross-coupling of heteroarylzinc reagents, often outperforming other metals in specific transformations like amination.",
+        "activity_analysis": "This heteroarylzinc pivalate (benzothiophene derivative) is well-suited for cobalt-catalyzed reactions. The pivalate group stabilizes the reagent, and cobalt catalysts (e.g., CoCl2) are particularly effective for coupling heteroaryl zincs with various electrophiles, including in electrophilic aminations where they show high efficiency.",
+        "mechanism_data_doi_list": [
+            "10.1002/cctc.201900070"
+        ]
+    }
+]

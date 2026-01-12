@@ -1,0 +1,269 @@
+[
+    {
+        "combination": "Pd(OAc)2 / di-tert-butyl azodicarboxylate / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents in the collection are primarily organozinc halides (RZnX) and diorganozincs (R2Zn), often stabilized with LiCl. They exhibit moderate nucleophilicity, high functional group tolerance (e.g., esters, nitriles), and are less basic than Grignard reagents. They are prone to Schlenk equilibrium, which is influenced by solvent polarity.",
+        "activity_analysis": "This combination facilitates electrophilic amination. The organozinc reagents act as nucleophiles attacking the azo bond of the di-tert-butyl azodicarboxylate (DBAD). Pd(OAc)2 can catalyze the process, although organozinc reagents can often react directly with azodicarboxylates. The Heptane/THF solvent mixture solubilizes the reagents while THF coordinates to the zinc, enhancing nucleophilicity for the N-N bond formation. The reaction yields hydrazine derivatives.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.200700785",
+            "10.1002/tcr.201600078"
+        ]
+    },
+    {
+        "combination": "Ni(cod)2 / 1,4-bis-(m-xylyl)-1,3-diazadiene / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents in the collection are primarily organozinc halides (RZnX) and diorganozincs (R2Zn), often stabilized with LiCl. They exhibit moderate nucleophilicity, high functional group tolerance (e.g., esters, nitriles), and are less basic than Grignard reagents. They are prone to Schlenk equilibrium, which is influenced by solvent polarity.",
+        "activity_analysis": "Ni(cod)2 serves as a source of Ni(0), and the diazadiene ligand stabilizes the low-valent nickel species. This system is effective for cross-coupling reactions, particularly with alkyl halides or for polymerization processes. The bulky xylyl groups on the ligand provide steric protection, potentially enhancing reductive elimination and selectivity. The Hexane/THF solvent supports the stability of the Ni(0) complex and the solubility of the organozinc reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/pol.20200788",
+            "10.1002/adsc.201201077"
+        ]
+    },
+    {
+        "combination": "Pd(PPh3)4 / ZnMe2 / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents in the collection are primarily organozinc halides (RZnX) and diorganozincs (R2Zn), often stabilized with LiCl. They exhibit moderate nucleophilicity, high functional group tolerance (e.g., esters, nitriles), and are less basic than Grignard reagents. They are prone to Schlenk equilibrium, which is influenced by solvent polarity.",
+        "activity_analysis": "ZnMe2 acts as a methylating agent or can form mixed zincates with the other organozinc reagents present. In the presence of Pd(PPh3)4, this combination promotes Negishi cross-coupling, specifically methylation. ZnMe2 can also act as a scavenger for protons or impurities. The solvent mixture ensures homogeneity and moderates the Lewis acidity of the zinc species via THF coordination.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201202219",
+            "10.1002/chem.201102913"
+        ]
+    },
+    {
+        "combination": "NiCl2(dppe) / tBu4ZnLi2 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents in the collection are primarily organozinc halides (RZnX) and diorganozincs (R2Zn), often stabilized with LiCl. They exhibit moderate nucleophilicity, high functional group tolerance (e.g., esters, nitriles), and are less basic than Grignard reagents. They are prone to Schlenk equilibrium, which is influenced by solvent polarity.",
+        "activity_analysis": "The additive tBu4ZnLi2 is a higher-order zincate, which is significantly more nucleophilic than standard organozinc halides. Combined with the NiCl2(dppe) catalyst, this system is highly active for cross-coupling or conjugate addition reactions. The 'ate' complex structure enhances transmetalation rates to the nickel center. The solvent mixture stabilizes the ionic zincate species.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.202100828"
+        ]
+    },
+    {
+        "combination": "PdCl2(dppf) / Me3SiCN / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents in the collection are primarily organozinc halides (RZnX) and diorganozincs (R2Zn), often stabilized with LiCl. They exhibit moderate nucleophilicity, high functional group tolerance (e.g., esters, nitriles), and are less basic than Grignard reagents. They are prone to Schlenk equilibrium, which is influenced by solvent polarity.",
+        "activity_analysis": "Me3SiCN (TMSCN) is often used as a trapping agent in zinc-mediated transformations. In the presence of PdCl2(dppf), this combination can facilitate cyanation reactions or trap intermediates formed from the addition of organozinc reagents to unsaturated systems (e.g., forming silyl enol ethers). The dppf ligand supports the palladium catalytic cycle, particularly reductive elimination.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900123",
+            "10.1007/s11030-009-9195-z"
+        ]
+    },
+    {
+        "combination": "Ni(acac)2 / Na2SO4 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents in the collection are primarily organozinc halides (RZnX) and diorganozincs (R2Zn), often stabilized with LiCl. They exhibit moderate nucleophilicity, high functional group tolerance (e.g., esters, nitriles), and are less basic than Grignard reagents. They are prone to Schlenk equilibrium, which is influenced by solvent polarity.",
+        "activity_analysis": "Ni(acac)2 is a soluble Ni(II) precatalyst effective for cross-coupling organozinc reagents. Na2SO4 acts as a drying agent to remove trace water, which is critical for maintaining the stability of the moisture-sensitive organozinc reagents and preventing protonolysis. The Hexane/THF solvent provides the necessary polarity for the catalyst while minimizing non-specific coordination.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400970",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "combination": "NiCl2(PPh3)2 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "NiCl2(PPh3)2 is a robust catalyst for the Negishi cross-coupling of arylzinc reagents (e.g., Cl[Zn]c1ccccc1) with aryl halides. The PPh3 ligands stabilize the nickel center, facilitating oxidative addition and transmetalation. The THF/Hexane solvent mixture solubilizes the organozinc species while maintaining a non-polar environment that can stabilize reactive intermediates. This system is particularly effective for sterically hindered substrates and can be used with in situ generated zinc reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201000668",
+            "10.1002/adsc.202200515",
+            "10.1002/chem.201602202",
+            "10.1002/aoc.3192",
+            "10.1002/bkcs.10217"
+        ]
+    },
+    {
+        "combination": "Ni(dppe)Cl2 / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "The bidentate phosphine ligand dppe creates a specific bite angle at the nickel center that is highly effective for the coupling of alkylzinc reagents (e.g., CCCCCC[Zn]Cl) and for polymerization reactions (e.g., synthesis of P3HT). The catalyst facilitates the coupling of Grignard-derived or Rieke zinc-derived reagents. The solvent mixture ensures solubility of the polymer or coupling products.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201201077",
+            "10.1002/ejoc.202100980"
+        ]
+    },
+    {
+        "combination": "Pd(OAc)2 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Pd(OAc)2 serves as a precursor for highly active Pd(0) species in situ, often used in ligand-free or phosphine-ligated Negishi couplings. It is particularly effective for the Fukuyama coupling of organozinc reagents with thioesters to form ketones, and for the coupling of functionalized zinc reagents (e.g., those with esters or nitriles) where mild conditions are required. The solvent system supports the stability of the organozinc species.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.200600610",
+            "10.1002/chem.202000870",
+            "10.1002/anie.201412288",
+            "10.1002/chem.201402531",
+            "10.1002/chem.201603941"
+        ]
+    },
+    {
+        "combination": "PdCl2(dppf) / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "The large bite angle of the dppf ligand promotes the reductive elimination step, making this catalyst excellent for coupling sterically hindered substrates or alkylzinc reagents (e.g., C1CCC(CC1)[Zn]Cl). It is also used in tandem radical cyclization-cross coupling sequences where the stability of the alkylzinc intermediate is crucial.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.19960021006",
+            "10.1016/0040-4020(96)00246-3"
+        ]
+    },
+    {
+        "combination": "Pd(PPh3)4 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "This standard Pd(0) catalyst is widely used for the Negishi coupling of aryl, alkenyl, and alkyl zinc reagents. It is effective for the functionalization of nucleosides and the synthesis of biaryls. The phosphine ligands stabilize the palladium center during the transmetalation step with the organozinc reagent.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.ejmech.2011.10.039",
+            "10.1002/ejoc.201300850",
+            "10.1002/anie.201302058",
+            "10.1002/cctc.201800939",
+            "10.1002/ejoc.200300387"
+        ]
+    },
+    {
+        "combination": "Ni(acac)2 / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Ni(acac)2 is a soluble Ni(II) source used for C-H activation, conjugate addition, and cross-coupling of thiomethylated heterocycles with organozinc reagents. It can form nickel nanoparticles in situ or work with added ligands to facilitate the transfer of alkyl/aryl groups from zinc to electrophiles.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200460246",
+            "10.1002/cber.19921250530",
+            "10.1002/chem.201002850",
+            "10.1002/chem.19960021006"
+        ]
+    },
+    {
+        "combination": "ZnMe2 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Dimethylzinc acts as both a reagent for methylation and an additive/scavenger. In asymmetric additions, it serves as the nucleophile. In cross-couplings, it can modify the aggregation state of other zinc species or participate in exchange reactions to form mixed zincates, enhancing reactivity or selectivity.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201206297",
+            "10.1002/chem.201102913",
+            "10.1002/adsc.200600610",
+            "10.1002/anie.200390088",
+            "10.1002/anie.201309841"
+        ]
+    },
+    {
+        "combination": "Me3SiCN / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Trimethylsilyl cyanide is used as a trapping agent in reactions involving organozinc reagents. It can trap zinc enolates formed after conjugate addition to enones, producing silyl enol ethers. It also activates aldehydes in Strecker-type reactions or facilitates the formation of cyanohydrin derivatives.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900123",
+            "10.1007/s11030-009-9195-z",
+            "10.1002/chem.201000738"
+        ]
+    },
+    {
+        "combination": "tBu4ZnLi2 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "This higher-order zincate species exhibits significantly enhanced nucleophilicity compared to neutral organozinc reagents. It is particularly useful for conjugate additions to electron-deficient alkenes (e.g., nitroalkenes) where standard organozincs might be unreactive. The lithium cations assist in activating the electrophile.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.202100828"
+        ]
+    },
+    {
+        "combination": "di-tert-butyl azodicarboxylate / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Di-tert-butyl azodicarboxylate acts as an electrophilic nitrogen source for the amination of organozinc reagents or zinc enolates. The reaction is typically catalyzed by Lewis acids or transition metals, allowing for the direct formation of C-N bonds to produce hydrazine derivatives.",
+        "mechanism_data_doi_list": [
+            "10.1002/tcr.201600078",
+            "10.1002/ejoc.200700785"
+        ]
+    },
+    {
+        "combination": "PdCl2(MeCN)2 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "The labile acetonitrile ligands in PdCl2(MeCN)2 allow for the rapid generation of the active palladium species. This catalyst is effective for the coupling of allylic and alkenyl zinc reagents, often used in the synthesis of dienes or enynes where stereoretention is important.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201000668",
+            "10.1002/chem.19960021006",
+            "10.1016/0040-4039(95)00285-K",
+            "10.1002/anie.200503519"
+        ]
+    },
+    {
+        "combination": "PdCl2(dpephos) / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Dpephos is a wide bite-angle ligand that promotes reductive elimination. In Negishi couplings with organozinc reagents, it helps to suppress side reactions such as dialkylation or beta-hydride elimination, favoring the formation of the desired mono-coupled product.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.200503519",
+            "10.1002/slct.202103122"
+        ]
+    },
+    {
+        "combination": "Ni(cod)2 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Ni(cod)2 is a source of Ni(0) used in various catalytic cycles involving organozincs. It is employed in photoredox/Ni dual catalysis for cross-coupling, and in reactions involving oxidative addition to cyclic carbonates or anhydrides followed by transmetalation with zinc reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201609338",
+            "10.1002/anie.201700097",
+            "10.1007/s41061-016-0053-z",
+            "10.1002/adsc.200404150",
+            "10.1002/anie.201004543"
+        ]
+    },
+    {
+        "combination": "Pd2(dba)3 / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Pd2(dba)3 is a common Pd(0) source for Negishi couplings. When used with phosphine ligands (like TFP, SPhos, or P(o-tol)3), it effectively couples functionalized zinc reagents (e.g., amino acid derived) with aryl or alkenyl halides, tolerating sensitive groups.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201303451",
+            "10.1016/j.tet.2005.11.034",
+            "10.1002/ejoc.201000336",
+            "10.1002/ejoc.201000359",
+            "10.1016/0040-4039(96)01934-X"
+        ]
+    },
+    {
+        "combination": "NiCl2(dme) / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "NiCl2(dme) is an air-stable Ni(II) precursor. It is used in the carboxylation of alkynes with organozinc reagents and CO2, where it facilitates the carbometallation step. It serves as a practical alternative to sensitive Ni(0) sources.",
+        "mechanism_data_doi_list": [
+            "10.1002/hlca.201600079"
+        ]
+    },
+    {
+        "combination": "PdCl2(dppp) / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "The bidentate ligand dppp is effective for the coupling of alkylzinc reagents and for controlling regioselectivity in allylic substitutions. It stabilizes the palladium center and promotes the coupling of difluorovinylzinc reagents with alkynyl halides.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.jfluchem.2014.12.003",
+            "10.1002/slct.202103122"
+        ]
+    },
+    {
+        "combination": "Pd(tfa)2 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Pd(tfa)2 is an electrophilic Pd(II) source used in oxidative annulations and C-H activation processes. While less common for standard Negishi coupling, it can participate in reactions involving zinc intermediates or co-catalysts for oxidative transformations.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201700715"
+        ]
+    },
+    {
+        "combination": "Pd(xantphos)Cl2 / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Xantphos is a wide bite-angle ligand that stabilizes palladium species. Pd-Xantphos complexes facilitate the cross-coupling of organozinc reagents, particularly with challenging electrophiles or in reactions requiring specific regiocontrol, such as the coupling of zincates.",
+        "mechanism_data_doi_list": [
+            "10.1002/hc.21432"
+        ]
+    },
+    {
+        "combination": "NiBr2.dtbpy / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "This catalyst system is used in photoredox/nickel dual catalysis. The dtbpy ligand stabilizes the nickel species in various oxidation states (Ni(I)/Ni(III)) facilitating single-electron transfer processes and cross-coupling of organozinc reagents (or silicates/boronates) with alkyl/aryl halides.",
+        "mechanism_data_doi_list": [
+            "10.1002/anie.201900510"
+        ]
+    },
+    {
+        "combination": "P(o-tol)3 / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "P(o-tol)3 is a bulky monodentate phosphine ligand typically used in conjunction with Pd sources (like Pd2(dba)3) for Negishi couplings. It is particularly effective for coupling sterically hindered or functionalized zinc reagents, such as those derived from amino acids, with aryl halides.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.tet.2005.11.034",
+            "10.1002/jhet.1807"
+        ]
+    },
+    {
+        "combination": "Na2SO4 / Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Na2SO4 acts primarily as a drying agent or additive. In the context of organozinc chemistry, it is used to remove water from reaction mixtures, for example during the in situ formation of imines or other condensation products prior to the addition of the organozinc reagent or reduction steps.",
+        "mechanism_data_doi_list": [
+            "10.1002/chir.20373"
+        ]
+    },
+    {
+        "combination": "ethylenediamine / Heptane/THF",
+        "reagent_commonality_summary": "The zinc reagents include alkyl, aryl, benzyl, and functionalized organozinc halides (RZnX), often stabilized with LiCl or prepared via direct insertion. They exhibit moderate nucleophilicity, high functional group tolerance (esters, nitriles, halides), and are prone to Schlenk equilibrium.",
+        "activity_analysis": "Ethylenediamine and its derivatives act as ligands for zinc. They coordinate to the zinc center, modifying its Lewis acidity and aggregation state. This coordination can influence the reactivity and stereoselectivity of organozinc reagents in additions to carbonyls or in Reformatsky-type reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/aoc.4643"
+        ]
+    }
+]

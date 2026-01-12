@@ -1,0 +1,191 @@
+[
+    {
+        "reagent": "Clc1ccc(c(c1)Cl)[Zn]Br",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf, dppe) or acetylacetonate, often used in conjunction with reducing agents or as precatalysts for cross-coupling.",
+        "activity_analysis": "The 2,4-dichlorophenylzinc bromide is an electron-deficient aryl zinc reagent due to the inductive effect of the two chlorine atoms. Nickel catalysts, particularly those with electron-rich phosphine ligands like NiCl2(PPh3)2 or bidentate ligands like Ni(dppf)Cl2, effectively facilitate the transmetalation step, which can be slower for electron-poor nucleophiles. The bidentate ligands also stabilize the nickel center against non-productive decomposition pathways, ensuring efficient Negishi cross-coupling.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201000668",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "Clc1ccc(c(c1)Cl)[Zn]I",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf, dppe) or acetylacetonate, often used in conjunction with reducing agents or as precatalysts for cross-coupling.",
+        "activity_analysis": "Similar to the bromide analog, the iodide counterion in this 2,4-dichlorophenylzinc reagent may influence the aggregation state and solubility in solvents like THF. Nickel catalysts with phosphine ligands (e.g., NiCl2(PPh3)2) are well-suited to catalyze the cross-coupling of this reagent. The electron-withdrawing chlorine substituents require a robust catalyst system to promote the nucleophilic attack during transmetalation.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201000668",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "Clc1ccc(cc1)[Zn]Br",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf, dppe) or acetylacetonate, often used in conjunction with reducing agents or as precatalysts for cross-coupling.",
+        "activity_analysis": "This 4-chlorophenylzinc bromide is a standard aryl zinc reagent for Negishi couplings. Nickel catalysts such as NiCl2(PPh3)2 or Ni(acac)2 provide high turnover numbers. The para-chloro group is relatively stable under these conditions but provides some electron-withdrawing character, which is well-tolerated by nickel catalysts that are less sensitive to electronic deactivation than some palladium systems.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201000668",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "Clc1ccc(cc1)[Zn]Cl",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf, dppe) or acetylacetonate, often used in conjunction with reducing agents or as precatalysts for cross-coupling.",
+        "activity_analysis": "The chloride counterion in 4-chlorophenylzinc chloride forms a stable organozinc species. Nickel catalysts with bidentate ligands like Ni(dppe)Cl2 or Ni(dppf)Cl2 are particularly effective in promoting the cross-coupling of this reagent, preventing beta-hydride elimination (if alkyl electrophiles are used) and ensuring stability of the active catalytic species.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201201077",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "Clc1ccc(cc1)[Zn]I",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf, dppe) or acetylacetonate, often used in conjunction with reducing agents or as precatalysts for cross-coupling.",
+        "activity_analysis": "4-chlorophenylzinc iodide is highly reactive in Negishi couplings. The iodide counterion often leads to more reactive monomeric zinc species in polar solvents. Nickel catalysts, such as NiCl2(PPh3)2, efficiently catalyze the transfer of the aryl group to electrophiles, with the ligand environment modulating the rate of reductive elimination.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201000668",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "Clc1ccccc1C([Zn]Cl)C(=O)OC",
+        "catalyst_commonality_summary": "Nickel catalysts, including Ni(acac)2 and Ni(cod)2, often used for activating alpha-halo esters or facilitating Reformatsky-type couplings.",
+        "activity_analysis": "This is a Reformatsky-type reagent (alpha-zinc ester). Nickel catalysts, such as Ni(acac)2 or Ni(cod)2, can facilitate the cross-coupling of this reagent with aryl halides or its addition to carbonyls. The ester group stabilizes the negative charge on the alpha-carbon, making it a softer nucleophile that requires efficient transmetalation promoted by the nickel center.",
+        "mechanism_data_doi_list": [
+            "10.1002/cssc.201900886",
+            "10.1002/ejoc.200801107"
+        ]
+    },
+    {
+        "reagent": "FC(F)(F)c1ccc(cc1)[Zn]Br",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) capable of handling electron-deficient nucleophiles.",
+        "activity_analysis": "The 4-(trifluoromethyl)phenylzinc bromide is significantly electron-deficient due to the CF3 group. This reduces the rate of transmetalation to the nickel catalyst. Catalysts with electron-rich or bidentate ligands (like Ni(dppf)Cl2) are beneficial to stabilize the oxidative addition complex and facilitate the uptake of this less nucleophilic organic group.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "FC(F)(F)c1ccc(cc1)[Zn]I",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) capable of handling electron-deficient nucleophiles.",
+        "activity_analysis": "Similar to the bromide, the iodide version of 4-(trifluoromethyl)phenylzinc requires active nickel catalysts. The iodide may offer slightly better solubility and reactivity. The strong electron-withdrawing nature of the CF3 group makes the C-Zn bond less polarized, requiring a catalyst system (e.g., NiCl2(PPh3)2) that can effectively mediate the coupling with electrophiles.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "FC(F)(F)c1cccc(c1)C[Zn]Cl",
+        "catalyst_commonality_summary": "Nickel catalysts suitable for sp3-hybridized organozincs, often using bidentate ligands to prevent isomerization or homocoupling.",
+        "activity_analysis": "This benzylic zinc reagent (3-trifluoromethylbenzylzinc chloride) is highly reactive but prone to homocoupling. Nickel catalysts with bidentate ligands like dppf (Ni(dppf)Cl2) are effective in controlling this reactivity and directing the chemoselective cross-coupling with electrophiles, preventing Wurtz-type side reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400970",
+            "10.1002/asia.201100153"
+        ]
+    },
+    {
+        "reagent": "FC(F)(F)c1cccc(c1)[Zn]Br",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) capable of handling electron-deficient nucleophiles.",
+        "activity_analysis": "The 3-(trifluoromethyl)phenylzinc bromide is an electron-poor aryl zinc. Nickel catalysts facilitate its cross-coupling, but the reaction rates may be slower compared to electron-neutral arylzincs. Ligands that create an electron-rich metal center can assist in the transmetalation step of this electron-deficient reagent.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "FC(F)(F)c1cccc(c1)[Zn]Cl",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) capable of handling electron-deficient nucleophiles.",
+        "activity_analysis": "3-(Trifluoromethyl)phenylzinc chloride behaves similarly to the bromide. The chloride counterion forms a tight ion pair, potentially requiring polar solvents or specific ligands on the nickel catalyst (like PPh3 or dppf) to ensure efficient transmetalation and coupling.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/chem.201002850"
+        ]
+    },
+    {
+        "reagent": "F[C](F)(F)C(Cl)(Cl)[Zn]Cl",
+        "catalyst_commonality_summary": "Nickel catalysts or conditions supporting radical/Barbier-type additions, often involving polar solvents.",
+        "activity_analysis": "This perhaloalkyl zinc reagent (1,1-dichloro-2,2,2-trifluoroethylzinc chloride) has low nucleophilicity due to the strong electron-withdrawing fluorine and chlorine atoms. While often used in uncatalyzed Barbier-type additions to aldehydes, nickel catalysts can be employed to facilitate cross-coupling or activation in specific contexts, often requiring polar solvents like DMF to stabilize the reagent.",
+        "mechanism_data_doi_list": [
+            "10.1002/hlca.19860690415",
+            "10.1002/chir.530030307"
+        ]
+    },
+    {
+        "reagent": "F[C](F)(F)C(F)(F)[Zn]I",
+        "catalyst_commonality_summary": "Nickel catalysts or conditions supporting radical/Barbier-type additions, often involving polar solvents.",
+        "activity_analysis": "Pentafluoroethylzinc iodide is a stable perfluoroalkyl zinc reagent. Its low nucleophilicity makes transmetalation difficult. Nickel catalysts, potentially with electron-rich ligands, or specific reaction conditions (like DMF solvent) are needed to activate this reagent for coupling or addition reactions.",
+        "mechanism_data_doi_list": [
+            "10.1002/chir.530030307",
+            "10.1002/chem.201303451"
+        ]
+    },
+    {
+        "reagent": "F[C](F)(F)C([Zn]I)C(F)(F)F",
+        "catalyst_commonality_summary": "Nickel catalysts or conditions supporting radical/Barbier-type additions, often involving polar solvents.",
+        "activity_analysis": "Heptafluoroisopropylzinc iodide is a sterically hindered and electron-deficient perfluoroalkyl zinc. Its reactivity is governed by the stability of the C-Zn bond. Nickel catalysis can be used, but the steric bulk and electronic properties require robust catalyst systems to facilitate C-C bond formation.",
+        "mechanism_data_doi_list": [
+            "10.1002/chir.530030307",
+            "10.1002/chem.201303451"
+        ]
+    },
+    {
+        "reagent": "F[C](F)(F)[Zn]I",
+        "catalyst_commonality_summary": "Nickel catalysts or conditions supporting radical/Barbier-type additions, often involving polar solvents.",
+        "activity_analysis": "Trifluoromethylzinc iodide is the simplest perfluoroalkyl zinc but is notoriously difficult to handle due to decomposition (fluoride elimination). Stabilization by solvents (DMF) is key. Nickel catalysts can mediate its coupling, but conditions must be carefully controlled to prevent decomposition before transmetalation.",
+        "mechanism_data_doi_list": [
+            "10.1002/chir.530030307",
+            "10.1002/chem.201303451"
+        ]
+    },
+    {
+        "reagent": "Fc1ccc(cc1)[Zn]Br",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) suitable for aryl-aryl coupling.",
+        "activity_analysis": "4-Fluorophenylzinc bromide is a typical aryl zinc reagent. The fluorine atom is electron-withdrawing but also capable of pi-donation. Nickel catalysts like NiCl2(PPh3)2 efficiently catalyze its Negishi coupling. The C-F bond is generally stable under these conditions, allowing for chemoselective coupling at the C-Zn bond.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201002850",
+            "10.1002/adsc.201000668"
+        ]
+    },
+    {
+        "reagent": "N#Cc1ccc(cc1)[Zn]Br",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) or bipyridine ligands, tolerant of nitrile groups.",
+        "activity_analysis": "4-Cyanophenylzinc bromide contains a nitrile group, which is electron-withdrawing and potentially coordinating. Nickel catalysts are generally tolerant of nitriles. The electron-deficient nature of the aryl ring slows down transmetalation, so efficient catalysts (e.g., Ni(dppf)Cl2) are preferred to ensure high yields.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201002850",
+            "10.1002/adsc.201500245"
+        ]
+    },
+    {
+        "reagent": "N#Cc1ccc(cc1)[Zn]I",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) or bipyridine ligands, tolerant of nitrile groups.",
+        "activity_analysis": "Similar to the bromide, 4-cyanophenylzinc iodide is compatible with nickel-catalyzed cross-coupling. The iodide counterion may facilitate the formation of reactive zincate species in the presence of additives, enhancing the coupling efficiency with electrophiles.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201002850",
+            "10.1002/adsc.201500245"
+        ]
+    },
+    {
+        "reagent": "N#Cc1cccc(c1)C[Zn]Cl",
+        "catalyst_commonality_summary": "Nickel catalysts suitable for sp3-hybridized organozincs, often using bidentate ligands to prevent isomerization or homocoupling.",
+        "activity_analysis": "3-Cyanobenzylzinc chloride is a benzylic reagent. The nitrile group is compatible with nickel catalysis. However, benzylic zincs are prone to homocoupling. Nickel catalysts with bidentate ligands (like dppf or dppe) are effective in suppressing this side reaction and promoting cross-coupling.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400970",
+            "10.1002/asia.201100153"
+        ]
+    },
+    {
+        "reagent": "N#Cc1cccc(c1)[Zn]Br",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) or bipyridine ligands, tolerant of nitrile groups.",
+        "activity_analysis": "3-Cyanophenylzinc bromide is an electron-deficient aryl zinc. Nickel catalysts facilitate its coupling with various electrophiles. The meta-position of the cyano group exerts an inductive electron-withdrawing effect, modulating the nucleophilicity of the zinc reagent.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201002850",
+            "10.1002/adsc.201500245"
+        ]
+    },
+    {
+        "reagent": "N#Cc1ccccc1[Zn]Br",
+        "catalyst_commonality_summary": "Nickel(II) complexes with phosphine ligands (e.g., PPh3, dppf) or bipyridine ligands, tolerant of nitrile groups.",
+        "activity_analysis": "2-Cyanophenylzinc bromide presents steric hindrance due to the ortho-cyano group. This can slow down the transmetalation step in nickel-catalyzed couplings. Catalysts with smaller ligands or those capable of accommodating steric bulk are required for efficient reaction. The nitrile group may also coordinate to the metal center, influencing the catalytic cycle.",
+        "mechanism_data_doi_list": [
+            "10.1002/chem.201002850",
+            "10.1002/adsc.201500245"
+        ]
+    }
+]

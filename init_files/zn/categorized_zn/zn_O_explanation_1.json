@@ -1,0 +1,83 @@
+[
+    {
+        "combination": "NiCl2 / NiBr2 / Ni(Xant)Cl2 / Nano NiO / Ni Nps + Heptane/THF or Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include functionalized alkyl-, aryl-, and heteroarylzinc halides (often stabilized with LiCl), as well as Reformatsky-type reagents. They exhibit high functional group tolerance (esters, nitriles, amides, sulfones) but generally require transition metal catalysis for C-C bond formation. The C-Zn bond is moderately nucleophilic, and reactivity is highly dependent on solvent coordination.",
+        "activity_analysis": "Nickel catalysts (NiCl2, NiBr2, Ni(Xant)Cl2) are highly effective for Negishi cross-couplings of these organozinc reagents, particularly with alkyl halides and sterically hindered substrates where Palladium might fail. The THF component in the solvent mixture is critical for solubilizing the zinc reagents and breaking down aggregates to form reactive monomeric species. The hydrocarbon co-solvent (Heptane/Hexane) can modulate the polarity, potentially stabilizing specific catalytic intermediates or facilitating product separation. Ni nanoparticles (Ni Nps) can also promote alkylation via hydrogen autotransfer mechanisms. In specific cases like Fukuyama coupling or reactions with thioesters, Ni catalysts offer a robust alternative to Pd.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201000668",
+            "10.1002/adsc.201201077",
+            "10.1002/adsc.201400970",
+            "10.1002/anie.200460246",
+            "10.1002/chem.201002850",
+            "10.1002/chem.201602202",
+            "10.1002/chem.201801887",
+            "10.1002/adsc.202200515",
+            "10.1002/anie.201900510",
+            "10.1002/anie.201908029",
+            "10.1002/s11030-009-9195-z"
+        ]
+    },
+    {
+        "combination": "PdCl2 / Pd(OH)2/C / Pd/C / Pd(PS-ala) + Heptane/THF or Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include functionalized alkyl-, aryl-, and heteroarylzinc halides (often stabilized with LiCl), as well as Reformatsky-type reagents. They exhibit high functional group tolerance (esters, nitriles, amides, sulfones) but generally require transition metal catalysis for C-C bond formation. The C-Zn bond is moderately nucleophilic, and reactivity is highly dependent on solvent coordination.",
+        "activity_analysis": "Palladium catalysts are the standard for Negishi cross-couplings of these zinc reagents with aryl/vinyl halides. Pd/C is specifically highlighted for the Fukuyama coupling of thioesters with organozinc reagents, where it enables ketone synthesis under mild conditions. The THF solvent coordinates to the zinc, facilitating transmetalation to the Palladium center. The hydrocarbon component (Heptane/Hexane) is often used in biphasic systems or to control precipitation. PdCl2 precursors often require reduction in situ or phosphine ligands to form the active Pd(0) species.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.200600610",
+            "10.1002/adsc.201000668",
+            "10.1002/adsc.200606016",
+            "10.1002/ejoc.200300387",
+            "10.1002/chem.201404380",
+            "10.1002/anie.201207750",
+            "10.1002/anie.201308585",
+            "10.1002/anie.201412288",
+            "10.1002/anie.201604652",
+            "10.1002/chem.202000870",
+            "10.1002/chem.202202040"
+        ]
+    },
+    {
+        "combination": "AlCl3 + Heptane/THF or Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include functionalized alkyl-, aryl-, and heteroarylzinc halides (often stabilized with LiCl), as well as Reformatsky-type reagents. They exhibit high functional group tolerance (esters, nitriles, amides, sulfones) but generally require transition metal catalysis for C-C bond formation. The C-Zn bond is moderately nucleophilic, and reactivity is highly dependent on solvent coordination.",
+        "activity_analysis": "AlCl3 acts as a strong Lewis acid additive. In the context of organozinc chemistry, it is specifically used to promote the Negishi coupling of enol phosphates, which are otherwise unreactive. AlCl3 coordinates to the phosphate oxygen, activating the C-O bond for oxidative addition by the transition metal catalyst. In THF mixtures, AlCl3 may also modulate the Lewis acidity of the zinc reagent or assist in the formation of reactive aluminate/zincate species.",
+        "mechanism_data_doi_list": [
+            "10.1002/ejoc.201600959"
+        ]
+    },
+    {
+        "combination": "TFA / AcOH / C4F9CO2H + Heptane/THF or Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include functionalized alkyl-, aryl-, and heteroarylzinc halides (often stabilized with LiCl), as well as Reformatsky-type reagents. They exhibit high functional group tolerance (esters, nitriles, amides, sulfones) but generally require transition metal catalysis for C-C bond formation. The C-Zn bond is moderately nucleophilic, and reactivity is highly dependent on solvent coordination.",
+        "activity_analysis": "While strong acids generally protonate organozinc reagents (destroying them), controlled amounts of TFA or AcOH are used in specific contexts: 1) To activate zinc dust for the formation of organozinc reagents (Gosmini method), removing the oxide layer. 2) To modify the organozinc reagent in situ, forming species like RZn(OOCCF3) which are active in specific transformations like the Ferrier rearrangement of glycals. The solvent mixture ensures solubility of the resulting carboxylate-modified zinc species.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201400369",
+            "10.1002/adsc.201801577",
+            "10.1016/j.carres.2004.11.012",
+            "10.1002/cjoc.200890305"
+        ]
+    },
+    {
+        "combination": "NH4Cl + Heptane/THF or Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include functionalized alkyl-, aryl-, and heteroarylzinc halides (often stabilized with LiCl), as well as Reformatsky-type reagents. They exhibit high functional group tolerance (esters, nitriles, amides, sulfones) but generally require transition metal catalysis for C-C bond formation. The C-Zn bond is moderately nucleophilic, and reactivity is highly dependent on solvent coordination.",
+        "activity_analysis": "NH4Cl is primarily used as an additive in the preparation of Reformatsky reagents or allylic zinc species from halides and zinc dust. It acts as a mild proton source/activator to clean the zinc surface or facilitate the reaction in aqueous/organic biphasic media. In the context of the provided data, it is crucial for the TRIP-catalyzed asymmetric allylation of aldehydes using in situ generated organozincs.",
+        "mechanism_data_doi_list": [
+            "10.1002/adsc.201300392",
+            "10.1002/adsc.202100037"
+        ]
+    },
+    {
+        "combination": "Phenol / Naphthol / 1,2-Benzenediol + Heptane/THF or Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include functionalized alkyl-, aryl-, and heteroarylzinc halides (often stabilized with LiCl), as well as Reformatsky-type reagents. They exhibit high functional group tolerance (esters, nitriles, amides, sulfones) but generally require transition metal catalysis for C-C bond formation. The C-Zn bond is moderately nucleophilic, and reactivity is highly dependent on solvent coordination.",
+        "activity_analysis": "Phenols and naphthols are used as additives in asymmetric catalysis involving organozinc reagents. They can act as proton sources to modify the active catalyst structure (e.g., in Pd-catalyzed additions to isatin) or participate in ligand exchange processes. In some cases, they serve to tune the Lewis acidity or aggregation state of the zinc species in non-polar solvents like Heptane or Toluene mixtures.",
+        "mechanism_data_doi_list": [
+            "10.1016/j.apcata.2013.03.027"
+        ]
+    },
+    {
+        "combination": "CuSO4.5H2O + Heptane/THF or Hexane/THF",
+        "reagent_commonality_summary": "The zinc reagents include functionalized alkyl-, aryl-, and heteroarylzinc halides (often stabilized with LiCl), as well as Reformatsky-type reagents. They exhibit high functional group tolerance (esters, nitriles, amides, sulfones) but generally require transition metal catalysis for C-C bond formation. The C-Zn bond is moderately nucleophilic, and reactivity is highly dependent on solvent coordination.",
+        "activity_analysis": "CuSO4 is a source of Copper(II), which can be reduced in situ (often by the zinc reagent itself or an added reductant) to Copper(I). This Cu(I) species facilitates transmetalation from Zinc to Copper, generating highly reactive organocopper intermediates (RCu or Zinc-Cuprates) that undergo conjugate additions, allylic substitutions, or cross-couplings (like Sonogashira or Click chemistry) more efficiently than the parent organozinc.",
+        "mechanism_data_doi_list": [
+            "10.1016/0969-8051(94)E0067-S",
+            "10.1002/chem.201806261"
+        ]
+    }
+]

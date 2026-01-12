@@ -1,0 +1,191 @@
+{
+    "catalysts": [
+        "Rh(cod)2BF4",
+        "Rh(cod)2PF6",
+        "Rh(cod)Cl2",
+        "Rh(cod)OH2",
+        "Rh(nbd)2BF4",
+        "Rh((1R,5R)-Ph-cod)((R)-1,1'-binaphthyl-2,2'-diamine)BF4",
+        "Rh((S)-binap)(MeCN)2BF4",
+        "Rh(CO)2Cl2",
+        "Rh(OAc)4",
+        "RhCl(C2H4)22",
+        "RhCl(PPh3)3"
+    ],
+    "reagents": [
+        "C1CCC(C1)[Zn]Br",
+        "C1CCC(CC1)[Zn]Br",
+        "C1CCC(CC1)[Zn]Cl",
+        "CC(C)(C)[Zn]Cl",
+        "CC(C)=C(C(=O)OCC)C[Zn]Cl",
+        "CC(CC)ZnBr",
+        "CCC(CC)[Zn]Br",
+        "c1ccc(C(c2ccccc2)[Zn]Cl)cc1",
+        "c1ccc(cc1)C(C)[Zn]Cl",
+        "c1ccccc1C(C)C[Zn]Br"  
+    ],
+    "papers": [
+        {
+            "title": "Efficient Catalytic Asymmetric Synthesis of trans-5-Aryl-2-substituted Cyclohexanones by Rhodium-Catalyzed Conjugate Arylation of Racemic 6-Substituted Cyclohexenones",
+            "doi": "10.1002/adsc.200600263",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200600263.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Ligand Control in Enantioselective Desymmetrization of Bicyclic Hydrazines: Rhodium(I)-Catalyzed Ring-Opening versus Hydroarylation",
+            "doi": "10.1002/adsc.200800587",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200800587.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "A Concise Synthesis of Eupomatilones[emsp14]4, 6, and 7 by Rhodium-Catalyzed Enantioselective Desymmetrization of Cyclic meso Anhydrides with Organozinc Reagents Generated In Situ\n\nWe thank Johnson and Johnson, Merck, Eli Lilly, and Boehringer-Ingelheim for support. T.R. thanks the Monfort Family Foundation for a Monfort Professorship. T.R. is a fellow of the Alfred[emsp14]P. Sloan Foundation. J.B.J. thanks the NIH for a postdoctoral fellowship.",
+            "doi": "10.1002/anie.200700816",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200700816.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Interaction of gem&#x2010;Difluorinated Iodides with Silyl Enol Ethers Mediated by Photoredox Catalysis",
+            "doi": "10.1002/adsc.201700423",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201700423.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Alternatives to Organoboron Reagents in Rhodium-Catalyzed Conjugate Additions",
+            "doi": "10.1002/asia.200900512",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_asia.200900512.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Enantioselective Alkenylation of Aldehydes with Protected Propargylic Alcohols in the Presence of a Crown Ether as an Additive.",
+            "doi": "10.1002/adsc.201900363",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201900363.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Substrate-Controlled Highly Diastereoselective Synthesis of Primary and Secondary Diorganozinc Reagents by a Hydroboration/Boron-Zinc Exchange Sequence",
+            "doi": "10.1002/chem.200204662",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200204662.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Iridium‐Catalyzed Reductive Alkylations of Secondary Amides",
+            "doi": "10.1002/anie.201806747",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201806747.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Silver‐Catalyzed Allylation of Ketones and Intramolecular Cyclization through Carbene Intermediates from Cyclopropenes Under Ambient Conditions",
+            "doi": "10.1002/asia.201501196",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_asia.201501196.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Total Synthesis, Stereochemical Assignment and Divergent Enantioselective Enzymatic Recognition of Larreatricin",
+            "doi": "10.1002/chem.201803785",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201803785.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Metal‐Catalyzed Synthesis and Use of Thioesters: Recent Developments",
+            "doi": "10.1002/chem.201705025",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201705025.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "Regioselective trans‐Hydrostannation of Boron‐Capped Alkynes",
+            "doi": "10.1002/chem.202101901",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.202101901.pdf",
+            "category": "Pd, Cu, Rh"
+        },
+        {
+            "title": "Novel P,N-bidentate phosphite ligands in asymmetric catalysis",
+            "doi": "10.1002/chir.10258",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.10258.pdf",
+            "category": "Pd, Rh"
+        },
+        {
+            "title": "Synthesis of new chiral cis-3-hydroxyazetidines and their application in diethylzinc addition to aldehydes",
+            "doi": "10.1002/chir.20470",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.20470.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "RhodiumCatalyzed Cyclization Reactions of Alkynyl Aldehydes with Carboxylic Acid Anhydrides",
+            "doi": "10.1002/ejoc.201300734",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201300734.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Catalytic Enantioselective Arylation and Heteroarylation of Ketones with Organotitanium Reagents Generated In Situ",
+            "doi": "10.1002/chem.201701395",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201701395.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "A Highly Enantioselective and Catalytic Aryl Transfer Reaction Using Mixed Triarylbismuthane and Dialkylzinc Reagents",
+            "doi": "10.1002/ejoc.200700212",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.200700212.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Alkylation of electron‐deficient olefins through conjugate addition of organozinc reagents: An update",
+            "doi": "10.1002/ejoc.202100828",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.202100828.pdf",
+            "category": "Pd, Ni, Cu, Rh"
+        },
+        {
+            "title": "Chiral N‐tert‐Butylsulfinyl Imines: New Discoveries",
+            "doi": "10.1002/tcr.202000122",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.202000122.pdf",
+            "category": "Pd, Ni, Cu, Rh"
+        },
+        {
+            "title": "10.1016_j.ccr.2022.214455",
+            "doi": "10.1016/j.ccr.2022.214455",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.ccr.2022.214455.pdf",
+            "category": "Pd, Ni, Cu, Co, Rh"
+        },
+        {
+            "title": "Development of Highly Active Chiral Titanium Catalysts for the Enantioselective Addition of Various Organometallic Reagents to Aldehydes",
+            "doi": "10.1002/tcr.201500269",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.201500269.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Renovation of Optically Active Phenanthrolines as Powerful Chiral Ligands for Versatile Asymmetric Metal Catalysis",
+            "doi": "10.1002/tcr.201600078",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.201600078.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "10.1007_s11030-009-9195-z",
+            "doi": "10.1007/s11030-009-9195-z",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s11030-009-9195-z.pdf",
+            "category": "Ni, Cu, Fe, Pd, Rh"
+        },
+        {
+            "title": "PII: 0040-4020(96)00311-0",
+            "doi": "10.1016/0040-4020(96)00311-0",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4020(96)00311-0.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        },
+        {
+            "title": "doi:10.1016/j.molcata.2006.07.076",
+            "doi": "10.1016/j.molcata.2006.07.076",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.molcata.2006.07.076.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "Chiral thiazolidines in the enantioselective ethylation of aldehydes: An experimental and computational study",
+            "doi": "10.1016/j.jorganchem.2018.09.027",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2018.09.027.pdf",
+            "category": "Rh"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.07.018",
+            "doi": "10.1016/j.tet.2004.07.018",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.07.018.pdf",
+            "category": "Pd, Ni, Cu, Fe, Co, Rh"
+        }
+    ]
+}

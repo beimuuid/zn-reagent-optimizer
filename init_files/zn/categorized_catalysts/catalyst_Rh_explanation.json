@@ -1,0 +1,89 @@
+[
+    {
+        "reagent": "C1CCC(C1)[Zn]Br",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "The secondary alkyl nature of cyclopentylzinc bromide presents steric hindrance. Rhodium catalysts, particularly those with chiral phosphine ligands like BINAP (e.g., in [RhCl(C2H4)2]2 systems), facilitate the transmetalation of the organic group from zinc to rhodium. This enables efficient conjugate addition to electrophiles like enones under mild conditions (often 0\u00b0C to room temperature), suppressing potential beta-hydride elimination side reactions common with secondary alkyl intermediates.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512",
+            "10.1002/anie.200700816"
+        ]
+    },
+    {
+        "reagent": "C1CCC(CC1)[Zn]Br",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "Similar to the cyclopentyl analog, cyclohexylzinc bromide is a sterically demanding secondary organozinc reagent. Rhodium catalysis promotes the 1,4-addition of this reagent to activated alkenes. The mild reaction conditions associated with Rh-catalyzed organozinc additions (as opposed to the higher temperatures required for organoboron or organosilicon reagents) help maintain the structural integrity of the cyclohexane ring and prevent isomerization.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512",
+            "10.1002/anie.200700816"
+        ]
+    },
+    {
+        "reagent": "C1CCC(CC1)[Zn]Cl",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "The chloride counterion in cyclohexylzinc chloride does not significantly hinder the transmetalation to Rhodium(I) species. Rhodium catalysts are known to be tolerant of zinc halides. The catalytic system facilitates the transfer of the cyclohexyl group to electrophiles, such as in conjugate additions or additions to aldehydes, with high chemoselectivity.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512",
+            "10.1002/anie.200700816"
+        ]
+    },
+    {
+        "reagent": "CC(C)(C)[Zn]Cl",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "Tert-butylzinc chloride represents a highly sterically hindered tertiary alkyl nucleophile. Rhodium catalysts are among the few transition metal systems capable of facilitating the addition of such bulky groups to electrophiles. The mechanism involves the formation of a reactive alkyl-Rh intermediate via transmetalation, which can then undergo insertion reactions while minimizing steric clashes in the transition state compared to uncatalyzed pathways.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512"
+        ]
+    },
+    {
+        "reagent": "CC(C)=C(C(=O)OCC)C[Zn]Cl",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "This functionalized allylic/alkyl zinc reagent contains an ester group, which is sensitive to hard nucleophiles. Rhodium catalysts exhibit high functional group tolerance, allowing the reaction of this reagent without attacking the ester moiety. The Rh-catalyzed pathway enables the chemoselective formation of C-C bonds, likely acting similarly to a Reformatsky-type coupling but under catalytic conditions.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512",
+            "10.1002/anie.200700816"
+        ]
+    },
+    {
+        "reagent": "CC(CC)ZnBr",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "Sec-butylzinc bromide is a chiral (racemic) secondary organozinc. When used with chiral Rhodium catalysts (e.g., Rh-BINAP), kinetic resolution or diastereoselective addition can occur. The Rh catalyst facilitates the transfer of the sec-butyl group to electrophiles like enones or aldehydes, often with high enantiocontrol dictated by the chiral ligand on the Rh center.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512",
+            "10.1002/anie.200700816"
+        ]
+    },
+    {
+        "reagent": "CCC(CC)[Zn]Br",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "3-Pentylzinc bromide is a symmetrical secondary alkylzinc reagent. The steric bulk of the 3-pentyl group requires an efficient transmetalation step, which Rh(I) complexes provide. The catalyst enables the addition of this hindered nucleophile to various electrophiles under mild conditions, avoiding the harsh temperatures often needed for boron or silicon reagents.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512"
+        ]
+    },
+    {
+        "reagent": "c1ccc(C(c2ccccc2)[Zn]Cl)cc1",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "Benzhydrylzinc chloride is a bulky secondary benzylic reagent. Rhodium catalysis is particularly effective for benzylic species, stabilizing the organometallic intermediate and preventing homocoupling. The high reactivity of the C-Zn bond allows for rapid transmetalation to Rh, facilitating cross-coupling or addition reactions at low temperatures.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512",
+            "10.1002/anie.200700816"
+        ]
+    },
+    {
+        "reagent": "c1ccc(cc1)C(C)[Zn]Cl",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "(1-Phenylethyl)zinc chloride is a chiral secondary benzylic reagent. Rhodium catalysts with chiral ligands can influence the stereochemical outcome of its reactions. The benzylic nature enhances transmetalation rates, while the Rh center controls the regio- and enantioselectivity of the subsequent bond formation.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512",
+            "10.1002/anie.200700816"
+        ]
+    },
+    {
+        "reagent": "c1ccccc1C(C)C[Zn]Br",
+        "catalyst_commonality_summary": "Rhodium(I) complexes, often stabilized by dienes (cod, nbd) or phosphines (BINAP, PPh3), capable of oxidative addition and transmetalation cycles.",
+        "activity_analysis": "This primary alkylzinc reagent with beta-branching ((2-phenylpropyl)zinc bromide) is less sterically hindered at the metal center than secondary zincs but still possesses significant bulk. Rhodium catalysts efficiently transmetalate such primary alkyl groups and facilitate their addition to electrophiles. The mild conditions prevent potential beta-elimination or rearrangement of the carbon skeleton.",
+        "mechanism_data_doi_list": [
+            "10.1002/asia.200900512"
+        ]
+    }
+]

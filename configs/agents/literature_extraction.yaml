@@ -1,0 +1,31 @@
+# @package agents
+literature_extraction:
+  # --- PDF 解析器配置 ---
+  # 可选 "pymupdf" (本地) 或 "chunkr" (需要 API Key)
+  pdf_parser: "pymupdf"
+  max_results_per_query: 30
+
+  # --- 文献检索 API 服务器配置 ---
+  server_url: "http://10.6.24.10:6666/dr"
+  timeout_seconds: 1800
+
+  # --- SCP 配置 (用于从服务器下载缓存的PDF) ---
+  scp_config:
+    host: "10.6.24.10"
+    port: 22
+    username: "liuyuze"
+    password: "EjA75380.."
+    remote_path_root: "/home/liuyuze/deepResearch/scientific-deepresearch/tests/integrate"
+
+  # --- API 请求体模板 ---
+  # 该模板用于为每个查询生成请求体。
+  # 运行时将填充 {question}, {query_index}, {max_results}, {timestamp} 等占位符。
+  request_template:
+    question: |
+      Please find and download the pdf files of {max_results} papers related to: '{question}'.
+    api_key: ${llm.api_key}
+    base_model: "gemini-3-flash-preview"
+    xinghe_cache_dir: "optimizer/cache_chem_001"
+    web_cache_dir: "optimizer/web_chem_001"
+    # 可选: 为特定查询覆盖 Agent 的系统提示
+    # search_agent_system_prompt: "你是一个专业的科学研究助理，请用学术风格回答。"

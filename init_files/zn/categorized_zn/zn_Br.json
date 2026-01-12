@@ -1,0 +1,980 @@
+{
+    "reagents": [
+        "Br[Zn]CC(=O)O[R]",
+        "Br[Zn]CC=Cc1ccccc1",
+        "Br[Zn]Cc1cccc(Br)c1",
+        "Br[Zn]Cc1ccc(Br)cc1",
+        "Br[Zn]Cc1ccc(Cl)cc1",
+        "Br[Zn]Cc1ccccc1",
+        "Br[Zn]C1C=CCCC1",
+        "Br[Zn]C1C=CCCCCCC1",
+        "Br[Zn]C1CCCC1",
+        "Br[Zn]C1CCCCC1",
+        "Br[Zn]C1CCCCCC1",
+        "Br[Zn]C1CCCCCCC1",
+        "Br[Zn]CC1=CC=CC2=CC=CC=C12",
+        "Br[Zn]c1ccccc1",
+        "BrZnCCC(=O)OCC",
+        "BrZnCCCC",
+        "BrZnCCCC=C",
+        "BrZnCCCCC=C",
+        "BrZnCCCCCl",
+        "BrZnCCCCCCCC#N",
+        "BrZnCCCCCCCCCC(=O)N1CCCCC1",
+        "BrZnCCCCCCCCCCCC",
+        "BrZnCCCCCCCO[Si](C(C)C)C(C)C",
+        "BrZnCCCCCCCOC(c1ccccc1)(c2ccccc2)c3ccccc3",
+        "BrZnCCCOC",
+        "BrZnCCCO[Si](C(C)C)C(C)C",
+        "C(=C/c1ccccc1)\\[Zn]Br",
+        "C(C(=O)OC(C)(C)C)[Zn]Br",
+        "C(C(=O)OC(C)C)[Zn]Br",
+        "C(C(=O)OC)[Zn]Br",
+        "C(C(=O)OCC)[Zn]Br",
+        "C=C(C(=O)OCC)C[Zn]Br",
+        "C=CCCC[Zn]Br",
+        "C=CC[Zn-](CC=C)CC=C.[Br-].[Mg+2]",
+        "C=CC[Zn]Br",
+        "C1CCC(CC1)[Zn]Br",
+        "C1CCC(C1)[Zn]Br",
+        "CC(C)=CCC/C(C)=C/C[Zn]Br",
+        "CC(C)=CCC/C(C)=C\\C[Zn]Br",
+        "CC(C)=CC[Zn]Br",
+        "CC(C)(C)[Zn-](C(C)(C)C)C(C)(C)C.[Br-].[Mg+2]",
+        "CC(C)[Zn-](C(C)C)C(C)C.[Br-].[Mg+2]",
+        "CC(CC)ZnBr",
+        "CC1(C)OB(C(CCC2=CC=CC=C2)([Zn]Br)B3OC(C)(C)C(C)(C)O3)OC1(C)C",
+        "CC1(C)OB(C([Zn]Br)B2OC(C)(C)C(C)(C)O2)OC1(C)C",
+        "CCC(CC)[Zn]Br",
+        "CCCC[Zn-](CCCC)CCCC.[Br-].[Mg+2]",
+        "CCCC[Zn-](CCCC)c1ccccc1.[Br-].[Mg+2]",
+        "CCCC[Zn-](c1ccccc1)c1ccccc1.[Br-].[Mg+2]",
+        "CCCCCCC/C=C/C[Zn]Br",
+        "CCCCCCCC[Zn]Br",
+        "COC(=O)C(C)(C)C=CC[Zn]Br",
+        "COC(=O)c1ccc(cc1)[Zn]Br",
+        "COc1ccc(cc1)[Zn]Br",
+        "COc1ccccc1[Zn]Br",
+        "Cl[Zn]CC1=CC(Br)=CC=C1.Cl[Li]",
+        "Cl[Zn]c1ccc(Br)cc1",
+        "Clc1ccc(c(c1)Cl)[Zn]Br",
+        "Clc1ccc(cc1)[Zn]Br",
+        "FC(F)(F)c1ccc(cc1)[Zn]Br",
+        "FC(F)(F)c1cccc(c1)[Zn]Br",
+        "Fc1ccc(cc1)[Zn]Br",
+        "MeZnBr",
+        "N#CC(C)CCCC[Zn]Br",
+        "N#CCCC[Zn]Br",
+        "N#Cc1ccc(cc1)[Zn]Br",
+        "N#Cc1cccc(c1)[Zn]Br",
+        "N#Cc1ccccc1[Zn]Br",
+        "O=C1c2ccccc2C(=O)N1CCCC[Zn]Br",
+        "[Li+].[Cl-].BrZnCCCC",
+        "[Li+].[Cl-].BrZnCCCC=C",
+        "[Li+].[Cl-].BrZnCCCCC=C",
+        "[Li+].[Cl-].BrZnCCCCCl",
+        "[Li+].[Cl-].BrZnCCCCCCCC#N",
+        "[Li+].[Cl-].BrZnCCCCCCCCCC(=O)N1CCCCC1",
+        "[Li+].[Cl-].BrZnCCCCCCCCCCCC",
+        "[Li+].[Cl-].BrZnCCCCCCCO[Si](C(C)C)C(C)C",
+        "[Li+].[Cl-].BrZnCCCCCCCOC(c1ccccc1)(c2ccccc2)c3ccccc3",
+        "[Li+].[Cl-].BrZnCCCOC",
+        "[Li+].[Cl-].BrZnCCCO[Si](C(C)C)C(C)C",
+        "c1cc(sc1)[Zn]Br",
+        "c1ccc(C[Zn]Br)cc1",
+        "c1ccc(C[Zn]Br)c(Br)c1",
+        "c1ccc(CC[Zn-](CCc2ccccc2)CCc3ccccc3.[Br-].[Mg+2]",
+        "c1ccc(cc1)C[Zn]Br",
+        "c1ccc(cc1)COCCC[Zn]Br",
+        "c1ccc(cc1)[Zn-](c1ccccc1)c1ccccc1.[Br-].[Mg+2]",
+        "c1ccc(cc1)[Zn]Br",
+        "c1ccc(s1)[Zn]Br",
+        "c1ccc2cc(ccc2c1)[Zn]Br",
+        "c1cnccc1[Zn]Br",
+        "c1ccccc1C(C)C[Zn]Br",
+        "c1ccccc1C[Zn-](CCc2ccccc2)CCc3ccccc3.[Br-].[Mg+2]",
+        "c1ccccc1C[Zn]Br",
+        "c1ccccc1[Zn]Br"
+    ],
+    "catalysts": [
+        "BnPdCl(PPh3)2", 
+        "Iodo(4-trifluoromethylphenyl)-bis(triphenylphosphine)palladium(II)",
+        "Ni(IPr)2",
+        "Ni(Xant)(oTol)Cl",
+        "Ni(dppf)(oTol)Cl",
+        "NiCl2(IPr)(PPh3)",
+        "NiCl2(PCy3)2",
+        "NiCl2(PEt3)2",
+        "NiCl2(PMe3)2",
+        "NiXantPhos Pd G3",
+        "PEPPSI-IPent",
+        "PEPPSI-IPr",
+        "PEPPSI-IPr(BIAN)",
+        "PEPPSI-IPr*(OMe)",
+        "PEPPSI-SIPr",
+        "Pd(PCy3)2",
+        "Pd(tBu3P)2",
+        "Pd-PEPPSI-IPent",
+        "Pd-PEPPSI-IPr",
+        "Pd-PEPPSI-IPr(BIAN)",
+        "Pd-PEPPSI-IPr*(OMe)",
+        "Pd-PEPPSI-SIPr",
+        "PdCl2(Amphos)2",
+        "PdCl2(PCy3)2",
+        "PdCl2(PtBu3)2",
+        "PdCl2(SPhos)2",
+        "QPhos Pd G3",
+        "SPhos Pd G2",
+        "XPhos Pd G3",
+        "Xantphos Pd G2",
+        "nickel complex 73",
+        "pincer-type nickel catalyst 26",
+        "precatalyst 89"
+    ],
+    "additives": [
+        "CaI2",
+        "CuCN.2LiBr",
+        "CuCN.2LiCl",
+        "Et4NBr",
+        "KHF2",
+        "KI",
+        "Li2MnCl4",
+        "LiBF4",
+        "LiBr",
+        "LiCl",
+        "LiClO4",
+        "LiF",
+        "LiI",
+        "MgBr2",
+        "MgBr2.OEt2",
+        "MgCl2",
+        "MgX2",
+        "MnCl2",
+        "NaBPh4",
+        "NaI",
+        "TBAA",
+        "TBAB",
+        "TBACl",
+        "TBAF",
+        "TBAH2F3",
+        "TBAHS",
+        "TBAI",
+        "TBAT",
+        "TBATF",
+        "TEBAC",
+        "Tetrabutylammonium acetate",
+        "ZnBr2",
+        "ZnCl2",
+        "ZnI2",
+        "iPrMgCl·LiCl"
+    ],
+    "solvents": [
+        "DCM/DMF",
+        "DMAc",
+        "DMF",
+        "DMF/H2O",
+        "DMF/H2O (4:1)",
+        "DMF/H2O (5:1)",
+        "DMF/HMPA (4:1)",
+        "DMF/Pyridine",
+        "DMI/THF",
+        "DMPU",
+        "DMSO",
+        "DMSO/DCM",
+        "HMPA",
+        "Hexane/NMP",
+        "MeCN",
+        "MeCN/DMF (2:1)",
+        "MeCN/H2O",
+        "MeCN/Pyridine",
+        "MeCN/Triethylamine",
+        "NMI",
+        "NMP",
+        "Pyridine",
+        "THF/DMF",
+        "THF/DMPU (3.5:1)",
+        "THF/HMPA",
+        "THF/HMPA (1:1)",
+        "THF/HMPA (4:1)",
+        "THF/MeCN (1:1)",
+        "THF/NMP",
+        "THF/NMP (10:1)",
+        "THF/NMP (1:1)",
+        "TMEDA",
+        "Toluene/NMP (1:1)",
+        "propionitrile",
+        "t-BuCN",
+        "tetramethylurea"
+    ]
+    ,
+    "papers": [
+        {
+            "title": "Ligand Control in Enantioselective Desymmetrization of Bicyclic Hydrazines: Rhodium(I)-Catalyzed Ring-Opening versus Hydroarylation",
+            "doi": "10.1002/adsc.200800587",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200800587.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "[beta]- and [gamma]-Disubstituted Olefins: Substrates for Copper-Catalyzed Asymmetric Allylic Substitution",
+            "doi": "10.1002/adsc.200800086",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200800086.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Synthesis of 2,4 and 2,5Disubstituted Oxazoles via Metal Catalyzed CrossCoupling Reactions",
+            "doi": "10.1002/adsc.201000668",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201000668.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "An Efficient and Reliable Procedure for the Preparation of Highly Reactive Rieke Zinc",
+            "doi": "10.1002/adsc.201201077",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201201077.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A Practical Synthesis of Multifunctional Ketones through the Fukuyama Coupling Reaction",
+            "doi": "10.1002/adsc.200600610",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200600610.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Asymmetric Synthesis of Substituted Methylenebutyro lactones via TRIPCatalyzed Allylation: Mechanistic Studies and Application to the Synthesis of (S)()Hydroxymatairesinol",
+            "doi": "10.1002/adsc.201300392",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201300392.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Palladium-Catalyzed Stereoselective Synthesis of (E)-Stilbenes via Organozinc Reagents and Carbonyl Compounds",
+            "doi": "10.1002/adsc.200606016",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200606016.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Highly Enantioselective Synthesis of Secondary Alcohols using Triphenylborane",
+            "doi": "10.1002/adsc.200404067",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.200404067.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "CobaltCatalyzed CrossCoupling of Organozinc Halides with Bromoalkynes",
+            "doi": "10.1002/adsc.201400369",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201400369.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "CobaltCatalyzed Electrophilic Cyanation of Arylzinc Halides with NCyanoNphenylpmethylbenzenesulfonamide (NCTS)",
+            "doi": "10.1002/adsc.201500245",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201500245.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Sequential Organozinc Formation and Negishi Cross\u2010Coupling of Amides Catalysed by Cobalt Salt.",
+            "doi": "10.1002/adsc.201801577",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201801577.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Asymmetric Allylation Catalyzed by Chiral Phosphoric Acids: Stereoselective Synthesis of Tertiary Alcohols and a Reagent\u2010Based Switch in Stereopreference",
+            "doi": "10.1002/adsc.202100037",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.202100037.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Mannich Reaction of Secondary Benzylzinc Reagents: Synthesis of &#x003B1;,&#x003B2;&#x02010;Disubstituted &#x003B2;&#x02010;Arylethylamines",
+            "doi": "10.1002/ajoc.202500091",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ajoc.202500091.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "orthoAllylation of 1Arylpyrazoles with Allyl Phenyl Ether via IronCatalyzed CH Bond Activation under Mild Conditions",
+            "doi": "10.1002/adsc.201400063",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.201400063.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Highly Enantioselective Catalytic Conjugate Addition and Tandem Conjugate Addition-Aldol Reactions of Organozinc Reagents",
+            "doi": "10.1002/anie.199726201",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.199726201.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Development of a Radical Silylzincation of (Het)Aryl\u2010Substituted Alkynes and Computational Insights into the Origin of the trans\u2010Stereoselectivity",
+            "doi": "10.1002/adsc.202001566",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_adsc.202001566.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Nickel-Catalyzed Cross-Coupling Reaction of Alkyl Halides with Organozinc and Grignard Reagents with 1,3,8,10-Tetraenes as Additives\n\nThis research was supported financially in part by a Grant-in-Aid for Scientific Research. We thank the Instrumental Analysis Center, Faculty of Engineering, Osaka University, for high-resolution mass-spectrometric measurements and elemental analysis.\n",
+            "doi": "10.1002/anie.200460246",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200460246.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Highly Regio- and Stereoselective Double Michael Addition-Cyclization of 2,3-Allenoates with Organozinc Compounds: Efficient Synthesis of 5-Benzylidenecyclohex-2-enones\n\nFinancial support was received from the National Natural Science Foundation of China (20732005) and the Major State Basic Research Development Program (2006CB806105). Shengming Ma is a Qiu Shi Adjunct Professor at Zhejiang University. We thank Guangke He in this research group for reproducing the results presented in entries[emsp14]2, 4, 5, and 9 of Table[emsp14]3.",
+            "doi": "10.1002/anie.200801497",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200801497.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Widely Applicable Pd-Catalyzed trans-Selective Monoalkylation of Unactivated 1,1-Dichloro-1-alkenes and Pd-Catalyzed Second Substitution for the Selective Synthesis of E or Z Trisubstituted Alkenes\n\nWe thank the National Science Foundation (grant CHE-0309613), the National Institutes of Heath (grant GM36792), and Purdue University for support of this research.",
+            "doi": "10.1002/anie.200503519",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200503519.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Diastereo? and Enantioselective Catalytic Tandem Michael Addition/Mannich Reaction: Access to Chiral Isoindolinones and Azetidines with Multiple Stereocenters\n",
+            "doi": "10.1002/anie.200907320",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200907320.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Fischer Indole Synthesis with Organozinc Reagents\n",
+            "doi": "10.1002/anie.201005319",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201005319.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "[beta]-Disubstituted Allylic Chlorides: Substrates for the Cu-Catalyzed Asymmetric SN2[prime] Reaction\n\nWe thank the Swiss National Research Foundation (no. 200020-105368) and COST action D24/003/01 (OFES contract no. C02.0027) for financial support, and BASF for the generous gift of chiral amines.",
+            "doi": "10.1002/anie.200601855",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200601855.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Efficient Synthesis of Functionalized Organozinc Compounds by the Direct Insertion of Zinc into Organic Iodides and Bromides",
+            "doi": "10.1002/anie.200601450",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200601450.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Exploiting BoronZinc Transmetallation for the Arylation of Benzyl Halides: What are the Reactive Species?",
+            "doi": "10.1002/anie.201202219",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201202219.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A Concise Synthesis of Eupomatilones[emsp14]4, 6, and 7 by Rhodium-Catalyzed Enantioselective Desymmetrization of Cyclic meso Anhydrides with Organozinc Reagents Generated In Situ\n\nWe thank Johnson and Johnson, Merck, Eli Lilly, and Boehringer-Ingelheim for support. T.R. thanks the Monfort Family Foundation for a Monfort Professorship. T.R. is a fellow of the Alfred[emsp14]P. Sloan Foundation. J.B.J. thanks the NIH for a postdoctoral fellowship.",
+            "doi": "10.1002/anie.200700816",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.200700816.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PalladiumCatalyzed Completely LinearSelective Negishi CrossCoupling of Allylzinc Halides with Aryl and Vinyl Electrophiles\n",
+            "doi": "10.1002/anie.201308585",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201308585.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Functionalized Alkenylzinc Reagents Bearing Carbonyl Groups: Preparation by Direct Metal Insertion and Reaction with Electrophiles\n",
+            "doi": "10.1002/anie.201302058",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201302058.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "IridiumCatalyzed Enantioselective Allylic Alkylation with Functionalized Organozinc Bromides\n",
+            "doi": "10.1002/anie.201501851",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201501851.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Regioselective Transition\u2010Metal\u2010Free Allyl\u2013Allyl Cross\u2010Couplings",
+            "doi": "10.1002/anie.201603923",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201603923.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Iridium\u2010Catalyzed Reductive Alkylations of Secondary Amides",
+            "doi": "10.1002/anie.201806747",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201806747.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Generation and Application of (Diborylmethyl)zinc(II) Species: Access to Enantioenriched gem\u2010Diborylalkanes by an Asymmetric Allylic Substitution",
+            "doi": "10.1002/anie.201805476",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201805476.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Mechanochemical Activation of Zinc and Application to Negishi Cross\u2010Coupling",
+            "doi": "10.1002/anie.201806480",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201806480.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Regio- and stereospecific synthesis of polysubstituted alkenes by carbozincation of acetylenic sulfones",
+            "doi": "10.1002/aoc.1508",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_aoc.1508.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "MgCl2?Accelerated Addition of Functionalized Organozinc Reagents to Aldehydes, Ketones, and Carbon Dioxide\n",
+            "doi": "10.1002/anie.201000634",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201000634.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "3,3\u2010Difluoroallyl Sulfonium Salts: Practical and Bench\u2010Stable Reagents for Highly Regioselective gem\u2010Difluoroallylations",
+            "doi": "10.1002/anie.202210103",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.202210103.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Preparation of Solid, Substituted Allylic Zinc Reagents and Their Reactions with Electrophiles",
+            "doi": "10.1002/anie.201504354",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201504354.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Synthesis of Unsymmetrical Arylheteroarylmethanes by Direct On Water CrossCoupling between Benzylic and Heteroaromatic Halides",
+            "doi": "10.1002/asia.201100153",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_asia.201100153.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Enantioselective Radical Addition/Cross\u2010Coupling of Organozinc Reagents, Alkyl Iodides, and Alkenylboron Reagents",
+            "doi": "10.1002/anie.201908029",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201908029.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A Versatile Organozinc Approach to the Synthesis of Potential Organic Functional Building Blocks: 5-Substituted 3-Bromo-2-Methylthiophene Derivatives",
+            "doi": "10.1002/bkcs.10217",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_bkcs.10217.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Catalytic Enantioselective Conjugate Addition of Dialkylzinc Compounds to Chalcones",
+            "doi": "10.1002/cber.19921250530",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cber.19921250530.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Preparation of Polyfunctional Arylzinc Organometallics in Toluene by Halogen/Zinc Exchange Reactions",
+            "doi": "10.1002/anie.201906898",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_anie.201906898.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "trans-1-Sulfonylamino-2-isoborneolsulfonylaminocyclohexane Derivatives: Excellent Chiral Ligands for the Catalytic Enantioselective Addition of Organozinc Reagents to Ketones",
+            "doi": "10.1002/chem.200501397",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200501397.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Substrate-Controlled Highly Diastereoselective Synthesis of Primary and Secondary Diorganozinc Reagents by a Hydroboration/Boron-Zinc Exchange Sequence",
+            "doi": "10.1002/chem.200204662",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200204662.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Enantioselective Iridium-Catalyzed Allylic Arylation",
+            "doi": "10.1002/chem.200801879",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200801879.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Ligand Effects on the Pd-Catalyzed Cross-Coupling Reaction of 3-Iodoalk-2-enoates with Propargyl/1,2-Allenylic Metallic Species: An Efficient Regiodivergent Synthesis of 2,4,5-Trienoates",
+            "doi": "10.1002/chem.200901287",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200901287.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "On the Scope of Trimethylaluminium-Promoted 1,2-Additions of ArZnX Reagents to Aldehydes",
+            "doi": "10.1002/chem.200901803",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200901803.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Catalytic asymmetric 1,2\u2010Addition/Lactonization tandem reactions for the syntheses of chiral 3\u2010Substituted phthalides using organozinc reagents",
+            "doi": "10.1002/aoc.4643",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_aoc.4643.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Copper\u2010Catalyzed Monoorganylation of Trialkyl Borates with Functionalized Organozinc Pivalates",
+            "doi": "10.1002/cctc.201800939",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cctc.201800939.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Modification of (1R,2S)-1,2-Diphenyl-2-aminoethanol for the Highly Enantioselective, Asymmetric Alkylation of N-Diphenylphosphinoyl Arylimines with Dialkylzinc",
+            "doi": "10.1002/chem.200305418",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200305418.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Catalytic Enantioselective Alkylation of Aldehydes by Using Organozinc Halide Reagents",
+            "doi": "10.1002/chem.201204346",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201204346.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Development of ZnProPhenolCatalyzed Asymmetric Alkyne Addition: Synthesis of Chiral Propargylic Alcohols",
+            "doi": "10.1002/chem.201202085",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201202085.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Pd and NiCatalyzed CrossCoupling Reactions of Functionalized Organozinc Reagents with Unsaturated Thioethers",
+            "doi": "10.1002/chem.201002850",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201002850.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "NickelCatalyzed Csp2Csp3 Bond Formation by CarbonFluorine Activation",
+            "doi": "10.1002/chem.201303809",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201303809.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Studies on the Tandem Reaction of 4-Aryl-2,3-allenoates with Organozinc Reagents: A Facile Route to Polysubstituted Naphthols",
+            "doi": "10.1002/chem.200901779",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.200901779.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Alkynylthioimidazolium salts: Efficient Reagents for the Synthesis of Alkynyl Sulfides by Electrophilic Thioalkynylation",
+            "doi": "10.1002/chem.201604760",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201604760.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A General Strategy for the Synthesis of Enantiomerically Pure Azetidines and Aziridines through NickelCatalyzed CrossCoupling",
+            "doi": "10.1002/chem.201500886",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201500886.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Total Synthesis, Stereochemical Assignment and Divergent Enantioselective Enzymatic Recognition of Larreatricin",
+            "doi": "10.1002/chem.201803785",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201803785.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A Convenient PalladiumCatalyzed Carbonylative Suzuki Coupling of Aryl Halides with Formic Acid as the Carbon Monoxide Source",
+            "doi": "10.1002/chem.201502943",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201502943.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Catalytic Enantioselective Arylation and Heteroarylation of Ketones with Organotitanium Reagents Generated In Situ",
+            "doi": "10.1002/chem.201701395",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201701395.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Iron\u2010Catalyzed Cross\u2010Coupling of Thioesters and Organomanganese Reagents**",
+            "doi": "10.1002/chem.202202212",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.202202212.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Regioselective trans\u2010Hydrostannation of Boron\u2010Capped Alkynes",
+            "doi": "10.1002/chem.202101901",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.202101901.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Synthesis of Chiral Tertiary Alcohols by CuI\u2010Catalyzed Enantioselective Addition of Organomagnesium Reagents to Ketones",
+            "doi": "10.1002/chem.201503412",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201503412.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Enantioselective addition of diethylzinc to aldehydes catalyzed by optically active C2-symmetrical bis-[beta]-amino alcohols",
+            "doi": "10.1002/chir.10132",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.10132.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Palladium-Catalyzed Regioselective C-Benzylation via a Rearrangement Reaction: Access to Benzyl-Substituted Anilines",
+            "doi": "10.1002/chem.201603941",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201603941.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A Facile Onepot Synthesis of Halo,allylic Aldehydes from ,Dihalo Ketones Utilizing Allylic Zinc Bromide",
+            "doi": "10.1002/cjoc.201180466",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cjoc.201180466.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Alkylative Carboxylation of Ynamides and Allenamides with Functionalized Alkylzinc Halides and Carbon Dioxide by a Copper Catalyst",
+            "doi": "10.1002/chem.201901153",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201901153.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Towards Stereochemical Control: Two Approaches for the Highly antiDiastereoselective Construction of the Spirolactone Moieties of Some Stemona Alkaloids",
+            "doi": "10.1002/cjoc.201200904",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cjoc.201200904.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A Ball\u2010Milling Enabled Reformatsky Reaction",
+            "doi": "10.1002/cssc.201900886",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_cssc.201900886.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Metal\u2010Catalyzed Synthesis and Use of Thioesters: Recent Developments",
+            "doi": "10.1002/chem.201705025",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201705025.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Enantioselective Addition of Diethylzinc to Aldehydes Catalyzed by Chiral O,N,O-tridentate Phenol Ligands Derived From Camphor",
+            "doi": "10.1002/chir.22543",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.22543.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Solid&#x02010;State Structure of a Bromo(difluoromethylenephosphonato)cuprate &#x02013; a Key Intermediate for the Synthesis of &#x003B1;,&#x003B1;&#x02010;Difluoromethylenephosphonates",
+            "doi": "10.1002/ejic.201700526",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejic.201700526.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Efficient Solution-Phase Parallel Synthesis of 4-Substituted N-Protected Piperidines",
+            "doi": "10.1002/ejoc.200300387",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.200300387.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PalladiumCatalyzed CrossCoupling of Unactivated Aryl Sulfides with Arylzinc Reagents under Mild Conditions",
+            "doi": "10.1002/chem.201404380",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chem.201404380.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A CobaltCatalyzed Multicomponent Approach to Novel 2,3Di and 2,2,3Trisubstituted 3Methoxycarbonylbutyrolactones",
+            "doi": "10.1002/ejoc.201000698",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201000698.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Preparation of [alpha],[alpha]-Disubstituted [alpha]-Amino Acid Derivatives via Alkyl Addition to [alpha]-Oxime Esters with Organozinc Species",
+            "doi": "10.1002/ejoc.200700929",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.200700929.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Facile Approach to Natural or Non-Natural Amino Acid Derivatives: Me3SiCl-Promoted Coupling Reaction of Organozinc Compounds with N,O-Acetals",
+            "doi": "10.1002/ejoc.200801107",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.200801107.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "OnePot Method for Regioselective Bromination and Sequential CarbonCarbon BondForming Reactions of Allylic Alcohol Derivatives",
+            "doi": "10.1002/ejoc.201300173",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201300173.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Pd-PEPPSI Complexes and the Negishi Reaction",
+            "doi": "10.1002/ejoc.201000359",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201000359.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Chiral Triphenylprolinol Ligands for the Efficient Catalytic Asymmetric Arylation of Aldehydes",
+            "doi": "10.1002/ejoc.201000336",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201000336.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "In situ generation of alkynylzinc and its subsequent cross\u2010coupling reaction in a flow reactor",
+            "doi": "10.1002/ejoc.201900471",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201900471.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Palladium&#x2010;Catalyzed Formylation of Alkenylzinc Reagents with S&#x2010;(4&#x2010;Nitrophenyl) Thioformate",
+            "doi": "10.1002/ejoc.201701753",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201701753.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Room temperature and highly enantioselective additions of alkyltitanium reagents to aldehydes catalyzed by a titanium catalyst of (R)h8binol",
+            "doi": "10.1002/chir.21018",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_chir.21018.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Synthesis of ArBINMOL Ligands by [1,2]Wittig Rearrangement to Probe Their Catalytic Activity in 1,2Addition Reactions of Aldehydes with Grignard Reagents",
+            "doi": "10.1002/ejoc.201201301",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.201201301.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "An Alternative Synthesis of Cycloalkyl\u2010Substituted CPA Catalysts and Application in Asymmetric Protonation Reactions**",
+            "doi": "10.1002/ejoc.202100980",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.202100980.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "The reaction of organozinc reagents with trifluoroacylated phosphonates: Synthesis of trifluoromethylated [alpha], [beta]-unsaturated esters with an active methylene moiety",
+            "doi": "10.1002/hc.20018",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_hc.20018.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "A new synthesis of N-acetylneuraminic acid",
+            "doi": "10.1002/hlca.19880710314",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_hlca.19880710314.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Telescoped Synthesis of \u03b3\u2010Bromo\u2010\u03b2\u2010Lactones from Allylic Bromides Employing Carbon Dioxide",
+            "doi": "10.1002/ijch.201600125",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ijch.201600125.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Alkylation of electron\u2010deficient olefins through conjugate addition of organozinc reagents: An update",
+            "doi": "10.1002/ejoc.202100828",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ejoc.202100828.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "CobaltCatalyzed CrossCoupling Reactions of Aryl Halides",
+            "doi": "10.1002/ijch.201000032",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_ijch.201000032.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Carboxylation Reactions with Carbon Dioxide Using N\u2010Heterocyclic Carbene\u2010Copper Catalysts",
+            "doi": "10.1002/tcr.201900060",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.201900060.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Air\u2010tolerant poly(3\u2010hexylthiophene) synthesis via catalyst\u2010transfer polymerization",
+            "doi": "10.1002/pol.20200788",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_pol.20200788.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Development of Highly Active Chiral Titanium Catalysts for the Enantioselective Addition of Various Organometallic Reagents to Aldehydes",
+            "doi": "10.1002/tcr.201500269",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.201500269.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Chiral N\u2010tert\u2010Butylsulfinyl Imines: New Discoveries",
+            "doi": "10.1002/tcr.202000122",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_tcr.202000122.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "10.1007_s11172-012-0176-5",
+            "doi": "10.1007/s11172-012-0176-5",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s11172-012-0176-5.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Chiral Oxazolinyl Hydroxyl Ferrocene Catalysts: Synthesis and Applications in Asymmetric Reactions",
+            "doi": "10.1002/slct.202001874",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1002_slct.202001874.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "10.1007_s10562-013-0979-5",
+            "doi": "10.1007/s10562-013-0979-5",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s10562-013-0979-5.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0022-328X(91)83083-G",
+            "doi": "10.1016/0022-328X(91)83083-G",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0022-328X(91)83083-G.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0040-4039(95)00285-K",
+            "doi": "10.1016/0040-4039(95)00285-K",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4039(95)00285-K.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0040-4039(95)01551-5",
+            "doi": "10.1016/0040-4039(95)01551-5",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4039(95)01551-5.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0223-5234(96)88279-1",
+            "doi": "10.1016/0223-5234(96)88279-1",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0223-5234(96)88279-1.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0040-4020(96)00311-0",
+            "doi": "10.1016/0040-4020(96)00311-0",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4020(96)00311-0.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0040-4020(96)00246-3",
+            "doi": "10.1016/0040-4020(96)00246-3",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4020(96)00246-3.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0040-4020(95)00454-G",
+            "doi": "10.1016/0040-4020(95)00454-G",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4020(95)00454-G.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Skeletal rearrangement of seven-membered iminosugars: Synthesis of (\u2212)-adenophorine, (\u2212)-1-epi-adenophorine and derivatives and evaluation as glycosidase inhibitors",
+            "doi": "10.1016/j.bmc.2013.03.035",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.bmc.2013.03.035.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Glucosides with cyclic diarylpolynoid as novel C-aryl glucoside SGLT2 inhibitors",
+            "doi": "10.1016/j.bmcl.2011.04.063",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.bmcl.2011.04.063.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0022-328X(92)88002-Z",
+            "doi": "10.1016/0022-328X(92)88002-Z",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0022-328X(92)88002-Z.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0040-4020(95)00455-H",
+            "doi": "10.1016/0040-4020(95)00455-H",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4020(95)00455-H.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Synthesis of 2,5-disubstituted tetrahydrofurans from organozinc halides and lactones",
+            "doi": "10.1016/j.cclet.2009.12.026",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.cclet.2009.12.026.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "PII: 0040-4039(96)01038-6",
+            "doi": "10.1016/0040-4039(96)01038-6",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_0040-4039(96)01038-6.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "10.1007_s11172-012-0008-7",
+            "doi": "10.1007/s11172-012-0008-7",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1007_s11172-012-0008-7.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Reactions of organozinc reagents with potassium bromodifluoroacetate",
+            "doi": "10.1016/j.jfluchem.2014.08.021",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jfluchem.2014.08.021.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Novel multi-functionalized fluorine-containing organometallics: Preparation and applications of tetrafluoroethylenated zinc reagent",
+            "doi": "10.1016/j.jfluchem.2021.109781",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jfluchem.2021.109781.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Mannich-like three-component synthesis of &alpha;-branched amines involving organozinc compounds: ReactIR monitoring and mechanistic aspects",
+            "doi": "10.1016/j.jorganchem.2013.02.032",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2013.02.032.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Reactions of allylzinc bromide with ethynylferrocene derived fluorinated cyclophosphazenes",
+            "doi": "10.1016/j.jorganchem.2014.06.025",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2014.06.025.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Regio- and stereospecific synthesis of vinyl halides via carbozincation of acetylenic sulfones followed by halogenation",
+            "doi": "10.1016/j.jorganchem.2009.03.006",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2009.03.006.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Reactivities of mixed organozinc and mixed organocopper reagents: 9. Solvent dependence of group transfer selectivity in sp3C coupling and acylation of mixed diorganocuprates and diorganozincs",
+            "doi": "10.1016/j.jorganchem.2013.07.037",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2013.07.037.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "10.1016_j.ccr.2022.214455",
+            "doi": "10.1016/j.ccr.2022.214455",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.ccr.2022.214455.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Coupling of gem-difluorinated organozinc reagents with S-electrophiles",
+            "doi": "10.1016/j.jfluchem.2016.07.018",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jfluchem.2016.07.018.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Synthesis and evaluation of the substrate activity of C-6 substituted purine ribosides with E.&nbsp;coli purine nucleoside phosphorylase: Palladium mediated cross-coupling of organozinc halides with 6-chloropurine nucleosides [1]",
+            "doi": "10.1016/j.ejmech.2011.10.039",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.ejmech.2011.10.039.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Reactivity of mixed organozinc and mixed organocopper reagents: 12. Three component reaction of mixed (n-alkyl)(diaryl)zincates, chloroformates and phosphines for the synthesis of esters",
+            "doi": "10.1016/j.jorganchem.2015.08.012",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2015.08.012.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.09.005",
+            "doi": "10.1016/j.tet.2004.09.005",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.09.005.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "doi:10.1016/j.jorganchem.2007.10.055",
+            "doi": "10.1016/j.jorganchem.2007.10.055",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2007.10.055.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Enantioselective dialkylzinc-mediated alkynylation, arylation and alkenylation of carbonyl groups",
+            "doi": "10.1016/j.ccr.2015.03.025",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.ccr.2015.03.025.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2003.08.074",
+            "doi": "10.1016/j.tet.2003.08.074",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2003.08.074.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2003.08.032",
+            "doi": "10.1016/j.tet.2003.08.032",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2003.08.032.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "Electrophilic amination of Cu(I) catalyzed phenylmagnesium bromide with N,O-bis(trimethylsilyl)hydroxylamine in THF:N-donor solvent. Control of C-N and C-O chemoselectivity",
+            "doi": "10.1016/j.jorganchem.2019.120884",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.jorganchem.2019.120884.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.12.002",
+            "doi": "10.1016/j.tet.2004.12.002",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.12.002.pdf",
+            "category": "Br-"
+        },
+        {
+            "title": "doi:10.1016/j.tet.2004.07.018",
+            "doi": "10.1016/j.tet.2004.07.018",
+            "pdf_path": "/root/optimizer/init_files/zn/pdfs/10.1016_j.tet.2004.07.018.pdf",
+            "category": "Br-"
+        }
+    ]
+}

@@ -54,6 +54,7 @@ class AppConfig(BaseModel):
     # Runtime parameters that can be injected via config
     reactants: Optional[Dict[str, Any]] = Field(default_factory=dict, description="Reaction components",)
     search_query: Optional[str] = Field(None, description="Search query for literature")
+    targets: Optional[Dict[str, Any]] = Field(None, description="目标变量")
 
     @classmethod
     def from_omegaconf(cls, conf: Any) -> 'AppConfig':

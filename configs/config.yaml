@@ -4,10 +4,8 @@
 # OmegaConf 会自动加载并合并这些文件
 HYDRA_FULL_ERROR: 1
 defaults:
-  - evaluation: default
   - knowledge: default
   - llm: default
-  - optimization: default
   - paths: default
   - agents: default
   - _self_
@@ -18,6 +16,6 @@ seed:
 
 # Runtime parameters
 reactants: {}
-
+targets: {"yield": "maximize"}
 search_query:
   "Selection of organozinc reagents that possess both high reactivity and high stability."

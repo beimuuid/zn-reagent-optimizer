@@ -7,8 +7,5 @@ defaults:
   - structured_data_extraction
   - variable_extraction
   - knowledge_refinement
-  - pseudo_point_prediction
-  - literature_ranking
   - explanation
-  - experiment_decomposition
   - _self_

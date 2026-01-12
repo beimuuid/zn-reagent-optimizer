@@ -29,7 +29,6 @@ from .agents import (
     KnowledgeRefinementAgent,
     StructuredDataExtractionAgent,
     LiteratureExtractionAgent,
-    PseudoPointPredictionAgent
 )
 
 # 优化器
@@ -74,7 +73,6 @@ __all__ = [
     "KnowledgeRefinementAgent",
     "StructuredDataExtractionAgent",
     "LiteratureExtractionAgent",
-    "PseudoPointPredictionAgent",
     
     # 知识管理
     "KnowledgeProcessor",

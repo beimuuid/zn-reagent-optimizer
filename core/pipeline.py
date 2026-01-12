@@ -22,15 +22,16 @@ import numpy as np
 from .config import AppConfig
 from .step import (
     step_schema_generation,
+    step_structured_data_extraction,
     step_variables_extraction,
     step_variables_refinement,
     step_variable_divisions_extraction
 )
-from tools.extract_from_local_pdf import extract_data_async
 from utils import setup_logger, set_seed
 from agents import (
     SchemaGenerationAgent,
     KnowledgeRefinementAgent,
+    StructuredDataExtractionAgent,
     VariableExtractionAgent,
 )
 
@@ -70,6 +71,7 @@ def run_pipeline(cfg: AppConfig,
     logger.info("\n[Initialization] 正在初始化 Agents...")
     schema_generation_agent = SchemaGenerationAgent(cfg.agents["schema_generation"])
     variable_extraction_agent = VariableExtractionAgent(cfg.agents["variable_extraction"])
+    structured_data_extraction_agent = StructuredDataExtractionAgent(cfg.agents["structured_data_extraction"])
     knowledge_refinement_agent = KnowledgeRefinementAgent(cfg.agents["knowledge_refinement"])
     logger.info("  * 所有 Agents 初始化完成")
     
@@ -84,15 +86,10 @@ def run_pipeline(cfg: AppConfig,
         logger.error("Schema 生成步骤失败，流程终止。")
         return  
 
-    mechanism_structured_data, variables_structured_data = asyncio.run(extract_data_async(
-        cfg=cfg,
-        pdf_path="/root/optimizer/init_files/zn/pdfs",
-        output_dir="/root/optimizer/init_files/zn",
-        schema_csv_path=schema_csv_path
-    ))
+    mechanism_structured_data, variables_structured_data = step_structured_data_extraction(cfg, structured_data_extraction_agent, pdf_path="/root/optimizer/init_files/zn/pdfs", schema_csv_path=schema_csv_path, output_dir=timestamped_outdir, logger=logger)
 
     # 4. 变量提取
-    optimization_variables = step_variables_extraction(cfg, variable_extraction_agent, variables_structured_data, cfg.optimization.targets, timestamped_outdir, logger)
+    optimization_variables = step_variables_extraction(cfg, variable_extraction_agent, variables_structured_data, cfg.targets, timestamped_outdir, logger)
     if not optimization_variables:
         logger.error("变量提取步骤失败，流程终止。")
         return

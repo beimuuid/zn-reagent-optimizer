@@ -11,8 +11,8 @@ logdir: "logs"
 experiment_process_path: 
 schema_path: "/root/optimizer/init_files/zn/final_schema.csv"
 search_results_path: "/root/optimizer/init_files/zn/search_results.json"
-mechanism_structured_data_path: "/root/optimizer/init_files/zn/mechanism_structured_data.json"
-variables_structured_data_path: "/root/optimizer/init_files/zn/variables_structured_data.json"
+mechanism_structured_data_path: 
+variables_structured_data_path: 
 optimization_variables_path: 
 refined_optimization_variables_path: 
-variable_divisions_path: "
+variable_divisions_path: 

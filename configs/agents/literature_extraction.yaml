@@ -6,16 +6,16 @@ literature_extraction:
   max_results_per_query: 30
 
   # --- 文献检索 API 服务器配置 ---
-  server_url: "http://10.6.24.10:6666/dr"
+  server_url: 
   timeout_seconds: 1800
 
   # --- SCP 配置 (用于从服务器下载缓存的PDF) ---
   scp_config:
-    host: "10.6.24.10"
-    port: 22
-    username: "liuyuze"
-    password: "EjA75380.."
-    remote_path_root: "/home/liuyuze/deepResearch/scientific-deepresearch/tests/integrate"
+    host: 
+    port: 
+    username: 
+    password: 
+    remote_path_root: 
 
   # --- API 请求体模板 ---
   # 该模板用于为每个查询生成请求体。
@@ -27,5 +27,3 @@ literature_extraction:
     base_model: "gemini-3-flash-preview"
     xinghe_cache_dir: "optimizer/cache_chem_001"
     web_cache_dir: "optimizer/web_chem_001"
-    # 可选: 为特定查询覆盖 Agent 的系统提示
-    # search_agent_system_prompt: "你是一个专业的科学研究助理，请用学术风格回答。"
